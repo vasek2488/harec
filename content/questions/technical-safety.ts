@@ -1,0 +1,208 @@
+import type { Question } from "@/lib/types";
+
+export const technicalSafetyQuestions: Question[] = [
+  {
+    id: "T-SAF-001",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Od jak\u00e9ho st\u0159\u00eddav\u00e9ho nap\u011bt\u00ed se pova\u017euje elektrick\u00fd obvod za \u017eivotuNebezpe\u010dn\u00fd?",
+    choices: [
+      { id: "a", text: "50 V AC" },
+      { id: "b", text: "12 V AC" },
+      { id: "c", text: "230 V AC" },
+      { id: "d", text: "100 V AC" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Nap\u011bt\u00ed nad 50 V AC (nebo 120 V DC) je pova\u017eov\u00e1no za \u017eivotuNebezpe\u010dn\u00e9. 230 V je s\u00ed\u0165ov\u00e9 nap\u011bt\u00ed, ale nebezpe\u010d\u00ed za\u010d\u00edn\u00e1 u\u017e od 50 V.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "recall"],
+  },
+  {
+    id: "T-SAF-002",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Jak\u00fd proud je nebezpe\u010dn\u00fd pro lidsk\u00e9 t\u011blo?",
+    choices: [
+      { id: "a", text: "Ji\u017e od 30 mA" },
+      { id: "b", text: "A\u017e od 1 A" },
+      { id: "c", text: "A\u017e od 500 mA" },
+      { id: "d", text: "Ji\u017e od 10 A" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Proud 30 mA m\u016f\u017ee zp\u016fsobit srde\u010dn\u00ed fibrilaci. Proto proudov\u00e9 chr\u00e1ni\u010de vyp\u00ednaj\u00ed p\u0159i 30 mA. 1 A je ji\u017e jist\u011b smrteln\u00fd.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "uraz-proudem", "recall"],
+  },
+  {
+    id: "T-SAF-003",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Co je to proudov\u00fd chr\u00e1ni\u010d (FI/RCD)?",
+    choices: [
+      { id: "a", text: "Za\u0159\u00edzen\u00ed odpojuj\u00edc\u00ed obvod p\u0159i \u00faniku proudu" },
+      { id: "b", text: "Pojistka proti zkratu" },
+      { id: "c", text: "P\u0159ep\u011b\u0165ov\u00e1 ochrana" },
+      { id: "d", text: "Tepeln\u00e1 pojistka" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "FI/RCD m\u011b\u0159\u00ed rozd\u00edl proud\u016f v f\u00e1zi a nule. P\u0159i rozd\u00edlu (=\u00fanik) odpoj\u00ed. Pojistka chr\u00e1n\u00ed jen proti nadproudu.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "recall"],
+  },
+  {
+    id: "T-SAF-004",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Pro\u010d je doporu\u010deno pracovat na VN za\u0159\u00edzen\u00ed jednou rukou?",
+    choices: [
+      { id: "a", text: "Aby proud netek\u0142 p\u0159es srdce z ruky do ruky" },
+      { id: "b", text: "Pro lep\u0161\u00ed manipulaci s n\u00e1stroji" },
+      { id: "c", text: "Kv\u016fli stabilit\u011b" },
+      { id: "d", text: "Z d\u016fvodu p\u0159esnosti m\u011b\u0159en\u00ed" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Proud z ruky do ruky proch\u00e1z\u00ed p\u0159es srdce. Druh\u00e1 ruka za z\u00e1dy minimalizuje toto riziko.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "uraz-proudem", "analyze"],
+  },
+  {
+    id: "T-SAF-005",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Pro\u010d je t\u0159eba vyb\u00edt kondenz\u00e1tory p\u0159ed prac\u00ed na za\u0159\u00edzen\u00ed?",
+    choices: [
+      { id: "a", text: "Mohou dr\u017eet nebezpe\u010dn\u00e9 nap\u011bt\u00ed i po odpojen\u00ed" },
+      { id: "b", text: "Jinak se po\u0161kod\u00ed" },
+      { id: "c", text: "Kv\u016fli p\u0159esnosti m\u011b\u0159en\u00ed" },
+      { id: "d", text: "Aby se sn\u00ed\u017eil p\u0159\u00edkon" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Nabit\u00fd kondenz\u00e1tor m\u016f\u017ee dr\u017eet stovky volt\u016f i po odpojen\u00ed zdroje. Ve v\u00fdkonov\u00fdch zesilova\u010d\u00edch to m\u016f\u017ee b\u00fdt smrteln\u00e9.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "analyze"],
+  },
+  {
+    id: "T-SAF-006",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "K \u010demu slou\u017e\u00ed ochrann\u00e9 uzemn\u011bn\u00ed kovov\u00e9ho krytu za\u0159\u00edzen\u00ed?",
+    choices: [
+      { id: "a", text: "P\u0159i poruše izolace zajist\u00ed vyp\u00e1dnut\u00ed jisti\u010de" },
+      { id: "b", text: "Zlep\u0161uje p\u0159\u00edjem" },
+      { id: "c", text: "Sni\u017euje spot\u0159ebu" },
+      { id: "d", text: "Zvy\u0161uje v\u00fdkon" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "P\u0159i poruše izolace te\u010de proud p\u0159es uzemn\u011bn\u00ed do zem\u011b a vyp\u00e1dne jisti\u010d. Bez uzemn\u011bn\u00ed by proud tekl t\u011blem u\u017eivatele.",
+    relatedLessonIds: ["safety-01"],
+    tags: ["bezpecnost", "uzemneni", "analyze"],
+  },
+  {
+    id: "T-SAF-007",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Pro\u010d mus\u00ed b\u00fdt ant\u00e9nn\u00ed sto\u017e\u00e1r uzemn\u011bn?",
+    choices: [
+      { id: "a", text: "Jako ochrana p\u0159ed \u00faderem blesku" },
+      { id: "b", text: "Pro zlep\u0161en\u00ed vyza\u0159ov\u00e1n\u00ed" },
+      { id: "c", text: "Pro sn\u00ed\u017een\u00ed PSV" },
+      { id: "d", text: "Z estetick\u00fdch d\u016fvod\u016f" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Uzemn\u011bn\u00ed svede energii blesku bezpe\u010dn\u011b do zem\u011b. Neovliv\u0148uje vyza\u0159ovac\u00ed diagram ani PSV.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "blesk", "anteny", "recall"],
+  },
+  {
+    id: "T-SAF-008",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Co je hlavn\u00ed riziko RF z\u00e1\u0159en\u00ed pro lidsk\u00e9 t\u011blo?",
+    choices: [
+      { id: "a", text: "Tepeln\u00e9 po\u0161kozen\u00ed tk\u00e1n\u00ed" },
+      { id: "b", text: "Radioaktivn\u00ed kontaminace" },
+      { id: "c", text: "Elektrick\u00fd \u0161ok" },
+      { id: "d", text: "Chemick\u00e9 pop\u00e1len\u00ed" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "RF z\u00e1\u0159en\u00ed zp\u016fsobuje oh\u0159ev tk\u00e1n\u00ed (podobn\u011b jako mikrovlnka). Nen\u00ed radioaktivn\u00ed - to je ionizuj\u00edc\u00ed z\u00e1\u0159en\u00ed, co\u017e RF nen\u00ed.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "rf-expozice", "recall"],
+  },
+  {
+    id: "T-SAF-009",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Jak sn\u00ed\u017eit expozici RF z\u00e1\u0159en\u00ed z ant\u00e9ny?",
+    choices: [
+      { id: "a", text: "Zv\u011bt\u0161it vzd\u00e1lenost ant\u00e9ny od lid\u00ed" },
+      { id: "b", text: "Zv\u00fd\u0161it v\u00fdkon" },
+      { id: "c", text: "Pou\u017e\u00edt del\u0161\u00ed kabel" },
+      { id: "d", text: "Zm\u011bnit polarizaci" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Intenzita RF pole kles\u00e1 se \u010dtvercem vzd\u00e1lenosti. Zv\u00fd\u0161en\u00ed v\u00fdkonu expozici zhor\u0161\u00ed. D\u00e9lka kabelu ani polarizace to ne\u0159e\u0161\u00ed.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "rf-expozice", "analyze"],
+  },
+  {
+    id: "T-SAF-010",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Co je to bleskojistka na koaxi\u00e1ln\u00edm kabelu?",
+    choices: [
+      { id: "a", text: "Za\u0159\u00edzen\u00ed svád\u011bj\u00edc\u00ed p\u0159ep\u011bt\u00ed od blesku do zem\u011b" },
+      { id: "b", text: "Zesilova\u010d sign\u00e1lu" },
+      { id: "c", text: "Filtr harmonick\u00fdch" },
+      { id: "d", text: "P\u0159ep\u00edna\u010d ant\u00e9n" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Bleskojistka chr\u00e1n\u00ed za\u0159\u00edzen\u00ed sveden\u00edm p\u0159ep\u011bt\u00ed (indukovan\u00e9ho bleskem) do uzemn\u011bn\u00ed. Nic nezesiluje.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "blesk", "recall"],
+  },
+  {
+    id: "T-SAF-011",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Pro\u010d se nesm\u00ed instalovat ant\u00e9na za bou\u0159ky?",
+    choices: [
+      { id: "a", text: "Hrozí \u00fader blesku do sto\u017e\u00e1ru nebo ant\u00e9ny" },
+      { id: "b", text: "Bou\u0159ka zp\u016fsobuje ru\u0161en\u00ed" },
+      { id: "c", text: "D\u00e9\u0161\u0165 po\u0161kozuje ant\u00e9nu" },
+      { id: "d", text: "V\u00edtr zp\u016fsobuje QSB" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "P\u0159i manipulaci s ant\u00e9nou za bou\u0159ky hroz\u00ed p\u0159\u00edm\u00fd \u00fader blesku. Elektromagnetick\u00e9 ru\u0161en\u00ed nen\u00ed bezpe\u010dnostn\u00ed probl\u00e9m.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "blesk", "anteny", "recall"],
+  },
+  {
+    id: "T-SAF-012",
+    examPartId: "technical",
+    sectionId: "safety",
+    wording: "Jak\u00e1 je bezpe\u010dn\u00e1 vzd\u00e1lenost od ant\u00e9ny s ohledem na RF expozici?",
+    choices: [
+      { id: "a", text: "Z\u00e1vis\u00ed na v\u00fdkonu a typu ant\u00e9ny" },
+      { id: "b", text: "V\u017edy 1 metr" },
+      { id: "c", text: "V\u017edy 10 metr\u016f" },
+      { id: "d", text: "Vzd\u00e1lenost nehraje roli" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Bezpe\u010dn\u00e1 vzd\u00e1lenost z\u00e1vis\u00ed na vyza\u0159ovan\u00e9m v\u00fdkonu, zisku a sm\u011brovosti ant\u00e9ny. Vy\u0161\u0161\u00ed v\u00fdkon = v\u011bt\u0161\u00ed vzd\u00e1lenost.",
+    relatedLessonIds: ["safety-02"],
+    tags: ["bezpecnost", "rf-expozice", "analyze"],
+  },
+];

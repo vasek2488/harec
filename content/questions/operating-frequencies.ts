@@ -1,0 +1,716 @@
+import type { Question } from "@/lib/types";
+
+export const operatingFrequenciesQuestions: Question[] = [
+  // -----------------------------------------------------------------------
+  // Band identification (frequencies-01)
+  // -----------------------------------------------------------------------
+  {
+    id: "O-FRQ-001",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktere amaterske pasmo lezi v oblasti VHF (30-300 MHz)?",
+    choices: [
+      { id: "a", text: "2 m (144 MHz)" },
+      { id: "b", text: "70 cm (430 MHz)" },
+      { id: "c", text: "20 m (14 MHz)" },
+      { id: "d", text: "23 cm (1296 MHz)" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "VHF rozsah je 30-300 MHz. Pasmo 2 m (144 MHz) je jedine amaterske VHF pasmo. 70 cm je UHF, 20 m je HF, 23 cm jsou mikrovlny. Viz slovnik: VHF.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "recall"],
+  },
+  {
+    id: "O-FRQ-002",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka frekvence odpovida pasmu 40 metru?",
+    choices: [
+      { id: "a", text: "7 MHz" },
+      { id: "b", text: "14 MHz" },
+      { id: "c", text: "3,5 MHz" },
+      { id: "d", text: "21 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "lambda = 300/f, tedy f = 300/40 = 7,5 MHz. Pasmo 40 m zacina na 7 MHz. 14 MHz je 20 m, 3,5 MHz je 80 m, 21 MHz je 15 m. Viz vzorec vlnove delky.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "apply"],
+  },
+  {
+    id: "O-FRQ-003",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Pasmo 80 metru odpovida frekvenci priblizne:",
+    choices: [
+      { id: "a", text: "3,5 MHz" },
+      { id: "b", text: "7 MHz" },
+      { id: "c", text: "1,8 MHz" },
+      { id: "d", text: "14 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "f = 300/80 = 3,75 MHz. Pasmo 80 m zacina na 3,5 MHz. 7 MHz je 40 m, 1,8 MHz je 160 m. Viz vzorec vlnove delky.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "apply"],
+  },
+  {
+    id: "O-FRQ-004",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktere pasmo je oznacovano jako '20 metru'?",
+    choices: [
+      { id: "a", text: "Pasmo kolem 14 MHz" },
+      { id: "b", text: "Pasmo kolem 7 MHz" },
+      { id: "c", text: "Pasmo kolem 21 MHz" },
+      { id: "d", text: "Pasmo kolem 28 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "300/14 = 21,4 m, zaokrouhlene 20 m. 7 MHz je 40 m, 21 MHz je 15 m, 28 MHz je 10 m. Viz slovnik: amaterska pasma.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "recall"],
+  },
+  {
+    id: "O-FRQ-005",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je priblizna vlnova delka na frekvenci 430 MHz?",
+    choices: [
+      { id: "a", text: "70 cm" },
+      { id: "b", text: "2 m" },
+      { id: "c", text: "23 cm" },
+      { id: "d", text: "6 m" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "lambda = 300/430 = 0,70 m = 70 cm. 2 m odpovida 144 MHz, 23 cm odpovida 1296 MHz. Viz vzorec vlnove delky.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["vlnova-delka", "apply"],
+  },
+  {
+    id: "O-FRQ-006",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Pasmo 160 metru zacina na frekvenci:",
+    choices: [
+      { id: "a", text: "1,810 MHz" },
+      { id: "b", text: "3,500 MHz" },
+      { id: "c", text: "0,136 MHz" },
+      { id: "d", text: "7,000 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Pasmo 160 m zacina na 1,810 MHz (1810 kHz). 3,5 MHz je 80 m, 0,136 MHz je pasmo 2200 m, 7 MHz je 40 m. Viz prideleni amterskych pasem.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "recall"],
+  },
+  {
+    id: "O-FRQ-007",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Do ktere kategorie patri pasmo 70 cm (430 MHz)?",
+    choices: [
+      { id: "a", text: "UHF (Ultra High Frequency)" },
+      { id: "b", text: "VHF (Very High Frequency)" },
+      { id: "c", text: "HF (High Frequency)" },
+      { id: "d", text: "SHF (Super High Frequency)" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "UHF = 300-3000 MHz. 430 MHz patri do tohoto rozsahu. VHF je 30-300 MHz, HF je 3-30 MHz, SHF je 3-30 GHz. Viz slovnik: UHF.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "recall"],
+  },
+  {
+    id: "O-FRQ-008",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co znamena 'primarne pridelene pasmo'?",
+    choices: [
+      { id: "a", text: "Radioamateri maji prednost a ochranu pred rusenim od jinych sluzeb" },
+      { id: "b", text: "Pasmo je vylucne pro radioamatery" },
+      { id: "c", text: "Pasmo lze pouzivat bez povoleni" },
+      { id: "d", text: "Pasmo je urceno pouze pro nouzovou komunikaci" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Primarni prideleni dava amaterske sluzbe prednost, ale neznamena vylucnost. Pasmo je stale sdileno, ale amater ma ochranu. Viz slovnik: prideleni spektra.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["predpisy", "recall"],
+  },
+  {
+    id: "O-FRQ-009",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Vzorec pro vypocet vlnove delky z frekvence zni:",
+    choices: [
+      { id: "a", text: "lambda = 300 / f [MHz]" },
+      { id: "b", text: "lambda = f [MHz] / 300" },
+      { id: "c", text: "lambda = f [MHz] x 300" },
+      { id: "d", text: "lambda = 300 + f [MHz]" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "lambda [m] = 300 / f [MHz]. Delenim, ne nasobenim ci scitanim. Vzorec vychazi z c = f x lambda, kde c = 3 x 10^8 m/s. Viz vzorce.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["vlnova-delka", "recall"],
+  },
+  {
+    id: "O-FRQ-010",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktere z nasledujicich pasem je HF pasmo?",
+    choices: [
+      { id: "a", text: "14 MHz (20 m)" },
+      { id: "b", text: "144 MHz (2 m)" },
+      { id: "c", text: "430 MHz (70 cm)" },
+      { id: "d", text: "1296 MHz (23 cm)" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "HF = 3-30 MHz. 14 MHz patri do tohoto rozsahu. 144 MHz je VHF, 430 MHz je UHF, 1296 MHz jsou mikrovlny. Viz slovnik: HF.",
+    relatedLessonIds: ["frequencies-01"],
+    tags: ["pasma", "recall"],
+  },
+
+  // -----------------------------------------------------------------------
+  // Modes and bandplan (frequencies-02)
+  // -----------------------------------------------------------------------
+  {
+    id: "O-FRQ-011",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je typicka sirka pasma signalu CW (telegrafie)?",
+    choices: [
+      { id: "a", text: "Priblizne 500 Hz" },
+      { id: "b", text: "Priblizne 2,4 kHz" },
+      { id: "c", text: "Priblizne 16 kHz" },
+      { id: "d", text: "Priblizne 6 kHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "CW signal zabira priblizne 500 Hz. 2,4 kHz je SSB, 16 kHz je FM, 6 kHz je AM. CW je nejuzsi bezne pouzivany mod. Viz slovnik: CW.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "recall"],
+  },
+  {
+    id: "O-FRQ-012",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je typicka sirka pasma SSB signalu?",
+    choices: [
+      { id: "a", text: "Priblizne 2,4 kHz" },
+      { id: "b", text: "Priblizne 500 Hz" },
+      { id: "c", text: "Priblizne 16 kHz" },
+      { id: "d", text: "Priblizne 50 kHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "SSB signal zabira priblizne 2,4 kHz (jedno postranli pasmo). 500 Hz je CW, 16 kHz je FM. Viz slovnik: SSB.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "recall"],
+  },
+  {
+    id: "O-FRQ-013",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Proc se CW segment v bandplanu nachazi na spodnim okraji pasma?",
+    choices: [
+      { id: "a", text: "CW ma nejuzsi sirku pasma, coz umoznuje nejhustejsi provoz" },
+      { id: "b", text: "CW signaly se lepe siri na nizsich frekvencich" },
+      { id: "c", text: "Je to nahodne historicke rozhodnuti" },
+      { id: "d", text: "CW vyzaduje mensi vykon, proto je dole" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Bandplan IARU radi mody od nejuzsiho po nejsirsi. CW (500 Hz) umoznuje nejvetsi pocet stanic v danem useku. Sireni nesouvisri s pozici v pasmu. Viz bandplan.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["bandplan", "analyze"],
+  },
+  {
+    id: "O-FRQ-014",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktery druh provozu zabira nejsirsi pasmo?",
+    choices: [
+      { id: "a", text: "FM" },
+      { id: "b", text: "CW" },
+      { id: "c", text: "SSB" },
+      { id: "d", text: "PSK31" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "FM zabira priblizne 16 kHz, SSB 2,4 kHz, CW 500 Hz, PSK31 priblizne 31 Hz. FM je ze vsech uvedenych nejsirsi. Viz porovnani modu.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "analyze"],
+  },
+  {
+    id: "O-FRQ-015",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "V segmentu 144,000-144,150 MHz je povolen provoz:",
+    choices: [
+      { id: "a", text: "CW a SSB" },
+      { id: "b", text: "Pouze FM" },
+      { id: "c", text: "Pouze digitalni mody" },
+      { id: "d", text: "Vsechny druhy provozu" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Spodni cast pasma 2 m (144,000-144,150 MHz) je podle bandplanu IARU urcena pro CW a SSB. FM provoz zacina od 145,200 MHz. Viz bandplan IARU Region 1.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["bandplan", "recall"],
+  },
+  {
+    id: "O-FRQ-016",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je typicka sirka pasma AM signalu?",
+    choices: [
+      { id: "a", text: "Priblizne 6 kHz" },
+      { id: "b", text: "Priblizne 2,4 kHz" },
+      { id: "c", text: "Priblizne 500 Hz" },
+      { id: "d", text: "Priblizne 25 kHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "AM signal ma dve postrani pasma po 3 kHz, celkem priblizne 6 kHz. SSB prenasi jen jedno postranri pasmo (2,4 kHz), proto je uspornejsi. Viz slovnik: AM.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "recall"],
+  },
+  {
+    id: "O-FRQ-017",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Proc se FM na kratkych vlnach (HF) pouziva jen vyjimecne?",
+    choices: [
+      { id: "a", text: "FM zabira prilis siroky kmitoctovy prostor, ktery je na HF omezeny" },
+      { id: "b", text: "FM nefunguje na frekvencich pod 30 MHz" },
+      { id: "c", text: "FM vyzaduje prilis vysoky vykon na HF" },
+      { id: "d", text: "FM neni na HF povolena zadnym predpisem" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "FM zabira 16 kHz, SSB jen 2,4 kHz. Na HF je spektrum omezene a FM by zabrala misto pro vice SSB stanic. FM na HF funguje (napr. 29,6 MHz), ale neni efektivni. Viz bandplan.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "analyze"],
+  },
+  {
+    id: "O-FRQ-018",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co je IARU bandplan?",
+    choices: [
+      { id: "a", text: "Doporuceny plan rozdeleni amterskych pasem podle druhu provozu" },
+      { id: "b", text: "Zakon stanoveny Mezinarodni telekomunikacni unii" },
+      { id: "c", text: "Seznam povolenych volacich znacek" },
+      { id: "d", text: "Technicky standard pro vyrobu vysilacu" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Bandplan IARU je doporuceni, jak pouzivat amaterska pasma. Neni to zakon, ale radioamateri jej maji dodrzovat. IARU je mezinarodni amaterska unie. Viz slovnik: IARU.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["bandplan", "recall"],
+  },
+  {
+    id: "O-FRQ-019",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktery mod se bezne pouziva pro fonicky provoz na VHF/UHF repeaterech?",
+    choices: [
+      { id: "a", text: "FM" },
+      { id: "b", text: "SSB" },
+      { id: "c", text: "AM" },
+      { id: "d", text: "CW" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Na VHF/UHF prevladacich se pouziva FM diky dobre kvalite zvuku a jednoduchosti. SSB se pouziva pro DX (daleka spojeni) na spodni casti 2 m pasma. Viz slovnik: FM.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["druhy-provozu", "recall"],
+  },
+  {
+    id: "O-FRQ-020",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Digitalni mody (FT8, PSK31) se v bandplanu IARU typicky nachazeji:",
+    choices: [
+      { id: "a", text: "Mezi segmentem CW a SSB" },
+      { id: "b", text: "Na uplnem konci pasma" },
+      { id: "c", text: "Na stejnych frekvencich jako FM" },
+      { id: "d", text: "Nemaji vyhrazeny segment" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Digitalni mody maji uzkou sirku pasma (mezi CW a SSB), proto je bandplan radi mezi tyto segmenty. Napr. na 20 m: 14,070-14,099 MHz. Viz bandplan IARU.",
+    relatedLessonIds: ["frequencies-02"],
+    tags: ["bandplan", "digitalni", "recall"],
+  },
+
+  // -----------------------------------------------------------------------
+  // Emergency frequencies (frequencies-03)
+  // -----------------------------------------------------------------------
+  {
+    id: "O-FRQ-021",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je amaterska nouzova frekvence na VHF?",
+    choices: [
+      { id: "a", text: "145,500 MHz" },
+      { id: "b", text: "144,300 MHz" },
+      { id: "c", text: "146,000 MHz" },
+      { id: "d", text: "145,000 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "145,500 MHz je mezinarodne uznana amaterska nouzova (volaci) frekvence na VHF. Ostatni frekvence nemaji tento specialni status. Viz nouzove frekvence.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzove-frekvence", "recall"],
+  },
+  {
+    id: "O-FRQ-022",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Nouzova volaci frekvence na KV (HF) je:",
+    choices: [
+      { id: "a", text: "14,300 MHz" },
+      { id: "b", text: "14,100 MHz" },
+      { id: "c", text: "7,110 MHz" },
+      { id: "d", text: "3,500 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "14,300 MHz je hlavni mezinarodni amaterska nouzova frekvence na KV. 14,100 MHz je frekvence majaku, ne nouzova. Viz nouzove frekvence.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzove-frekvence", "recall"],
+  },
+  {
+    id: "O-FRQ-023",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaka je amaterska nouzova frekvence na UHF?",
+    choices: [
+      { id: "a", text: "433,500 MHz" },
+      { id: "b", text: "430,000 MHz" },
+      { id: "c", text: "438,000 MHz" },
+      { id: "d", text: "435,000 MHz" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "433,500 MHz je amaterska nouzova frekvence na UHF. Ostatni uvedene frekvence nemaji status nouzovych. Viz nouzove frekvence.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzove-frekvence", "recall"],
+  },
+  {
+    id: "O-FRQ-024",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co musi radioamater udelat, kdyz zaslechne signal MAYDAY?",
+    choices: [
+      { id: "a", text: "Okamzite prestat vysilat a naslouchat" },
+      { id: "b", text: "Prepnout na jinou frekvenci" },
+      { id: "c", text: "Zvysit vykon a pokusit se navazat spojeni" },
+      { id: "d", text: "Vypnout stanici a zavolat policii" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Povinnosti je okamzite prestat vysilat a naslouchat. Prepnuti na jinou frekvenci by znemoznilo sledovani situace. Viz nouzovy provoz.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "recall"],
+  },
+  {
+    id: "O-FRQ-025",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Signal MAYDAY oznacuje:",
+    choices: [
+      { id: "a", text: "Tisen - bezprostredni ohrozeni zivota" },
+      { id: "b", text: "Nalehavy stav bez ohrozeni zivota" },
+      { id: "c", text: "Bezpecnostni varovani" },
+      { id: "d", text: "Zkousku nouzoveho vysilani" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "MAYDAY je nejvyssi stupen priority - bezprostredni ohrozeni zivota. PAN PAN je nalehavost bez primeho ohrozeni, SECURITE je bezpecnostni zprava. Viz slovnik: MAYDAY.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "recall"],
+  },
+  {
+    id: "O-FRQ-026",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Signal PAN PAN oznacuje:",
+    choices: [
+      { id: "a", text: "Nalehavou situaci bez bezprostredniho ohrozeni zivota" },
+      { id: "b", text: "Bezprostredni ohrozeni zivota" },
+      { id: "c", text: "Bezpecnostni varovani pro vsechny stanice" },
+      { id: "d", text: "Konec nouzoveho provozu" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "PAN PAN signalizuje vaznou situaci, ktera neni bezprostredne zivotu nebezpecna. MAYDAY je ohrozeni zivota, SECURITE je varovani. Viz slovnik: PAN PAN.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "recall"],
+  },
+  {
+    id: "O-FRQ-027",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Signal SECURITE oznacuje:",
+    choices: [
+      { id: "a", text: "Bezpecnostni zpravu - varovani pred nebezpecim" },
+      { id: "b", text: "Bezprostredni ohrozeni zivota" },
+      { id: "c", text: "Nalehavou situaci vyzadujici pomoc" },
+      { id: "d", text: "Zabezpecenou (sifrovanou) komunikaci" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "SECURITE je informativni bezpecnostni varovani (napr. nebezpecne pocasi). Nesouvisri se sifrovanim. Viz slovnik: SECURITE.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "recall"],
+  },
+  {
+    id: "O-FRQ-028",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Nouzove amaterske frekvence se smeji pouzivat:",
+    choices: [
+      { id: "a", text: "Pouze pro nouzovou komunikaci a cviceni" },
+      { id: "b", text: "Pro jakykoli amatersky provoz" },
+      { id: "c", text: "Jen s povolenim CTU" },
+      { id: "d", text: "Pouze profesionalni zachranarskou sluzbou" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Nouzove frekvence jsou urceny pro skutecny nouzovy provoz a organizovana cviceni. Bezny provoz na nich neni zadouci. Viz nouzovy provoz.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzove-frekvence", "recall"],
+  },
+  {
+    id: "O-FRQ-029",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Ktera uroven nouzoveho signalu ma nejvyssi prioritu?",
+    choices: [
+      { id: "a", text: "MAYDAY" },
+      { id: "b", text: "PAN PAN" },
+      { id: "c", text: "SECURITE" },
+      { id: "d", text: "Vsechny maji stejnou prioritu" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Poradi priority: MAYDAY (nejvyssi) > PAN PAN > SECURITE > bezny provoz. MAYDAY znamena bezprostredni ohrozeni zivota. Viz nouzove signaly.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "recall"],
+  },
+  {
+    id: "O-FRQ-030",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Nouzova komunikace ma prednost:",
+    choices: [
+      { id: "a", text: "Pred veskerym beznym provozem na jakemkoli kmitoctu" },
+      { id: "b", text: "Pouze na vyhrazenych nouzovych frekvencich" },
+      { id: "c", text: "Pouze pokud je schvalena CTU" },
+      { id: "d", text: "Jen v ramci jednoho amatskeho pasma" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Nouzova komunikace ma absolutni prednost na jakemkoli kmitoctu, nejen na nouzovych frekvencich. Neni treba schvaleni CTU. Viz nouzovy provoz.",
+    relatedLessonIds: ["frequencies-03"],
+    tags: ["nouzovy-provoz", "analyze"],
+  },
+
+  // -----------------------------------------------------------------------
+  // Power limits (frequencies-04)
+  // -----------------------------------------------------------------------
+  {
+    id: "O-FRQ-031",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaky je maximalni povoleny vykon pro drzitele povoleni tridy A (HAREC)?",
+    choices: [
+      { id: "a", text: "750 W PEP" },
+      { id: "b", text: "100 W PEP" },
+      { id: "c", text: "1000 W PEP" },
+      { id: "d", text: "500 W ERP" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Cesky provozni rad stanovi pro tridu A maximum 750 W PEP. 100 W je limit tridy N, 1000 W plati v nekterych jinych zemich. Viz predpisy.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+  {
+    id: "O-FRQ-032",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jaky je maximalni povoleny vykon pro tridu N (novice)?",
+    choices: [
+      { id: "a", text: "100 W PEP" },
+      { id: "b", text: "750 W PEP" },
+      { id: "c", text: "10 W PEP" },
+      { id: "d", text: "250 W PEP" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Trida N (novice) ma limit 100 W PEP. 750 W je trida A (HAREC). 10 W je prilis nizko, 250 W neni zadnou tridou stanoveny limit. Viz predpisy.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+  {
+    id: "O-FRQ-033",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co znamena zkratka PEP?",
+    choices: [
+      { id: "a", text: "Peak Envelope Power - spickovy vykon obalky" },
+      { id: "b", text: "Power Effective Peak - efektivni spickovy vykon" },
+      { id: "c", text: "Primary Emission Power - primarni vykon emise" },
+      { id: "d", text: "Pulse Energy Power - pulsni energeticky vykon" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "PEP = Peak Envelope Power = stredni vykon v jedne RF periode pri spicce modulacni obalky. Je to standardni zpusob mereni vykonu vysilace. Viz slovnik: PEP.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+  {
+    id: "O-FRQ-034",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co je ERP (Effective Radiated Power)?",
+    choices: [
+      { id: "a", text: "Efektivni vyzareny vykon zahrnujici zisk anteny a ztraty ve vedeni" },
+      { id: "b", text: "Vykon mereny na vystupu vysilace" },
+      { id: "c", text: "Maximalni povoleny vykon stanoveny predpisy" },
+      { id: "d", text: "Prumerny vykon za jednu minutu vysilani" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "ERP = vykon vysilace x zisk anteny / ztraty v kabelu. Zahrnuje celou vysilaci cestu vcetne anteny. Vykon na vystupu vysilace je jen PEP. Viz slovnik: ERP.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+  {
+    id: "O-FRQ-035",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Radioamater ma vysilat:",
+    choices: [
+      { id: "a", text: "Nejmensim vykonem potrebnym pro spolehive spojeni" },
+      { id: "b", text: "Vzdy na maximalnim povolenem vykonu" },
+      { id: "c", text: "Presne na polovine maximalniho vykonu" },
+      { id: "d", text: "Libovolnym vykonem bez omezeni" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Predpisy vyzaduji pouzivat minimalni vykon nutny k navazani spojeni. Zbytecne vysoky vykon zpusobuje ruseni ostatnim stanicim. Viz provozni pravidla.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+  {
+    id: "O-FRQ-036",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Platri na vsech amterskych pasmech stejny vykonovy limit?",
+    choices: [
+      { id: "a", text: "Ne, na nekterych pasmech mohou platit snizene limity" },
+      { id: "b", text: "Ano, vzdy 750 W PEP pro tridu A" },
+      { id: "c", text: "Ano, ale jen pro fonickyy provoz" },
+      { id: "d", text: "Ne, na VHF/UHF je limit vzdy vyssi" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Na nekterych pasmech ci v urcitych oblastech mohou platit prisnejsi omezeni. Obecny limit 750 W nemusi platit vsude stejne. Viz provozni rad.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "analyze"],
+  },
+  {
+    id: "O-FRQ-037",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Jak se lisi PEP od ERP?",
+    choices: [
+      { id: "a", text: "PEP je vykon na vystupu vysilace, ERP zahrnuje i zisk anteny" },
+      { id: "b", text: "PEP a ERP jsou totez" },
+      { id: "c", text: "ERP je vzdy nizsi nez PEP" },
+      { id: "d", text: "PEP zahrnuje zisk anteny, ERP ne" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "PEP se meri na vystupu vysilace. ERP zahrnuje celou vysilaci cestu: vykon vysilace, ztraty v kabelu a zisk anteny. S vysokim ziskem anteny muze byt ERP vyssi nez PEP. Viz slovnik: ERP, PEP.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "analyze"],
+  },
+  {
+    id: "O-FRQ-038",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Proc je dulezite pouzivat minimalni potrebny vykon?",
+    choices: [
+      { id: "a", text: "Snizuje se ruseni ostatnich stanic a setri se energie" },
+      { id: "b", text: "Vyssi vykon poskozuje antenuu" },
+      { id: "c", text: "Nizsi vykon zlepsuje kvalitu signalu" },
+      { id: "d", text: "Je to pouze doporuceni, neni to povinnost" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Minimalni vykon snizuje ruseni na sdilenych frekvencich. Je to povinnost dana predpisy, ne pouhe doporuceni. Vyssi vykon sam o sobe neposkozuje antenu. Viz provozni pravidla.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "analyze"],
+  },
+  {
+    id: "O-FRQ-039",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Radioamater tridy N chce vysilat na pasmu 2 m. Jaky maximalni vykon muze pouzit?",
+    choices: [
+      { id: "a", text: "100 W PEP" },
+      { id: "b", text: "750 W PEP" },
+      { id: "c", text: "50 W PEP" },
+      { id: "d", text: "10 W PEP" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Trida N ma na vsech povolenychy pasmech limit 100 W PEP. 750 W je limit tridy A. Viz provozni rad.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "apply"],
+  },
+  {
+    id: "O-FRQ-040",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Vysilac ma vykon 100 W a anterna ma zisk 10 dBi. Jak se zmeni ERP oproti PEP?",
+    choices: [
+      { id: "a", text: "ERP bude vyssi nez PEP diky zisku anteny" },
+      { id: "b", text: "ERP bude nizsi nez PEP" },
+      { id: "c", text: "ERP a PEP budou stejne" },
+      { id: "d", text: "ERP nezavisi na antene" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "Zisk anteny 10 dBi znamena 10x vyssi ERP nez vykon na svorkach anteny. ERP tedy bude vyssi nez PEP (za predpokladu malych ztrat v kabelu). Viz slovnik: ERP.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "analyze"],
+  },
+  {
+    id: "O-FRQ-041",
+    examPartId: "operating",
+    sectionId: "frequencies",
+    wording: "Co je Peak Envelope Power (PEP) presne?",
+    choices: [
+      { id: "a", text: "Stredni vykon v jedne RF periode pri spicce modulacni obalky" },
+      { id: "b", text: "Maximalni okamzity vykon v prubehu vysilani" },
+      { id: "c", text: "Prumerny vykon za celou dobu vysilani" },
+      { id: "d", text: "Vykon na antene vcetne ztrat v kabelu" },
+    ],
+    correctChoiceId: "a",
+    explanation:
+      "PEP je stredni vykon v jedne RF periode pri maximu modulacni obalky. Neni to okamzity spickovy vykon ani prumernry vykon. Viz slovnik: PEP.",
+    relatedLessonIds: ["frequencies-04"],
+    tags: ["vykon", "recall"],
+  },
+];

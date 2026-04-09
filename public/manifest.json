@@ -1,0 +1,11 @@
+{
+  "name": "HAREC Příprava",
+  "short_name": "HAREC",
+  "description": "Příprava na radioamatérskou zkoušku HAREC třída A",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f0",
+  "theme_color": "#1a1a2e",
+  "lang": "cs",
+  "icons": []
+}
