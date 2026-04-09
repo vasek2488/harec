@@ -72,10 +72,10 @@ export function BottomNav() {
   return (
     <>
       <nav
-        className="fixed bottom-0 left-0 right-0 border-t border-border bg-background dark:bg-slate-950 z-40"
+        className="fixed bottom-0 left-0 right-0 border-t border-border bg-background dark:bg-slate-950 z-40 lg:hidden"
         data-testid="bottom-nav"
       >
-        <div className="flex justify-between items-stretch max-w-md mx-auto md:max-w-2xl lg:max-w-4xl">
+        <div className="flex justify-between items-stretch max-w-md mx-auto md:max-w-2xl lg:max-w-5xl xl:max-w-6xl">
           {mainNavItems.map((item) => (
             <button
               key={item.path}

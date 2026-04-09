@@ -7,6 +7,7 @@ import { StatCard } from "@/components/dashboard/StatCard";
 import { ProgressRing } from "@/components/dashboard/ProgressRing";
 import { Button } from "@/components/ui/button";
 import { getLessons } from "@/lib/content-loader";
+import { cs } from "@/../content/i18n/cs";
 import {
   BookOpen,
   CheckCircle2,
@@ -70,29 +71,29 @@ export function Dashboard() {
     <>
       <Header />
       <PageContainer>
-        <div className="space-y-6 pb-20">
+        <div className="space-y-6 pb-20 lg:pb-0">
         {/* Main Progress Ring */}
         <div className="flex justify-center pt-6">
           <ProgressRing
             percentage={progressPercentage}
-            label="Overall Progress"
+            label={cs.dashboard.overallProgress}
           />
         </div>
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
           <StatCard
-            label="Lessons"
+            label={cs.dashboard.lessons}
             value={`${lessonsCompleted}/${allLessons.length}`}
             icon={<BookOpen className="h-5 w-5" />}
           />
           <StatCard
-            label="Questions"
+            label={cs.dashboard.questions}
             value={questionsAnswered}
             icon={<CheckCircle2 className="h-5 w-5" />}
           />
           <StatCard
-            label="Exams"
+            label={cs.dashboard.exams}
             value={examsCompleted}
             icon={<Award className="h-5 w-5" />}
           />
@@ -103,7 +104,7 @@ export function Dashboard() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-muted-foreground">
-                Overall Accuracy
+                {cs.dashboard.overallAccuracy}
               </p>
               <p className="mt-2 text-3xl font-semibold">{overallAccuracy}%</p>
             </div>
@@ -118,10 +119,10 @@ export function Dashboard() {
           <div className="rounded-lg border border-destructive/20 bg-destructive/5 p-4">
             <div className="mb-3 flex items-center gap-2">
               <AlertCircle className="h-5 w-5 text-destructive" />
-              <h3 className="font-medium text-destructive">Needs Practice</h3>
+              <h3 className="font-medium text-destructive">{cs.dashboard.needsPractice}</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              Focus on {weakAreas.length} question{weakAreas.length > 1 ? "s" : ""} where you scored below 50%
+              {cs.dashboard.needsPracticeDetail(weakAreas.length)}
             </p>
           </div>
         )}
@@ -135,7 +136,7 @@ export function Dashboard() {
             className="w-full"
             size="lg"
           >
-            Continue Learning
+            {cs.dashboard.continueLearning}
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button
@@ -144,22 +145,22 @@ export function Dashboard() {
             className="w-full"
             size="lg"
           >
-            Practice Questions
+            {cs.dashboard.practiceQuestions}
           </Button>
         </div>
 
         {/* Quick Stats */}
         <div className="space-y-2 border-t border-border pt-6">
           <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
-            Session Stats
+            {cs.dashboard.sessionStats}
           </p>
           <div className="grid grid-cols-2 gap-3 text-sm">
             <div className="rounded-lg bg-muted p-3">
-              <p className="text-muted-foreground">Questions Answered</p>
+              <p className="text-muted-foreground">{cs.dashboard.questionsAnswered}</p>
               <p className="mt-1 text-lg font-semibold">{totalAttempts}</p>
             </div>
             <div className="rounded-lg bg-muted p-3">
-              <p className="text-muted-foreground">Correct Answers</p>
+              <p className="text-muted-foreground">{cs.dashboard.correctAnswers}</p>
               <p className="mt-1 text-lg font-semibold">{totalCorrect}</p>
             </div>
           </div>

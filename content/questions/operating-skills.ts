@@ -8,7 +8,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-001",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena zkratka CQ v amaterskem radiovem provozu?",
+    wording: "Co znamená zkratka CQ v amatérském radiovem provozu?",
     choices: [
       { id: "a", text: "Obecna vyzva vsem stanicim (seek you)" },
       { id: "b", text: "Volani konkretni stanice" },
@@ -17,7 +17,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "CQ je obecna vyzva vsem stanicim - 'hledam vas'. Neslouzi k volani konkretni stanice ani jako nouzovy signal. Viz slovnik: CQ.",
+      "CQ je obecná výzva všem stanicím - 'hledam vas'. Neslouzi k volání konkrétní stanice ani jako nouzový signál. Viz slovnik: CQ.",
     relatedLessonIds: ["skills-01"],
     tags: ["cq", "recall"],
   },
@@ -25,7 +25,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-002",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co je treba udelat pred vysilanim CQ?",
+    wording: "Co je třeba udělat pred vysilanim CQ?",
     choices: [
       { id: "a", text: "Poslechnout, zda je frekvence volna, a zeptat se 'QRL?'" },
       { id: "b", text: "Okamzite zacit vysilat" },
@@ -34,7 +34,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Pred CQ je nutne poslouchat a dotazem 'QRL?' overit, ze frekvenci nikdo nepouziva. Okamzite vysilani muze zpusobit ruseni probihajicich spojeni. Viz provozni postup.",
+      "Pred CQ je nutné poslouchat a dotázem 'QRL?' ověřit, ze frekvenci nikdo nepoužívá. Okamzite vysílání může způsobit rušení probíhajících spojení. Viz provozní postup.",
     relatedLessonIds: ["skills-01"],
     tags: ["cq", "recall"],
   },
@@ -42,7 +42,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-003",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Kolikrat se opakuje volaci znacka pri volani CQ?",
+    wording: "Kolikrat se opakuje volaci značka pri volání CQ?",
     choices: [
       { id: "a", text: "1 az 3 krat" },
       { id: "b", text: "5 az 10 krat" },
@@ -51,7 +51,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Znacka se opakuje 1-3x. Prilis dlouhe CQ je nezdvorile a snizuje sanci na odpoved, protoze stanice nebudou cekat. Viz provozni postup CQ.",
+      "Znacka se opakuje 1-3x. Prilis dlouhé CQ je nezdvořilé a snižuje šanci na odpověď, protoze stanice nebudou čekat. Viz provozní postup CQ.",
     relatedLessonIds: ["skills-01"],
     tags: ["cq", "recall"],
   },
@@ -59,7 +59,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-004",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jak spravne odpovite na CQ stanice OK2XYZ?",
+    wording: "Jak správně odpovite na CQ stanice OK2XYZ?",
     choices: [
       { id: "a", text: "OK2XYZ, tady [vase znacka], prijem" },
       { id: "b", text: "CQ CQ CQ, tady [vase znacka]" },
@@ -68,7 +68,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Spravny format: znacka volane stanice, DE/tady, vlastni znacka, prijem/K. Nevysilate CQ pri odpovedi. Viz provozni postup.",
+      "Spravny format: značka volane stanice, DE/tady, vlastní značka, příjem/K. Nevysilate CQ pri odpovědi. Viz provozní postup.",
     relatedLessonIds: ["skills-01"],
     tags: ["qso", "recall"],
   },
@@ -76,7 +76,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-005",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jaky je rozdil mezi 'prijem' (K/over) a 'konec' (SK/out)?",
+    wording: "Jaky je rozdil mezi 'příjem' (K/over) a 'konec' (SK/out)?",
     choices: [
       { id: "a", text: "'Prijem' predava slovo, 'konec' ukoncuje spojeni" },
       { id: "b", text: "Jsou to synonyma" },
@@ -85,7 +85,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "'K' (over/prijem) znamena: predavam slovo, cekam odpoved. 'SK' (out/konec) znamena: spojeni ukoncuji. Nesmi se pouzivat zaroven. Viz slovnik: K, SK.",
+      "'K' (over/příjem) znamená: predavam slovo, čekám odpověď. 'SK' (out/konec) znamená: spojení ukončuji. Nesmi se používat zároveň. Viz slovnik: K, SK.",
     relatedLessonIds: ["skills-01"],
     tags: ["qso", "recall"],
   },
@@ -93,7 +93,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-006",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena zkratka DE v radiovem provozu?",
+    wording: "Co znamená zkratka DE v radiovem provozu?",
     choices: [
       { id: "a", text: "'Od' nebo 'tady' - identifikuje odesilajici stanici" },
       { id: "b", text: "'Deutschland' - nemecka stanice" },
@@ -102,7 +102,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "DE pochazi z francouzskeho 'de' (od/z) a oznacuje odesilajici stanici. Nema nic spolecneho s Nemeckem ani s nouzovym volanim. Viz slovnik: DE.",
+      "DE pochází z francouzského 'de' (od/z) a označuje odesilajici stanici. Nema nic společného s Nemeckem ani s nouzovym volanim. Viz slovnik: DE.",
     relatedLessonIds: ["skills-01"],
     tags: ["qso", "recall"],
   },
@@ -110,7 +110,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-007",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena zkratka QRL?",
+    wording: "Co znamená zkratka QRL?",
     choices: [
       { id: "a", text: "Je tato frekvence obsazena?" },
       { id: "b", text: "Jaka je moje poloha?" },
@@ -119,7 +119,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "QRL = Je frekvence obsazena? Pouziva se pred volanim CQ k overeni, ze frekvenci nikdo nepouziva. QTH je poloha, QRZ je kdo mne vola. Viz Q-kody.",
+      "QRL = Je frekvence obsazena? Pouziva se pred volanim CQ k ověření, ze frekvenci nikdo nepoužívá. QTH je poloha, QRZ je kdo mne vola. Viz Q-kody.",
     relatedLessonIds: ["skills-01"],
     tags: ["q-kody", "recall"],
   },
@@ -127,7 +127,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-008",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Proc se volaci znacka hlaskuje fonetickou abecedou?",
+    wording: "Proc se volaci značka hláskuje fonetickou abecedou?",
     choices: [
       { id: "a", text: "Pro spravne porozumeni pri slabem nebo rusenom signalu" },
       { id: "b", text: "Je to pouze tradice bez praktickeho vyznamu" },
@@ -136,7 +136,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Foneticka abeceda ICAO/NATO (Alfa, Bravo, Charlie...) zajistuje jednoznacne porozumeni pismenum i pri spatnych podmninkach. Pouziva se ve vsech modech, ne jen v CW. Viz foneticka abeceda.",
+      "Foneticka abeceda ICAO/NATO (Alfa, Bravo, Charlie...) zajišťuje jednoznačně porozumění písmenům i pri špatných podmínkách. Pouziva se ve všech módech, ne jen v CW. Viz fonetická abeceda.",
     relatedLessonIds: ["skills-01"],
     tags: ["fonetika", "recall"],
   },
@@ -144,7 +144,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-009",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Spravne poradi kroku pri volani CQ je:",
+    wording: "Spravne pořadí kroků pri volání CQ je:",
     choices: [
       { id: "a", text: "Poslouchat - QRL? - CQ 3x - DE + znacka - prijem" },
       { id: "b", text: "CQ 3x - DE + znacka - poslouchat - prijem" },
@@ -153,7 +153,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Nejprve se poslouchca, pak se overri QRL?, nasleduje CQ 3x, vlastni znacka a prijem. Volat CQ bez predchoriho poslechu je nezdvorile a muze rusit. Viz postup CQ.",
+      "Nejprve se poslouchá, pak se ověří QRL?, následuje CQ 3x, vlastní značka a příjem. Volat CQ bez předchozího poslechu je nezdvořilé a může rušit. Viz postup CQ.",
     relatedLessonIds: ["skills-01"],
     tags: ["cq", "apply"],
   },
@@ -161,7 +161,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-010",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena zkratka SK na konci spojeni?",
+    wording: "Co znamená zkratka SK na konci spojení?",
     choices: [
       { id: "a", text: "Konec spojeni (Silent Key / End of Contact)" },
       { id: "b", text: "Stanice pokracuje v poslechu" },
@@ -170,7 +170,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "SK znamena konec spojeni. Po SK se jiz neocekava odpoved. V CW se SK vysila jako prosign. Viz slovnik: SK.",
+      "SK znamená konec spojení. Po SK se již neočekává odpověď. V CW se SK vysílá jako prosign. Viz slovnik: SK.",
     relatedLessonIds: ["skills-01"],
     tags: ["qso", "recall"],
   },
@@ -182,7 +182,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-011",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co vyjadruje pismeno R v systemu RST?",
+    wording: "Co vyjadřuje písmeno R v systemu RST?",
     choices: [
       { id: "a", text: "Readability - citelnost signalu (stupnice 1-5)" },
       { id: "b", text: "Range - dosah signalu v km" },
@@ -191,7 +191,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "R = Readability (citelnost) na stupnici 1-5, kde R1 = necitelny a R5 = perfektne citelny. Nesouvisri s dosahem ani intenzitou. Viz slovnik: RST.",
+      "R = Readability (čitelnost) na stupnici 1-5, kde R1 = nečitelný a R5 = perfektně čitelný. Nesouvisí s dosahem ani intenzitou. Viz slovnik: RST.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "recall"],
   },
@@ -208,7 +208,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "S (Strength) ma stupnici 1-9, kde S1 = sotva znatelny signal a S9 = extremne silny signal. Stupnice R je 1-5. Viz slovnik: RST.",
+      "S (Strength) ma stupnici 1-9, kde S1 = sotva znatelný signál a S9 = extrémně silný signál. Stupnice R je 1-5. Viz slovnik: RST.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "recall"],
   },
@@ -216,7 +216,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-013",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Kdyz se pouziva slozka T (Tone) v RST reportu?",
+    wording: "Kdyz se používá slozka T (Tone) v RST reportu?",
     choices: [
       { id: "a", text: "Pouze pri CW (telegrafickem) provozu" },
       { id: "b", text: "Pri kazdem druhu provozu" },
@@ -225,7 +225,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "T (Tone) hodnotri cistotu CW tonu na stupnici 1-9 a pouziva se pouze v telegrafii. Ve fonickem provozu se udava jen RS (napr. 59). Viz slovnik: RST.",
+      "T (Tone) hodnotí čistotu CW tónu na stupnici 1-9 a používá se pouze v telegrafii. Ve fonickem provozu se udává jen RS (např. 59). Viz slovnik: RST.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "recall"],
   },
@@ -233,7 +233,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-014",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena RST report '59'?",
+    wording: "Co znamená RST report '59'?",
     choices: [
       { id: "a", text: "Perfektne citelny, extremne silny signal" },
       { id: "b", text: "Sotva citelny, slaby signal" },
@@ -242,7 +242,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "R5 = perfektne citelny, S9 = extremne silny signal. 59 je nejlepsi mozny fonicky report. Viz slovnik: RST.",
+      "R5 = perfektně čitelný, S9 = extrémně silný signál. 59 je nejlepší možný fonicky report. Viz slovnik: RST.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "apply"],
   },
@@ -250,7 +250,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-015",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena hodnota R3 v RST reportu?",
+    wording: "Co znamená hodnota R3 v RST reportu?",
     choices: [
       { id: "a", text: "Signal je citelny s obtizemi" },
       { id: "b", text: "Signal je perfektne citelny" },
@@ -259,7 +259,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "R3 = citelny s obtizemi. R1 = necitelny, R2 = sotva citelny, R4 = citelny s malymi obtizemi, R5 = perfektne citelny. Viz stupnice R.",
+      "R3 = čitelný s obtížemi. R1 = nečitelný, R2 = sotva čitelný, R4 = čitelný s malými obtížemi, R5 = perfektně čitelný. Viz stupnice R.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "recall"],
   },
@@ -267,7 +267,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-016",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Ktere informace se standardne vymenujou behem QSO?",
+    wording: "Ktere informace se standardne vyměňují behem QSO?",
     choices: [
       { id: "a", text: "Volaci znacky, RST report, jmeno, QTH, popis zarizeni" },
       { id: "b", text: "Volaci znacky, rodne cislo, adresa" },
@@ -276,7 +276,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Standardni QSO zahrnuje: znacky, RS(T) report, jmena, QTH (mesto), zarizeni a antenu. Osobni udaje jako rodne cislo se nesdili. Viz provozni postup QSO.",
+      "Standardni QSO zahrnuje: značky, RS(T) report, jména, QTH (město), zařízení a anténu. Osobni údaje jako rodne číslo se nesdílí. Viz provozní postup QSO.",
     relatedLessonIds: ["skills-02"],
     tags: ["qso", "recall"],
   },
@@ -284,7 +284,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-017",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena RST report '579' v CW provozu?",
+    wording: "Co znamená RST report '579' v CW provozu?",
     choices: [
       { id: "a", text: "Perfektne citelny, sila 7, perfektni ton" },
       { id: "b", text: "Citelny s obtizemi, slaby, spatny ton" },
@@ -293,7 +293,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "R5 = perfektne citelny, S7 = silny signal, T9 = perfektni cisti ton. T se udava pouze v CW. Viz slovnik: RST.",
+      "R5 = perfektně čitelný, S7 = silný signál, T9 = perfektní čistí tón. T se udává pouze v CW. Viz slovnik: RST.",
     relatedLessonIds: ["skills-02"],
     tags: ["rst", "apply"],
   },
@@ -301,7 +301,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-018",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena cislo 73 v amaterskem provozu?",
+    wording: "Co znamená číslo 73 v amatérském provozu?",
     choices: [
       { id: "a", text: "Pozdrav - nejlepsi prranri (best regards)" },
       { id: "b", text: "Report o sile signalu" },
@@ -310,7 +310,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "73 je tradicni amatersky pozdrav znamenajici 'nejlepsi prani' nebo 'best regards'. Pouziva se na konci spojeni. Viz slovnik: 73.",
+      "73 je tradiční amatérský pozdrav znamenající 'nejlepší přání' nebo 'best regards'. Pouziva se na konci spojení. Viz slovnik: 73.",
     relatedLessonIds: ["skills-02"],
     tags: ["qso", "recall"],
   },
@@ -318,7 +318,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-019",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co znamena zkratka QTH?",
+    wording: "Co znamená zkratka QTH?",
     choices: [
       { id: "a", text: "Poloha stanice (mesto, lokator)" },
       { id: "b", text: "Cas spojeni" },
@@ -327,7 +327,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "QTH = 'Jaka je vase poloha?' V praxi se pouziva jako oznaceni pro mesto nebo presnou polohu stanice. Viz Q-kody: QTH.",
+      "QTH = 'Jaka je vase poloha?' V praxi se používá jako označení pro město nebo přesnou polohu stanice. Viz Q-kody: QTH.",
     relatedLessonIds: ["skills-02"],
     tags: ["q-kody", "recall"],
   },
@@ -335,7 +335,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-020",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jaky je spravny poradri informaci ve standardnim QSO?",
+    wording: "Jaky je správný pořadí informací ve standardním QSO?",
     choices: [
       { id: "a", text: "Znacky, RST, jmeno + QTH, zarizeni, 73" },
       { id: "b", text: "RST, znacky, zarizeni, jmeno, 73" },
@@ -344,7 +344,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Standardni QSO zacina vzajemnou identifikaci (znacky), nasleduje RST report, osobni informace a popis zarizeni. 73 je az na konci. Viz provozni postup.",
+      "Standardni QSO začíná vzájemnou identifikací (značky), následuje RST report, osobní informace a popis zařízení. 73 je az na konci. Viz provozní postup.",
     relatedLessonIds: ["skills-02"],
     tags: ["qso", "apply"],
   },
@@ -356,7 +356,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-021",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jaky je spravny format tisnoveho volani?",
+    wording: "Jaky je správný format tísňového volání?",
     choices: [
       { id: "a", text: "MAYDAY MAYDAY MAYDAY, tady [znacka], [popis situace]" },
       { id: "b", text: "SOS SOS SOS, tady [znacka]" },
@@ -365,7 +365,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Ve fonickem provozu se pouziva MAYDAY 3x, nasledovane identifikaci a popisem. SOS je telegrafni signal (CW), ne fonicky. Viz nouzovy provoz.",
+      "Ve fonickem provozu se používá MAYDAY 3x, následované identifikací a popisem. SOS je telegrafni signál (CW), ne fonicky. Viz nouzový provoz.",
     relatedLessonIds: ["skills-03"],
     tags: ["nouzovy-provoz", "recall"],
   },
@@ -373,7 +373,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-022",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jak casto se musi radioamater identifikovat behem probihajiciho spojeni?",
+    wording: "Jak casto se musí radioamater identifikovat behem probihajiciho spojení?",
     choices: [
       { id: "a", text: "Kazdych 10 minut a na zacatku a konci vysilani" },
       { id: "b", text: "Pouze na zacatku a konci spojeni" },
@@ -382,7 +382,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Provozni rad vyzaduje identifikaci kazdych 10 minut, plus na zacatku a konci vysilani. Jen na zacatku a konci nestaci pri delsim spojeni. Viz predpisy.",
+      "Provozni řád vyžaduje identifikací každých 10 minut, plus na začátku a konci vysílání. Jen na začátku a konci nestačí pri delším spojení. Viz předpisy.",
     relatedLessonIds: ["skills-03"],
     tags: ["identifikace", "recall"],
   },
@@ -390,7 +390,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-023",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jaka je spravna reakce na zaslechuti signalu MAYDAY?",
+    wording: "Jaka je správná reakce na zaslechnutí signálu MAYDAY?",
     choices: [
       { id: "a", text: "Okamzite prestat vysilat, naslouchat a byt pripraven pomoci" },
       { id: "b", text: "Pokracovat v normalnim provozu" },
@@ -399,7 +399,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Pri zaslechuti MAYDAY je nutne okamzite prestat vysilat a naslouchat. Jakykoliv dalsi provoz muze brat nouzove stanici v komunikaci. Viz nouzovy provoz.",
+      "Pri zaslechnutí MAYDAY je nutné okamžitě přestat vysílat a naslouchat. Jakykoliv další provoz může brát nouzové stanici v komunikaci. Viz nouzový provoz.",
     relatedLessonIds: ["skills-03"],
     tags: ["nouzovy-provoz", "recall"],
   },
@@ -407,7 +407,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-024",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Seradte nouzove signaly od nejvyssi priority k nejnizsi:",
+    wording: "Seradte nouzové signály od nejvyšší priority k nejnižší:",
     choices: [
       { id: "a", text: "MAYDAY, PAN PAN, SECURITE" },
       { id: "b", text: "SECURITE, PAN PAN, MAYDAY" },
@@ -416,7 +416,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "MAYDAY (tisen) ma nejvyssi prioritu, nasleduje PAN PAN (nalehavost) a SECURITE (bezpecnost). Viz nouzove signaly.",
+      "MAYDAY (tíseň) ma nejvyšší prioritu, následuje PAN PAN (naléhavost) a SECURITE (bezpečnost). Viz nouzové signály.",
     relatedLessonIds: ["skills-03"],
     tags: ["nouzovy-provoz", "recall"],
   },
@@ -433,7 +433,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Radioamater se identifikuje pridelenou volaci znackou (napr. OK1ABC). Jmeno a QTH se sdeli az v prubehu QSO, ale nejsou prostredkem identifikace. Viz predpisy.",
+      "Radioamater se identifikuje přidělenou volaci značkou (např. OK1ABC). Jmeno a QTH se sdělí az v průběhu QSO, ale nejsou prostředkem identifikace. Viz předpisy.",
     relatedLessonIds: ["skills-03"],
     tags: ["identifikace", "recall"],
   },
@@ -441,7 +441,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-026",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co je provozni kazen radioamatera?",
+    wording: "Co je provozní kázeň radioamatera?",
     choices: [
       { id: "a", text: "Soubor pravidel pro korektrni a ohleduplne vysilani" },
       { id: "b", text: "Trest za poruseni predpisu" },
@@ -450,7 +450,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Provozni kazen zahrnuje: identifikaci, dodrzovani bandplanu, pouzivani minimalniho vykonu, zdvorile chovani a respektovani prednosti nouzoveho provozu. Viz provozni rad.",
+      "Provozni kázeň zahrnuje: identifikací, dodržování bandplanu, pouzivani minimálního výkonu, zdvořilé chování a respektování přednosti nouzového provozu. Viz provozní řád.",
     relatedLessonIds: ["skills-03"],
     tags: ["provozni-kazen", "recall"],
   },
@@ -458,7 +458,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-027",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Smi radioamater vysilat sifrovanou (neverejnou) komunikaci?",
+    wording: "Smi radioamater vysílat šifrovanou (neveřejnou) komunikaci?",
     choices: [
       { id: "a", text: "Ne, amatersky provoz musi byt nesifrovany a verejne srozumitelny" },
       { id: "b", text: "Ano, bez omezeni" },
@@ -467,7 +467,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Amatersky provoz musi byt nesifrovany a srozumitelny pro kontrolni organy. Jedinou vyjimkou jsou ridici signaly druzic. Viz predpisy o amaterskem provozu.",
+      "Amatersky provoz musí byt nešifrovaný a srozumitelný pro kontrolní orgány. Jedinou výjimkou jsou řídící signály družic. Viz předpisy o amatérském provozu.",
     relatedLessonIds: ["skills-03"],
     tags: ["predpisy", "recall"],
   },
@@ -475,7 +475,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-028",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Smi radioamater vysilat hudbu nebo komerci reklamu?",
+    wording: "Smi radioamater vysílat hudbu nebo komerční reklamu?",
     choices: [
       { id: "a", text: "Ne, amatersky provoz je urcen pouze pro nekomerccni technicke ucely" },
       { id: "b", text: "Ano, pokud je hudba kratsi nez 30 sekund" },
@@ -484,7 +484,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Amaterska sluzba je urcena pro sebevzdelvani, technicke experimenty a vzajemnou komunikaci. Komercni obsah a hudba jsou zakazany. Viz predpisy.",
+      "Amaterska služba je určena pro sebevzdělávání, technické experimenty a vzájemnou komunikaci. Komercni obsah a hudba jsou zakázány. Viz předpisy.",
     relatedLessonIds: ["skills-03"],
     tags: ["predpisy", "recall"],
   },
@@ -492,7 +492,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-029",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Co musi radioamater uvest v stanicnim deniku (logu)?",
+    wording: "Co musí radioamater uvest v stanicnim deníku (logu)?",
     choices: [
       { id: "a", text: "Datum, cas, frekvenci, druh provozu, znacku protistanice a RST" },
       { id: "b", text: "Pouze znacku protistanice" },
@@ -501,7 +501,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Stanicni denik obsahuje zakladni udaje o spojeni: datum, cas (UTC), frekvenci, druh provozu, znacku a RST. Jmeno a adresa nejsou povinne. Viz provozni rad.",
+      "Stanicni deník obsahuje základní údaje o spojení: datum, čas (UTC), frekvenci, druh provozu, značku a RST. Jmeno a adresa nejsou povinné. Viz provozní řád.",
     relatedLessonIds: ["skills-03"],
     tags: ["provozni-kazen", "recall"],
   },
@@ -509,7 +509,7 @@ export const operatingSkillsQuestions: Question[] = [
     id: "O-SKL-030",
     examPartId: "operating",
     sectionId: "skills",
-    wording: "Jaky casovy system se pouziva v amaterskem radiovem provozu?",
+    wording: "Jaky časový system se používá v amatérském radiovem provozu?",
     choices: [
       { id: "a", text: "UTC (Coordinated Universal Time)" },
       { id: "b", text: "Mistni cas" },
@@ -518,7 +518,7 @@ export const operatingSkillsQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "V amaterskem provozu se pouziva UTC (drive oznacovany jako GMT). Mistni cas se nepouziva, protoze stanice jsou v ruznych casovych pasmech. Viz slovnik: UTC.",
+      "V amatérském provozu se používá UTC (dříve označovaný jako GMT). Mistni čas se nepoužívá, protoze stanice jsou v různých časových pásmech. Viz slovnik: UTC.",
     relatedLessonIds: ["skills-03"],
     tags: ["provozni-kazen", "recall"],
   },

@@ -9,20 +9,20 @@ export const operatingFrequenciesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "frequencies",
     order: 1,
-    title: "Amaterska pasma - od 160 metru po mikrovlny",
+    title: "Amatérská pásma - od 160 metrů po mikrovlny",
     objective:
-      "Prirazit amaterska pasma k jejich frekvencim a vypocitat vlnovou delku ze znameho kmitoctu.",
+      "Přiřadit amatérská pásma k jejich frekvencím a vypočítat vlnovou délku ze známého kmitočtu.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "Radioamaterska pasma se oznacuji vlnovou delkou: 160 m, 80 m, 40 m, 20 m, 15 m, 10 m na kratkych vlnach (HF), 2 m a 70 cm na VHF/UHF a 23 cm v oblasti mikrovln. Kazde pasmo ma jiny charakter sireni a jine pouziti.",
-        note: "Zakladni vzorec: vlnova delka [m] = 300 / frekvence [MHz]",
+          "Radioamatérská pásma se označují vlnovou délkou: 160 m, 80 m, 40 m, 20 m, 15 m, 10 m na krátkých vlnách (HF), 2 m a 70 cm na VHF/UHF a 23 cm v oblasti mikrovln. Každé pásmo má jiný charakter šíření a jiné použití.",
+        note: "Základní vzorec: vlnová délka [m] = 300 / frekvence [MHz]",
       },
       {
         type: "match",
-        instruction: "Priradte pasmo k jeho frekvenci:",
+        instruction: "Přiřaďte pásmo k jeho frekvenci:",
         pairs: [
           { left: "160 m", right: "1,8 MHz" },
           { left: "80 m", right: "3,5 MHz" },
@@ -36,22 +36,22 @@ export const operatingFrequenciesLessons: Lesson[] = [
       },
       {
         type: "fill-blank",
-        textBefore: "Pasmo 20 metru odpovida frekvenci priblizne",
+        textBefore: "Pásmo 20 metrů odpovídá frekvenci přibližně",
         blank: "14 MHz",
         distractors: ["7 MHz", "21 MHz", "28 MHz"],
         textAfter: ".",
         explanation:
-          "f = 300 / lambda = 300 / 20 = 15 MHz, zacatek pasma je 14 MHz. Proto se naziva '20 metru'.",
+          "f = 300 / lambda = 300 / 20 = 15 MHz, začátek pásma je 14 MHz. Proto se nazývá '20 metrů'.",
       },
       {
         type: "explain",
         content:
-          "Vlnova delka a frekvence jsou neprime umerne: lambda = 300 / f [MHz]. Cim vyssi frekvence, tim kratsi vlna. Na HF pasmech (1,8-30 MHz) se signaly siri odrazem od ionosfery na velke vzdalenosti. Na VHF/UHF je dosah omezen primou viditelnosti.",
+          "Vlnová délka a frekvence jsou nepřímo úměrné: lambda = 300 / f [MHz]. Čím vyšší frekvence, tím kratší vlna. Na HF pásmech (1,8-30 MHz) se signály šíří odrazem od ionosféry na velké vzdálenosti. Na VHF/UHF je dosah omezen přímou viditelností.",
       },
       {
         type: "slider",
         question:
-          "Jaka je priblizna vlnova delka na frekvenci 7 MHz?",
+          "Jaká je přibližná vlnová délka na frekvenci 7 MHz?",
         min: 10,
         max: 100,
         step: 5,
@@ -59,11 +59,11 @@ export const operatingFrequenciesLessons: Lesson[] = [
         correctValue: 43,
         tolerance: 5,
         explanation:
-          "lambda = 300 / 7 = 42,9 m, zaokrouhlene 43 m. Proto se pasmo 7 MHz nazyva '40 metru'.",
+          "lambda = 300 / 7 = 42,9 m, zaokrouhleno 43 m. Proto se pásmo 7 MHz nazývá '40 metrů'.",
       },
       {
         type: "highlight",
-        instruction: "Oznacte pasma, ktera patri do oblasti kratkych vln (HF, 3-30 MHz):",
+        instruction: "Označte pásma, která patří do oblasti krátkých vln (HF, 3-30 MHz):",
         terms: [
           { text: "160 m (1,8 MHz)", correct: true },
           { text: "80 m (3,5 MHz)", correct: true },
@@ -73,11 +73,11 @@ export const operatingFrequenciesLessons: Lesson[] = [
           { text: "23 cm (1296 MHz)", correct: false },
         ],
         explanation:
-          "HF pasma lezi v rozsahu 3-30 MHz. Pasmo 160 m (1,8 MHz) je tesne pod touto hranici, ale take se radi mezi kratkovalonna amaterska pasma. 2 m je VHF, 70 cm je UHF, 23 cm jsou mikrovlny.",
+          "HF pásma leží v rozsahu 3-30 MHz. Pásmo 160 m (1,8 MHz) je těsně pod touto hranicí, ale také se řadí mezi krátkovlnná amatérská pásma. 2 m je VHF, 70 cm je UHF, 23 cm jsou mikrovlny.",
       },
       {
         type: "select-answer",
-        question: "Ktere pasmo patri do oblasti VHF?",
+        question: "Které pásmo patří do oblasti VHF?",
         choices: [
           { id: "a", text: "2 m (144 MHz)" },
           { id: "b", text: "20 m (14 MHz)" },
@@ -86,7 +86,7 @@ export const operatingFrequenciesLessons: Lesson[] = [
         ],
         correctId: "a",
         explanation:
-          "VHF = 30-300 MHz. Pasmo 2 m (144 MHz) je jedine v tomto rozsahu. 20 m je HF, 70 cm je UHF, 23 cm jsou mikrovlny (SHF).",
+          "VHF = 30-300 MHz. Pásmo 2 m (144 MHz) je jediné v tomto rozsahu. 20 m je HF, 70 cm je UHF, 23 cm jsou mikrovlny (SHF).",
       },
       {
         type: "exam-question",
@@ -94,31 +94,31 @@ export const operatingFrequenciesLessons: Lesson[] = [
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte vsechna spravna tvrzeni o primarni pridelenych pasmech:",
+        instruction: "Vyberte všechna správná tvrzení o primárně přidělených pásmech:",
         pool: [
           {
-            text: "Pasmo 20 m (14 MHz) je primarne prideleno amaterske sluzbe",
+            text: "Pásmo 20 m (14 MHz) je primárně přiděleno amatérské službě",
             correct: true,
           },
           {
-            text: "Na primarne pridelenych pasmech maji radioamateri prednost",
+            text: "Na primárně přidělených pásmech mají radioamatéři přednost",
             correct: true,
           },
           {
-            text: "Vsechna amaterska pasma jsou primarne pridelena",
+            text: "Všechna amatérská pásma jsou primárně přidělena",
             correct: false,
           },
           {
-            text: "Na sekundarne pridelenych pasmech nesmi radioamater rusit primarniho uzivatele",
+            text: "Na sekundárně přidělených pásmech nesmí radioamatér rušit primárního uživatele",
             correct: true,
           },
           {
-            text: "Primarni prideleni znamena vylucne pouziti radioamatery",
+            text: "Primární přidělení znamená výlučné použití radioamatéry",
             correct: false,
           },
         ],
         explanation:
-          "Nektera pasma (napr. 40 m) jsou sdilena s jinymi sluzbami. Primarni prideleni neznamena vylucnost, ale prednost pri ochrane pred rusenim.",
+          "Některá pásma (např. 40 m) jsou sdílena s jinými službami. Primární přidělení neznamená výlučnost, ale přednost při ochraně před rušením.",
       },
     ],
     relatedQuestionIds: [
@@ -144,70 +144,70 @@ export const operatingFrequenciesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "frequencies",
     order: 2,
-    title: "Druhy provozu a sirky pasma",
+    title: "Druhy provozu a šířky pásma",
     objective:
-      "Rozlisit provozni druhy podle sirky pasma a urcit spravny segment v bandplanu IARU.",
+      "Rozlišit provozní druhy podle šířky pásma a určit správný segment v bandplánu IARU.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "Radioamateri pouzivaji ruzne druhy provozu: CW (telegrafie), SSB (fonicky provoz na KV), FM (fonicky provoz na VHF/UHF), AM a digitalni mody (FT8, PSK31, RTTY). Kazdy druh zabira jinou sirku pasma a ma v bandplanu IARU vyhrazeny segment.",
+          "Radioamatéři používají různé druhy provozu: CW (telegrafie), SSB (fonický provoz na KV), FM (fonický provoz na VHF/UHF), AM a digitální módy (FT8, PSK31, RTTY). Každý druh zabírá jinou šířku pásma a má v bandplánu IARU vyhrazený segment.",
       },
       {
         type: "match",
-        instruction: "Priradte druh provozu k jeho typicke sirce pasma:",
+        instruction: "Přiřaďte druh provozu k jeho typické šířce pásma:",
         pairs: [
           { left: "CW (telegrafie)", right: "500 Hz" },
           { left: "SSB", right: "2,4 kHz" },
-          { left: "FM (uzkopasmova)", right: "16 kHz" },
+          { left: "FM (úzkopásmová)", right: "16 kHz" },
           { left: "AM", right: "6 kHz" },
         ],
         explanation:
-          "CW je nejuzsi mod. SSB prenasi hlas v sirce 2,4 kHz. AM potrebuje dvojnasobek (postrani pasma na obou stranach). FM na VHF/UHF ma typicky kanalovy rastr 12,5 nebo 25 kHz.",
+          "CW je nejužší mód. SSB přenáší hlas v šířce 2,4 kHz. AM potřebuje dvojnásobek (postranní pásma na obou stranách). FM na VHF/UHF má typicky kanálový rastr 12,5 nebo 25 kHz.",
       },
       {
         type: "reveal",
-        prompt: "Proc se CW segmenty nachazeji vzdy na zacatku kazdeho pasma?",
+        prompt: "Proč se CW segmenty nacházejí vždy na začátku každého pásma?",
         answer:
-          "CW ma nejuzsi sirku pasma (cca 500 Hz), proto umoznuje nejhustejsi provoz. Tradice i bandplan IARU radi CW na spodni okraj kazdeho pasma.",
+          "CW má nejužší šířku pásma (cca 500 Hz), proto umožňuje nejhustější provoz. Tradice i bandplán IARU řadí CW na spodní okraj každého pásma.",
         explanation:
-          "Mody se v bandplanu radi od nejuzsiho po nejsirsi. Diky tomu se efektivne vyuzije omezeny spektralni prostor.",
+          "Módy se v bandplánu řadí od nejužšího po nejširší. Díky tomu se efektivně využije omezený spektrální prostor.",
       },
       {
         type: "order",
-        instruction: "Seradte druhy provozu od nejuzsiho po nejsirsi zabrane pasmo:",
+        instruction: "Seřaďte druhy provozu od nejužšího po nejširší zabrané pásmo:",
         items: ["CW", "PSK31", "SSB", "AM", "FM"],
         explanation:
-          "CW ~ 500 Hz, PSK31 ~ 31 Hz (ale prakticky ~ 100 Hz), SSB ~ 2,4 kHz, AM ~ 6 kHz, FM ~ 16 kHz. PSK31 je velmi uzky, ale v praxi se radi za CW.",
+          "CW ~ 500 Hz, PSK31 ~ 31 Hz (ale prakticky ~ 100 Hz), SSB ~ 2,4 kHz, AM ~ 6 kHz, FM ~ 16 kHz. PSK31 je velmi úzký, ale v praxi se řadí za CW.",
       },
       {
         type: "explain",
         content:
-          "Bandplan IARU rozdeluje kazde pasmo na segmenty podle druhu provozu. Napriklad na 20 m (14 MHz): 14,000-14,070 CW, 14,070-14,099 digitalni mody, 14,099-14,101 majaky, 14,101-14,112 digitalni, 14,112-14,350 SSB.",
-        note: "Bandplan je doporuceni, ale radioamater jej ma dodrzovat podle provozniho radu.",
+          "Bandplán IARU rozděluje každé pásmo na segmenty podle druhu provozu. Například na 20 m (14 MHz): 14,000-14,070 CW, 14,070-14,099 digitální módy, 14,099-14,101 majáky, 14,101-14,112 digitální, 14,112-14,350 SSB.",
+        note: "Bandplán je doporučení, ale radioamatér jej má dodržovat podle provozního řádu.",
       },
       {
         type: "fill-blank",
-        textBefore: "SSB segment na pasmu 20 m zacina od frekvence",
+        textBefore: "SSB segment na pásmu 20 m začíná od frekvence",
         blank: "14,112 MHz",
         distractors: ["14,000 MHz", "14,070 MHz", "14,350 MHz"],
         textAfter: ".",
         explanation:
-          "SSB provoz na 20 m zacina od 14,112 MHz (podle bandplanu IARU Region 1). Nizsi frekvence jsou vyhrazeny pro CW a digitalni mody.",
+          "SSB provoz na 20 m začíná od 14,112 MHz (podle bandplánu IARU Region 1). Nižší frekvence jsou vyhrazeny pro CW a digitální módy.",
       },
       {
         type: "select-answer",
-        question: "Jaky druh provozu je povolen v segmentu 144,000-144,150 MHz?",
+        question: "Jaký druh provozu je povolen v segmentu 144,000-144,150 MHz?",
         choices: [
           { id: "a", text: "CW a SSB" },
           { id: "b", text: "Pouze FM" },
-          { id: "c", text: "Pouze digitalni mody" },
+          { id: "c", text: "Pouze digitální módy" },
           { id: "d", text: "AM a SSB" },
         ],
         correctId: "a",
         explanation:
-          "Segment 144,000-144,150 MHz je urcen pro CW a SSB. FM provoz na 2 m zacina od 145,200 MHz (simplexni kanaly) a vyse.",
+          "Segment 144,000-144,150 MHz je určen pro CW a SSB. FM provoz na 2 m začíná od 145,200 MHz (simplexní kanály) a výše.",
       },
       {
         type: "exam-question",
@@ -215,29 +215,29 @@ export const operatingFrequenciesLessons: Lesson[] = [
       },
       {
         type: "highlight",
-        instruction: "Oznacte spravna tvrzeni o FM provozu:",
+        instruction: "Označte správná tvrzení o FM provozu:",
         terms: [
-          { text: "FM se pouziva prevazne na VHF a UHF", correct: true },
-          { text: "FM zabira uzsi pasmo nez SSB", correct: false },
-          { text: "FM poskytuje lepsi kvalitu zvuku nez SSB", correct: true },
-          { text: "FM se bezne pouziva na kratkych vlnach", correct: false },
-          { text: "FM prevladac pouziva kanalovy rastr", correct: true },
+          { text: "FM se používá převážně na VHF a UHF", correct: true },
+          { text: "FM zabírá užší pásmo než SSB", correct: false },
+          { text: "FM poskytuje lepší kvalitu zvuku než SSB", correct: true },
+          { text: "FM se běžně používá na krátkých vlnách", correct: false },
+          { text: "FM převládá používá kanálový rastr", correct: true },
         ],
         explanation:
-          "FM zabira sirsi pasmo nez SSB (16 kHz vs. 2,4 kHz), proto se na KV nepouziva - bylo by to plytvani spektrem. Na VHF/UHF je dostatek mista.",
+          "FM zabírá širší pásmo než SSB (16 kHz vs. 2,4 kHz), proto se na KV nepoužívá - bylo by to plýtvání spektrem. Na VHF/UHF je dostatek místa.",
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte spravne prirazeni druhu provozu k segmentum bandplanu:",
+        instruction: "Vyberte správné přiřazení druhu provozu k segmentům bandplánu:",
         pool: [
-          { text: "CW se nachazi na spodnim okraji pasma", correct: true },
-          { text: "Digitalni mody jsou mezi CW a SSB segmenty", correct: true },
-          { text: "SSB segment je vzdy na zacatku pasma", correct: false },
-          { text: "Majaky maji svuj vyhrazeny uzky segment", correct: true },
-          { text: "FM se na HF pasmech pouziva bezne", correct: false },
+          { text: "CW se nachází na spodním okraji pásma", correct: true },
+          { text: "Digitální módy jsou mezi CW a SSB segmenty", correct: true },
+          { text: "SSB segment je vždy na začátku pásma", correct: false },
+          { text: "Majáky mají svůj vyhrazený úzký segment", correct: true },
+          { text: "FM se na HF pásmech používá běžně", correct: false },
         ],
         explanation:
-          "Bandplan radi mody od nejuzsiho po nejsirsi: CW, digi, SSB. Majaky maji vyhrazeny kmitocet (napr. 14,100 MHz). FM se na HF pouziva vyjimecne (napr. 29,6 MHz).",
+          "Bandplán řadí módy od nejužšího po nejširší: CW, digi, SSB. Majáky mají vyhrazený kmitočet (např. 14,100 MHz). FM se na HF používá výjimečně (např. 29,6 MHz).",
       },
     ],
     relatedQuestionIds: [
@@ -263,62 +263,62 @@ export const operatingFrequenciesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "frequencies",
     order: 3,
-    title: "Nouzove a prioritni frekvence",
+    title: "Nouzové a prioritní frekvence",
     objective:
-      "Identifikovat nouzove volaci frekvence a aplikovat spravny postup pri prijmu tisnovych signalu.",
+      "Identifikovat nouzové volací frekvence a aplikovat správný postup při příjmu tísňových signálů.",
     estimatedMinutes: 5,
     slides: [
       {
         type: "explain",
         content:
-          "Radioamateri maji vyhrazene nouzove frekvence pro tisnovon komunikaci: 14,300 MHz na KV (HF), 145,500 MHz na VHF a 433,500 MHz na UHF. Tyto frekvence se monitoruji a slouzi pro nouzove volani pri katastrofach a mimoradnych situacich.",
-        note: "Nouzove frekvence se nesmi pouzivat pro bezny provoz.",
+          "Radioamatéři mají vyhrazené nouzové frekvence pro tísňovou komunikaci: 14,300 MHz na KV (HF), 145,500 MHz na VHF a 433,500 MHz na UHF. Tyto frekvence se monitorují a slouží pro nouzové volání při katastrofách a mimořádných situacích.",
+        note: "Nouzové frekvence se nesmí používat pro běžný provoz.",
       },
       {
         type: "reveal",
-        prompt: "Jaka je nouzova frekvence na pasmu 2 m (VHF)?",
+        prompt: "Jaká je nouzová frekvence na pásmu 2 m (VHF)?",
         answer:
-          "145,500 MHz - volaci frekvence pro nouzovy provoz na VHF.",
+          "145,500 MHz - volací frekvence pro nouzový provoz na VHF.",
         explanation:
-          "Tato frekvence je mezinarodne uznana jako amaterska nouzova frekvence na VHF. Na UHF je to 433,500 MHz.",
+          "Tato frekvence je mezinárodně uznána jako amatérská nouzová frekvence na VHF. Na UHF je to 433,500 MHz.",
       },
       {
         type: "fill-blank",
-        textBefore: "Nouzova frekvence na kratkych vlnach (HF) je",
+        textBefore: "Nouzová frekvence na krátkých vlnách (HF) je",
         blank: "14,300 MHz",
         distractors: ["14,100 MHz", "7,110 MHz", "3,760 MHz"],
         textAfter: ".",
         explanation:
-          "14,300 MHz je hlavni mezinarodni nouzova frekvence pro amatersky provoz na KV. 14,100 MHz je frekvence majaku.",
+          "14,300 MHz je hlavní mezinárodní nouzová frekvence pro amatérský provoz na KV. 14,100 MHz je frekvence majáku.",
       },
       {
         type: "select-answer",
-        question: "Co musi radioamater udelat, kdyz zaslechne tisove volani na amaterskem pasmu?",
+        question: "Co musí radioamatér udělat, když zaslechne tísňové volání na amatérském pásmu?",
         choices: [
-          { id: "a", text: "Prestat vysilat, naslouchat a byt pripraven pomoci" },
-          { id: "b", text: "Prepnout na jiny kmitocet a pokracovat v provozu" },
-          { id: "c", text: "Ignorovat volani, pokud neni urceno jemu" },
-          { id: "d", text: "Okamzite zavolat policii bez dalsiho naslouchani" },
+          { id: "a", text: "Přestat vysílat, naslouchat a být připraven pomoci" },
+          { id: "b", text: "Přepnout na jiný kmitočet a pokračovat v provozu" },
+          { id: "c", text: "Ignorovat volání, pokud není určeno jemu" },
+          { id: "d", text: "Okamžitě zavolat policii bez dalšího naslouchání" },
         ],
         correctId: "a",
         explanation:
-          "Kazdy radioamater ma povinnost prestat vysilat a naslouchat. Tisova komunikace ma absolutni prednost. Teprve po posouzeni situace je mozne pomoci predanim zpravy nebo kontaktovanim zachrannych slozek.",
+          "Každý radioamatér má povinnost přestat vysílat a naslouchat. Tísňová komunikace má absolutní přednost. Teprve po posouzení situace je možné pomoci předáním zprávy nebo kontaktováním záchranných složek.",
       },
       {
         type: "explain",
         content:
-          "Existuji tri urovne priority: MAYDAY (tisen - bezprostredni ohrozeni zivota), PAN PAN (nalehavy stav - vazna situace bez bezprostredniho ohrozeni) a SECURITE (bezpecnostni zprava - varovani pred nebezpecim). Kazda uroven ma svuj specificky postup.",
+          "Existují tři úrovně priority: MAYDAY (tíseň - bezprostřední ohrožení života), PAN PAN (naléhavý stav - vážná situace bez bezprostředního ohrožení) a SECURITE (bezpečnostní zpráva - varování před nebezpečím). Každá úroveň má svůj specifický postup.",
       },
       {
         type: "match",
-        instruction: "Priradte volaci signal k urovni priority:",
+        instruction: "Přiřaďte volací signál k úrovni priority:",
         pairs: [
-          { left: "MAYDAY", right: "Tisen - ohrozeni zivota" },
-          { left: "PAN PAN", right: "Nalehavy stav" },
-          { left: "SECURITE", right: "Bezpecnostni zprava" },
+          { left: "MAYDAY", right: "Tíseň - ohrožení života" },
+          { left: "PAN PAN", right: "Naléhavý stav" },
+          { left: "SECURITE", right: "Bezpečnostní zpráva" },
         ],
         explanation:
-          "MAYDAY pochazi z francouzskeho 'm'aider' (pomoc). PAN PAN signalizuje vaznou situaci. SECURITE varuje pred nebezpecim (napr. pocasi).",
+          "MAYDAY pochází z francouzského 'm'aider' (pomoc). PAN PAN signalizuje vážnou situaci. SECURITE varuje před nebezpečím (např. počasí).",
       },
       {
         type: "exam-question",
@@ -326,31 +326,31 @@ export const operatingFrequenciesLessons: Lesson[] = [
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte vsechna spravna pravidla pro nouzovy provoz:",
+        instruction: "Vyberte všechna správná pravidla pro nouzový provoz:",
         pool: [
           {
-            text: "Nouzova komunikace ma prednost pred veskerym beznym provozem",
+            text: "Nouzová komunikace má přednost před veškerým běžným provozem",
             correct: true,
           },
           {
-            text: "Na nouzove frekvenci se smi vysilat jen s povolenim CTU",
+            text: "Na nouzové frekvenci se smí vysílat jen s povolením ČTÚ",
             correct: false,
           },
           {
-            text: "Pri zaslechuti MAYDAY je treba uvolnit frekvenci",
+            text: "Při zaslechnutí MAYDAY je třeba uvolnit frekvenci",
             correct: true,
           },
           {
-            text: "Nouzovy provoz se smi vest pouze na vyhrazenych frekvencich",
+            text: "Nouzový provoz se smí vést pouze na vyhrazených frekvencích",
             correct: false,
           },
           {
-            text: "V nouzove situaci lze prekrocit bezne vykonove limity",
+            text: "V nouzové situaci lze překročit běžné výkonové limity",
             correct: false,
           },
         ],
         explanation:
-          "Nouzovy provoz ma prednost na jakemkoli kmitoctu, nejen na vyhrazenych. Nepotrebujete specialni povoleni. Vykonove limity vsak platipry stale.",
+          "Nouzový provoz má přednost na jakémkoli kmitočtu, nejen na vyhrazených. Nepotřebujete speciální povolení. Výkonové limity však platí stále.",
       },
     ],
     relatedQuestionIds: [
@@ -376,62 +376,62 @@ export const operatingFrequenciesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "frequencies",
     order: 4,
-    title: "Vykonove limity a omezeni",
+    title: "Výkonové limity a omezení",
     objective:
-      "Urcit maximalni povoleny vykon pro jednotliva pasma a rozlisit pojmy ERP a PEP.",
+      "Určit maximální povolený výkon pro jednotlivá pásma a rozlišit pojmy ERP a PEP.",
     estimatedMinutes: 5,
     slides: [
       {
         type: "explain",
         content:
-          "Drzitel povoleni tridy A (HAREC) smi vysilat s maximalnim vykonem 750 W PEP (Peak Envelope Power - spickovy vykon obalky). Trida N (novice) ma limit 100 W PEP. Na nekterych pasmech platri dalsi omezeni stanovena provoznim radem.",
-        note: "PEP je stredni vykon v jedne RF periode pri spicce modulacni obalky.",
+          "Držitel povolení třídy A (HAREC) smí vysílat s maximálním výkonem 750 W PEP (Peak Envelope Power - špičkový výkon obálky). Třída N (novice) má limit 100 W PEP. Na některých pásmech platí další omezení stanovená provozním řádem.",
+        note: "PEP je střední výkon v jedné RF periodě při špičce modulační obálky.",
       },
       {
         type: "reveal",
-        prompt: "Jaky je maximalni povoleny vykon na pasmu 2 m pro tridu A?",
+        prompt: "Jaký je maximální povolený výkon na pásmu 2 m pro třídu A?",
         answer:
-          "750 W PEP - stejny jako na ostatnich pasmech pro tridu A, pokud provozni rad nestanovi jinak.",
+          "750 W PEP - stejný jako na ostatních pásmech pro třídu A, pokud provozní řád nestanoví jinak.",
         explanation:
-          "Obecny limit pro tridu A je 750 W PEP na vsech povoleny pasmech. Pro nektere kmitocty mohou platit vyjimky.",
+          "Obecný limit pro třídu A je 750 W PEP na všech povolených pásmech. Pro některé kmitočty mohou platit výjimky.",
       },
       {
         type: "match",
-        instruction: "Priradte tridu povoleni k maximalnimu vykonu:",
+        instruction: "Přiřaďte třídu povolení k maximálnímu výkonu:",
         pairs: [
-          { left: "Trida A (HAREC)", right: "750 W PEP" },
-          { left: "Trida N (novice)", right: "100 W PEP" },
+          { left: "Třída A (HAREC)", right: "750 W PEP" },
+          { left: "Třída N (novice)", right: "100 W PEP" },
         ],
         explanation:
-          "HAREC (trida A) umoznuje vysilat az 750 W PEP. Novicka trida N je omezena na 100 W PEP.",
+          "HAREC (třída A) umožňuje vysílat až 750 W PEP. Novická třída N je omezena na 100 W PEP.",
       },
       {
         type: "fill-blank",
-        textBefore: "Maximalni vykon pro tridu HAREC (A) je",
+        textBefore: "Maximální výkon pro třídu HAREC (A) je",
         blank: "750 W PEP",
         distractors: ["100 W PEP", "1000 W PEP", "500 W ERP"],
         textAfter: ".",
         explanation:
-          "Cesky provozni rad stanovi pro tridu A maximum 750 W PEP. 1000 W plati v nekterych jinych zemich (napr. USA).",
+          "Český provozní řád stanoví pro třídu A maximum 750 W PEP. 1000 W platí v některých jiných zemích (např. USA).",
       },
       {
         type: "select-answer",
         question:
-          "Radioamater chce navazat spojeni s vzdaltenou stanici na 14 MHz. Stanice slysi slabe. Jake je spravne chovani ohledne vykonu?",
+          "Radioamatér chce navázat spojení se vzdálenou stanicí na 14 MHz. Stanice slyší slabě. Jaké je správné chování ohledně výkonu?",
         choices: [
-          { id: "a", text: "Pouzit nejnizsi vykon potrebny pro spolehive spojeni" },
-          { id: "b", text: "Vzdy vysilat na maximalnim povolenem vykonu" },
-          { id: "c", text: "Pouzit presne polovinu maximalniho vykonu" },
-          { id: "d", text: "Vykon neni dulezity, zalezi jen na antene" },
+          { id: "a", text: "Použít nejnižší výkon potřebný pro spolehlivé spojení" },
+          { id: "b", text: "Vždy vysílat na maximálním povoleném výkonu" },
+          { id: "c", text: "Použít přesně polovinu maximálního výkonu" },
+          { id: "d", text: "Výkon není důležitý, záleží jen na anténě" },
         ],
         correctId: "a",
         explanation:
-          "Radioamater ma povinnost pouzivat nejnizsi vykon nutny k navazani spojeni. Zbytecne vysoke vykony zpusobuji ruseni ostatnim stanicim.",
+          "Radioamatér má povinnost používat nejnižší výkon nutný k navázání spojení. Zbytečně vysoké výkony způsobují rušení ostatním stanicím.",
       },
       {
         type: "explain",
         content:
-          "ERP (Effective Radiated Power) je efektivni vyzareny vykon - zahrnuje vykon vysilace, ztray v kabelu a zisk anteny. PEP (Peak Envelope Power) je spickovy vykon na vystupu vysilace. ERP = vykon vysilace x zisk anteny / ztraty v kabelu.",
+          "ERP (Effective Radiated Power) je efektivní vyzářený výkon - zahrnuje výkon vysílače, ztráty v kabelu a zisk antény. PEP (Peak Envelope Power) je špičkový výkon na výstupu vysílače. ERP = výkon vysílače x zisk antény / ztráty v kabelu.",
       },
       {
         type: "exam-question",
@@ -439,31 +439,31 @@ export const operatingFrequenciesLessons: Lesson[] = [
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte vsechna spravna tvrzeni o vykonovych limitech:",
+        instruction: "Vyberte všechna správná tvrzení o výkonových limitech:",
         pool: [
           {
-            text: "Maximalni vykon pro tridu A je 750 W PEP",
+            text: "Maximální výkon pro třídu A je 750 W PEP",
             correct: true,
           },
           {
-            text: "Radioamater ma vysilat minimalnim potrebnym vykonem",
+            text: "Radioamatér má vysílat minimálním potřebným výkonem",
             correct: true,
           },
           {
-            text: "ERP zahrnuje zisk anteny",
+            text: "ERP zahrnuje zisk antény",
             correct: true,
           },
           {
-            text: "Na vsech pasmech platri stejny vykonovy limit",
+            text: "Na všech pásmech platí stejný výkonový limit",
             correct: false,
           },
           {
-            text: "Trida N smi vysilat az 250 W PEP",
+            text: "Třída N smí vysílat až 250 W PEP",
             correct: false,
           },
         ],
         explanation:
-          "Na nekterych pasmech ci v urcitych oblastech mohou platit snizene limity. Trida N ma limit 100 W PEP, ne 250 W.",
+          "Na některých pásmech či v určitých oblastech mohou platit snížené limity. Třída N má limit 100 W PEP, ne 250 W.",
       },
     ],
     relatedQuestionIds: [

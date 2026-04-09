@@ -10,7 +10,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Z jakych casti se sklada radioamaterskam volaci znacka?",
+      "Z jakých části se sklada radioamaterskam volací značka?",
     choices: [
       { id: "a", text: "Prefix, cislice, suffix" },
       { id: "b", text: "Prefix, suffix, lomitko" },
@@ -19,7 +19,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Volaci znacka ma tri casti: prefix (zeme), cislice (oblast/kategorie) a suffix (unikatni oznaceni). Lomitko neni soucast zakladni struktury.",
+      "Volaci značka ma tři části: prefix (země), číslice (oblast/kategorie) a suffix (unikátní označení). Lomitko není soucast základní struktury.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -27,7 +27,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-002",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co oznacuje prefix ve volaci znacce?",
+    wording: "Co označuje prefix ve volací značce?",
     choices: [
       { id: "a", text: "Zemi, ve ktere je stanice registrovana" },
       { id: "b", text: "Oblast v ramci zeme" },
@@ -36,7 +36,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Prefix urcuje zemi registrace stanice. Oblast se oznacuje cislici za prefixem. Typ vysilace ani pasmo se z volaci znacky neurci.",
+      "Prefix určuje zemí registrace stanice. Oblast se označuje cislici za prefixem. Typ vysílače ani pásmo se z volací značky neurčí.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -44,7 +44,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-003",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jake prefixy pouziva Ceska republika?",
+    wording: "Jake prefixy používá Česká republika?",
     choices: [
       { id: "a", text: "OK a OL" },
       { id: "b", text: "OK a OM" },
@@ -53,7 +53,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Ceska republika ma prefixy OK (tradicni) a OL (dodatecny blok). OM je Slovensko, CZ neni radioamatersky prefix.",
+      "Česká republika ma prefixy OK (tradiční) a OL (dodatečný blok). OM je Slovensko, CZ není radioamatérský prefix.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -61,7 +61,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-004",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jaky je prefix ve volaci znacce OK1ABC?",
+    wording: "Jaky je prefix ve volací značce OK1ABC?",
     choices: [
       { id: "a", text: "OK" },
       { id: "b", text: "OK1" },
@@ -70,7 +70,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Prefix je cast pred cislici - tedy OK. Cislice 1 neni soucasti prefixu, oddeluje prefix od suffixu.",
+      "Prefix je část pred cislici - tedy OK. Cislice 1 není součástí prefixu, odděluje prefix od suffixu.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -78,7 +78,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-005",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co oznacuje cislice ve volaci znacce OK2XYZ?",
+    wording: "Co označuje číslice ve volací značce OK2XYZ?",
     choices: [
       { id: "a", text: "Oblast nebo kategorii v ramci zeme" },
       { id: "b", text: "Pocet operatoru na stanici" },
@@ -87,7 +87,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Cislice za prefixem oznacuje oblast ci kategorii (napriklad okres). Nema nic spolecneho s poctem operatoru ani rokem licence.",
+      "Cislice za prefixem označuje oblast ci kategorii (například okres). Nema nic společného s počtem operátorů ani rokem licence.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -95,16 +95,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-006",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co znamena oznaceni /P za volaci znackou?",
+    wording: "Co znamená označení /P za volací značkou?",
     choices: [
-      { id: "a", text: "Prenosna stanice (portable)" },
-      { id: "b", text: "Mobilni stanice" },
-      { id: "c", text: "Namorni mobilni stanice" },
+      { id: "a", text: "Přenosná stanice (portable)" },
+      { id: "b", text: "Mobilní stanice" },
+      { id: "c", text: "Námořní mobilní stanice" },
       { id: "d", text: "Stanice v zahranici" },
     ],
     correctChoiceId: "a",
     explanation:
-      "/P = portable (prenosna). /M = mobile (mobilni), /MM = maritime mobile (namorni). Provoz ze zahranici se oznacuje prefixem hostitelske zeme.",
+      "/P = portable (přenosná). /M = mobile (mobilní), /MM = maritime mobile (námořní). Provoz ze zahraničí se označuje prefixem hostitelské země.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -112,16 +112,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-007",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co znamena oznaceni /M za volaci znackou?",
+    wording: "Co znamená označení /M za volací značkou?",
     choices: [
-      { id: "a", text: "Mobilni stanice" },
-      { id: "b", text: "Prenosna stanice" },
-      { id: "c", text: "Namorni mobilni stanice" },
-      { id: "d", text: "Letecka mobilni stanice" },
+      { id: "a", text: "Mobilní stanice" },
+      { id: "b", text: "Přenosná stanice" },
+      { id: "c", text: "Námořní mobilní stanice" },
+      { id: "d", text: "Letecká mobilní stanice" },
     ],
     correctChoiceId: "a",
     explanation:
-      "/M = mobile (mobilni, napriklad z automobilu). /P = portable, /MM = maritime mobile, /AM = aeronautical mobile.",
+      "/M = mobile (mobilní, například z automobilu). /P = portable, /MM = maritime mobile, /AM = aeronautical mobile.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -129,16 +129,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-008",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co znamena oznaceni /MM za volaci znackou?",
+    wording: "Co znamená označení /MM za volací značkou?",
     choices: [
-      { id: "a", text: "Namorni mobilni stanice (maritime mobile)" },
-      { id: "b", text: "Dvojita mobilni stanice" },
-      { id: "c", text: "Mobilni stanice s velkym vykonem" },
-      { id: "d", text: "Prenosna stanice na hore" },
+      { id: "a", text: "Námořní mobilní stanice (maritime mobile)" },
+      { id: "b", text: "Dvojitá mobilní stanice" },
+      { id: "c", text: "Mobilní stanice s velkym vykonem" },
+      { id: "d", text: "Přenosná stanice na hore" },
     ],
     correctChoiceId: "a",
     explanation:
-      "/MM = maritime mobile, provoz z lode na mori. Nejedna se o zdvojeny suffix /M.",
+      "/MM = maritime mobile, provoz z lode na mori. Nejedna se o zdvojený suffix /M.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -146,16 +146,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-009",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Odkud vysila stanice OE/OK1ABC?",
+    wording: "Odkud vysílá stanice OE/OK1ABC?",
     choices: [
       { id: "a", text: "Z Rakouska" },
-      { id: "b", text: "Z Ceske republiky" },
+      { id: "b", text: "Z České republiky" },
       { id: "c", text: "Z Nemecka" },
       { id: "d", text: "Ze Slovenska" },
     ],
     correctChoiceId: "a",
     explanation:
-      "OE pred lomitkem oznacuje zemi, ze ktere stanice vysila - OE = Rakousko. OK1ABC je domaci znacka ceskeho operatora.",
+      "OE pred lomítkem označuje zemí, ze které stanice vysílá - OE = Rakousko. OK1ABC je domaci značka českého operátora.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -163,16 +163,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-010",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Odkud vysila stanice SP/OK2DEF?",
+    wording: "Odkud vysílá stanice SP/OK2DEF?",
     choices: [
       { id: "a", text: "Z Polska" },
-      { id: "b", text: "Z Ceske republiky" },
+      { id: "b", text: "Z České republiky" },
       { id: "c", text: "Ze Slovenska" },
       { id: "d", text: "Ze Spanelska" },
     ],
     correctChoiceId: "a",
     explanation:
-      "SP pred lomitkem = stanice vysila z Polska. OK2DEF je domaci ceska znacka operatora.",
+      "SP pred lomítkem = stanice vysílá z Polska. OK2DEF je domaci česká značka operátora.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -180,7 +180,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-011",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jak se oznaci cesky radioamater OK1ABC vysilajici z Nemecka?",
+    wording: "Jak se oznaci český radioamater OK1ABC vysilajici z Nemecka?",
     choices: [
       { id: "a", text: "DL/OK1ABC" },
       { id: "b", text: "OK1ABC/DL" },
@@ -189,7 +189,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Prefix hostitelske zeme se pise pred lomitko a domaci znacku: DL/OK1ABC. Poradi je dulezite - prefix hostitelske zeme je vzdy prvni.",
+      "Prefix hostitelské země se pise pred lomítko a domaci značku: DL/OK1ABC. Poradi je dulezite - prefix hostitelské země je vždy prvni.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -197,7 +197,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-012",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co je suffix ve volaci znacce OK1ABC?",
+    wording: "Co je suffix ve volací značce OK1ABC?",
     choices: [
       { id: "a", text: "ABC" },
       { id: "b", text: "OK" },
@@ -206,7 +206,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Suffix je cast za cislici - ABC. Unikatne identifikuje konkretniho operatora v ramci dane zeme a oblasti.",
+      "Suffix je část za cislici - ABC. Unikatne identifikuje konkrétního operátora v ramci dane země a oblasti.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -214,7 +214,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-013",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera volaci znacka patri ceske stanici?",
+    wording: "Ktera volací značka patri české stanici?",
     choices: [
       { id: "a", text: "OL5ABC" },
       { id: "b", text: "OM3ABC" },
@@ -223,7 +223,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OL je cesky prefix. OM = Slovensko, OE = Rakousko, DL = Nemecko.",
+      "OL je český prefix. OM = Slovensko, OE = Rakousko, DL = Německo.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -231,7 +231,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-014",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Kolik pismen muze mit suffix volaci znacky?",
+    wording: "Kolik pismen může mit suffix volací značky?",
     choices: [
       { id: "a", text: "Jedno az tri" },
       { id: "b", text: "Vzdy presne tri" },
@@ -240,7 +240,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Suffix ma jedno az tri pismena. Napriklad OK1A (jedno), OK1AB (dve) nebo OK1ABC (tri) jsou vsechny platne znacky.",
+      "Suffix ma jedno az tři písmena. Napriklad OK1A (jedno), OK1AB (dvě) nebo OK1ABC (tři) jsou všechny platne značky.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -248,16 +248,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-015",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co oznacuje prefix OL?",
+    wording: "Co označuje prefix OL?",
     choices: [
-      { id: "a", text: "Ceska republika" },
+      { id: "a", text: "Česká republika" },
       { id: "b", text: "Slovensko" },
       { id: "c", text: "Nizozemsko" },
       { id: "d", text: "Norsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "OL je druhy cesky prefix vedle OK. Slovensko = OM, Nizozemsko = PA, Norsko = LA.",
+      "OL je druhý český prefix vedle OK. Slovensko = OM, Nizozemsko = PA, Norsko = LA.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -265,16 +265,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-016",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jaka je domaci zeme stanice s volaci znackou OM3BCS?",
+    wording: "Jaka je domaci země stanice s volací značkou OM3BCS?",
     choices: [
       { id: "a", text: "Slovensko" },
-      { id: "b", text: "Ceska republika" },
+      { id: "b", text: "Česká republika" },
       { id: "c", text: "Oman" },
       { id: "d", text: "Moldavsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "OM = Slovensko. OK/OL = Ceska republika, A4 = Oman, ER = Moldavsko.",
+      "OM = Slovensko. OK/OL = Česká republika, A4 = Oman, ER = Moldavsko.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -282,16 +282,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-017",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Co znamena volaci znacka OK1ABC/AM?",
+    wording: "Co znamená volací značka OK1ABC/AM?",
     choices: [
-      { id: "a", text: "Letecka mobilni stanice (aeronautical mobile)" },
+      { id: "a", text: "Letecká mobilní stanice (aeronautical mobile)" },
       { id: "b", text: "Stanice v Americe" },
       { id: "c", text: "Amaterska stanice" },
       { id: "d", text: "Automaticky mod" },
     ],
     correctChoiceId: "a",
     explanation:
-      "/AM = aeronautical mobile, provoz z letadla. Nesouvisim s Amerikou ani s automatickym modem.",
+      "/AM = aeronautical mobile, provoz z letadla. Nesouvisim s Amerikou ani s automatickym módem.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -300,7 +300,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Stanice vysila pod znackou HA/OK1ABC. Kde se fyzicky nachazi?",
+      "Stanice vysílá pod značkou HA/OK1ABC. Kde se fyzicky nachazi?",
     choices: [
       { id: "a", text: "V Madarsku" },
       { id: "b", text: "V Ceske republice" },
@@ -309,7 +309,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "HA pred lomitkem = stanice je v Madarsku. OK1ABC je domaci znacka ceskeho operatora.",
+      "HA pred lomítkem = stanice je v Madarsku. OK1ABC je domaci značka českého operátora.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -318,7 +318,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Ktera cast volaci znacky jednoznacne identifikuje konkretniho operatora?",
+      "Ktera část volací značky jednoznačně identifikuje konkrétního operátora?",
     choices: [
       { id: "a", text: "Suffix" },
       { id: "b", text: "Prefix" },
@@ -327,7 +327,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Suffix (pismena za cislici) je unikatni pro kazdeho operatora. Prefix urcuje zemi, cislice oblast.",
+      "Suffix (písmena za cislici) je unikátní pro kazdeho operátora. Prefix určuje zemí, číslice oblast.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -344,7 +344,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OM = Slovensko. OK = Ceska republika, OE = Rakousko. SL neni platny radioamatersky prefix.",
+      "OM = Slovensko. OK = Česká republika, OE = Rakousko. SL není platný radioamatérský prefix.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -361,7 +361,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OE = Rakousko (Oesterreich). AU a AT nejsou radioamaterske prefixy. OM = Slovensko.",
+      "OE = Rakousko (Oesterreich). AU a AT nejsou radioamatérské prefixy. OM = Slovensko.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -370,7 +370,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Kdo prideluje radioamaterske prefixy jednotlivym zemim?",
+      "Kdo přiděluje radioamatérské prefixy jednotlivym zemim?",
     choices: [
       { id: "a", text: "ITU (Mezinarodni telekomunikacni unie)" },
       { id: "b", text: "IARU (Mezinarodni radioamaterskam unie)" },
@@ -379,7 +379,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Prefixy prideluje ITU. IARU je mezinarodni organizace radioamateru, ale neprideluje prefixy. OSN a NATO nemaji s prefixy nic spolecneho.",
+      "Prefixy přiděluje ITU. IARU je mezinárodní organizace radioamatérů, ale neprideluje prefixy. OSN a NATO nemaji s prefixy nic společného.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -388,7 +388,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Cesky radioamater OK1XY vysila z prenosne stanice v horach. Jakou znacku pouzije?",
+      "Cesky radioamater OK1XY vysílá z přenosné stanice v horach. Jakou značku pouzije?",
     choices: [
       { id: "a", text: "OK1XY/P" },
       { id: "b", text: "OK1XY/M" },
@@ -397,7 +397,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "/P se pridava za znacku pro prenosny provoz. /M je pro mobilni provoz (z vozidla). Oznaceni se vzdy pridava za vlastni znacku.",
+      "/P se pridava za značku pro přenosný provoz. /M je pro mobilní provoz (z vozidla). Oznaceni se vždy pridava za vlastní značku.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -405,7 +405,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-024",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera volaci znacka oznacuje stanici z Ceske republiky?",
+    wording: "Ktera volací značka označuje stanici z České republiky?",
     choices: [
       { id: "a", text: "OK3AB" },
       { id: "b", text: "OE5AB" },
@@ -414,7 +414,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OK = Ceska republika. OE = Rakousko, OM = Slovensko, SP = Polsko.",
+      "OK = Česká republika. OE = Rakousko, OM = Slovensko, SP = Polsko.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -423,7 +423,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Jak se od sebe lisi prefixy OK a OL?",
+      "Jak se od sebe liší prefixy OK a OL?",
     choices: [
       { id: "a", text: "Oba jsou ceske - OK je tradicni, OL je dodatecny blok" },
       { id: "b", text: "OK je Cesko, OL je Slovensko" },
@@ -432,7 +432,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OK i OL jsou ceske prefixy. Rozdeleni na pasma nebo typ stanice neni spravne - oba se pouzivaji pro vsechny druhy provozu.",
+      "OK i OL jsou české prefixy. Rozdeleni na pásma nebo typ stanice není správně - oba se používají pro všechny druhý provozu.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -441,7 +441,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Stanice OK1ABC vysila z automobilu. Jaky suffix prida?",
+      "Stanice OK1ABC vysílá z automobilu. Jaky suffix prida?",
     choices: [
       { id: "a", text: "/M" },
       { id: "b", text: "/P" },
@@ -450,7 +450,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "/M = mobile (z vozidla). /P = prenosna, /MM = namorni mobilni (z lode), /AM = letecka mobilni.",
+      "/M = mobile (z vozidla). /P = přenosná, /MM = námořní mobilní (z lode), /AM = letecká mobilní.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -459,7 +459,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Kolik cislicmezi prefixem a suffixem obsahuje standardni volaci znacka?",
+      "Kolik cislicmezi prefixem a suffixem obsahuje standardní volací značka?",
     choices: [
       { id: "a", text: "Jednu" },
       { id: "b", text: "Dve" },
@@ -468,7 +468,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Standardni volaci znacka obsahuje prave jednu cislici mezi prefixem a suffixem, napriklad OK1ABC.",
+      "Standardni volací značka obsahuje prave jednu cislici mezi prefixem a suffixem, například OK1ABC.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -476,7 +476,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-028",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Prefix ve volaci znacce muze obsahovat:",
+    wording: "Prefix ve volací značce může obsahovat:",
     choices: [
       { id: "a", text: "Jedno az tri pismena" },
       { id: "b", text: "Vzdy presne dve pismena" },
@@ -485,7 +485,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Prefix ma jedno az tri pismena (napriklad I pro Italii, OK pro Cesko, HB9 vsak obsahuje cislici - to je vyjimka u nekterych prefixu). Bezne prefixy jsou jedno az dvoupismenne.",
+      "Prefix ma jedno az tři písmena (například I pro Italii, OK pro Cesko, HB9 vsak obsahuje cislici - to je výjimka u nekterych prefixu). Bezne prefixy jsou jedno az dvoupismenne.",
     relatedLessonIds: ["prefixes-01"],
     tags: ["volaci-znacka", "recall"],
   },
@@ -498,16 +498,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-029",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix DL?",
+    wording: "Která země používá prefix DL?",
     choices: [
-      { id: "a", text: "Nemecko" },
-      { id: "b", text: "Dansko" },
+      { id: "a", text: "Německo" },
+      { id: "b", text: "Dánsko" },
       { id: "c", text: "Nizozemsko" },
       { id: "d", text: "Lucembursko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "DL = Nemecko (Deutschland). Dansko = OZ, Nizozemsko = PA, Lucembursko = LX.",
+      "DL = Německo (Deutschland). Dánsko = OZ, Nizozemsko = PA, Lucembursko = LX.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -515,16 +515,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-030",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix SP?",
+    wording: "Která země používá prefix SP?",
     choices: [
       { id: "a", text: "Polsko" },
-      { id: "b", text: "Spanelsko" },
+      { id: "b", text: "Španělsko" },
       { id: "c", text: "Portugalsko" },
-      { id: "d", text: "Svedsko" },
+      { id: "d", text: "Švédsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "SP = Polsko. Spanelsko = EA, Portugalsko = CT, Svedsko = SM.",
+      "SP = Polsko. Španělsko = EA, Portugalsko = CT, Švédsko = SM.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -532,16 +532,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-031",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix HA?",
+    wording: "Která země používá prefix HA?",
     choices: [
-      { id: "a", text: "Madarsko" },
+      { id: "a", text: "Maďarsko" },
       { id: "b", text: "Chorvatsko" },
       { id: "c", text: "Nizozemsko" },
       { id: "d", text: "Finsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "HA = Madarsko (Hungary/Magyarorszag). Chorvatsko = 9A, Nizozemsko = PA, Finsko = OH.",
+      "HA = Maďarsko (Hungary/Magyarorszag). Chorvatsko = 9A, Nizozemsko = PA, Finsko = OH.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -549,10 +549,10 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-032",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix OE?",
+    wording: "Která země používá prefix OE?",
     choices: [
       { id: "a", text: "Rakousko" },
-      { id: "b", text: "Ceska republika" },
+      { id: "b", text: "Česká republika" },
       { id: "c", text: "Slovensko" },
       { id: "d", text: "Norsko" },
     ],
@@ -566,16 +566,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-033",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix OM?",
+    wording: "Která země používá prefix OM?",
     choices: [
       { id: "a", text: "Slovensko" },
-      { id: "b", text: "Ceska republika" },
+      { id: "b", text: "Česká republika" },
       { id: "c", text: "Oman" },
       { id: "d", text: "Moldavsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "OM = Slovensko. OK/OL = Ceska republika, A4 = Oman, ER = Moldavsko.",
+      "OM = Slovensko. OK/OL = Česká republika, A4 = Oman, ER = Moldavsko.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -583,16 +583,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-034",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix I?",
+    wording: "Která země používá prefix I?",
     choices: [
-      { id: "a", text: "Italie" },
+      { id: "a", text: "Itálie" },
       { id: "b", text: "Irsko" },
       { id: "c", text: "Island" },
       { id: "d", text: "Izrael" },
     ],
     correctChoiceId: "a",
     explanation:
-      "I = Italie. Irsko = EI, Island = TF, Izrael = 4X.",
+      "I = Itálie. Irsko = EI, Island = TF, Izrael = 4X.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -600,7 +600,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-035",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix F?",
+    wording: "Která země používá prefix F?",
     choices: [
       { id: "a", text: "Francie" },
       { id: "b", text: "Finsko" },
@@ -617,16 +617,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-036",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix G?",
+    wording: "Která země používá prefix G?",
     choices: [
-      { id: "a", text: "Velka Britanie (Anglie)" },
-      { id: "b", text: "Nemecko" },
-      { id: "c", text: "Recko" },
+      { id: "a", text: "Velká Británie (Anglie)" },
+      { id: "b", text: "Německo" },
+      { id: "c", text: "Řecko" },
       { id: "d", text: "Gruzie" },
     ],
     correctChoiceId: "a",
     explanation:
-      "G = Velka Britanie (Anglie). Nemecko = DL, Recko = SV, Gruzie = 4L.",
+      "G = Velká Británie (Anglie). Německo = DL, Řecko = SV, Gruzie = 4L.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -634,7 +634,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-037",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix oznacuje Wales?",
+    wording: "Ktery prefix označuje Wales?",
     choices: [
       { id: "a", text: "GW" },
       { id: "b", text: "GM" },
@@ -643,7 +643,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "GW = Wales, GM = Skotsko, GI = Severni Irsko, G = Anglie. Vsechny jsou soucasti Velke Britanie.",
+      "GW = Wales, GM = Skotsko, GI = Severni Irsko, G = Anglie. Vsechny jsou součástí Velke Britanie.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -651,7 +651,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-038",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix oznacuje Skotsko?",
+    wording: "Ktery prefix označuje Skotsko?",
     choices: [
       { id: "a", text: "GM" },
       { id: "b", text: "GW" },
@@ -660,7 +660,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "GM = Skotsko. GW = Wales, GI = Severni Irsko, SM = Svedsko.",
+      "GM = Skotsko. GW = Wales, GI = Severni Irsko, SM = Švédsko.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -668,16 +668,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-039",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix EA?",
+    wording: "Která země používá prefix EA?",
     choices: [
-      { id: "a", text: "Spanelsko" },
+      { id: "a", text: "Španělsko" },
       { id: "b", text: "Estonsko" },
       { id: "c", text: "Egypt" },
       { id: "d", text: "Ekvador" },
     ],
     correctChoiceId: "a",
     explanation:
-      "EA = Spanelsko (Espana). Estonsko = ES, Egypt = SU, Ekvador = HC.",
+      "EA = Španělsko (Espana). Estonsko = ES, Egypt = SU, Ekvador = HC.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -685,7 +685,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-040",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix PA?",
+    wording: "Která země používá prefix PA?",
     choices: [
       { id: "a", text: "Nizozemsko" },
       { id: "b", text: "Panama" },
@@ -702,7 +702,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-041",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix ON?",
+    wording: "Která země používá prefix ON?",
     choices: [
       { id: "a", text: "Belgie" },
       { id: "b", text: "Norsko" },
@@ -719,16 +719,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-042",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix SM?",
+    wording: "Která země používá prefix SM?",
     choices: [
-      { id: "a", text: "Svedsko" },
+      { id: "a", text: "Švédsko" },
       { id: "b", text: "Skotsko" },
       { id: "c", text: "Slovinsko" },
       { id: "d", text: "Svycarsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "SM = Svedsko. Skotsko = GM, Slovinsko = S5, Svycarsko = HB9.",
+      "SM = Švédsko. Skotsko = GM, Slovinsko = S5, Svycarsko = HB9.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -736,7 +736,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-043",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix LA?",
+    wording: "Která země používá prefix LA?",
     choices: [
       { id: "a", text: "Norsko" },
       { id: "b", text: "Lotyssko" },
@@ -753,16 +753,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-044",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix OH?",
+    wording: "Která země používá prefix OH?",
     choices: [
       { id: "a", text: "Finsko" },
-      { id: "b", text: "Madarsko" },
+      { id: "b", text: "Maďarsko" },
       { id: "c", text: "Rakousko" },
       { id: "d", text: "Norsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "OH = Finsko. Madarsko = HA, Rakousko = OE, Norsko = LA.",
+      "OH = Finsko. Maďarsko = HA, Rakousko = OE, Norsko = LA.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -770,7 +770,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-045",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix UA?",
+    wording: "Která země používá prefix UA?",
     choices: [
       { id: "a", text: "Rusko" },
       { id: "b", text: "Ukrajina" },
@@ -787,7 +787,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-046",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix LZ?",
+    wording: "Která země používá prefix LZ?",
     choices: [
       { id: "a", text: "Bulharsko" },
       { id: "b", text: "Lucembursko" },
@@ -804,16 +804,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-047",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix YO?",
+    wording: "Která země používá prefix YO?",
     choices: [
       { id: "a", text: "Rumunsko" },
       { id: "b", text: "Srbsko" },
-      { id: "c", text: "Recko" },
+      { id: "c", text: "Řecko" },
       { id: "d", text: "Chorvatsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "YO = Rumunsko. Srbsko = YU, Recko = SV, Chorvatsko = 9A.",
+      "YO = Rumunsko. Srbsko = YU, Řecko = SV, Chorvatsko = 9A.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -821,7 +821,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-048",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix 9A?",
+    wording: "Která země používá prefix 9A?",
     choices: [
       { id: "a", text: "Chorvatsko" },
       { id: "b", text: "Srbsko" },
@@ -838,16 +838,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-049",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix S5?",
+    wording: "Která země používá prefix S5?",
     choices: [
       { id: "a", text: "Slovinsko" },
       { id: "b", text: "Slovensko" },
-      { id: "c", text: "Svedsko" },
+      { id: "c", text: "Švédsko" },
       { id: "d", text: "Srbsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "S5 = Slovinsko. Slovensko = OM, Svedsko = SM, Srbsko = YU.",
+      "S5 = Slovinsko. Slovensko = OM, Švédsko = SM, Srbsko = YU.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -855,16 +855,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-050",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix HB9?",
+    wording: "Která země používá prefix HB9?",
     choices: [
       { id: "a", text: "Svycarsko" },
-      { id: "b", text: "Madarsko" },
+      { id: "b", text: "Maďarsko" },
       { id: "c", text: "Belgie" },
       { id: "d", text: "Lichtenstejnsko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "HB9 = Svycarsko. Madarsko = HA, Belgie = ON. Lichtenstejnsko pouziva HB0.",
+      "HB9 = Svycarsko. Maďarsko = HA, Belgie = ON. Lichtenstejnsko používá HB0.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -872,7 +872,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-051",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix CT?",
+    wording: "Která země používá prefix CT?",
     choices: [
       { id: "a", text: "Portugalsko" },
       { id: "b", text: "Chorvatsko" },
@@ -889,16 +889,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-052",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix SV?",
+    wording: "Která země používá prefix SV?",
     choices: [
-      { id: "a", text: "Recko" },
-      { id: "b", text: "Svedsko" },
+      { id: "a", text: "Řecko" },
+      { id: "b", text: "Švédsko" },
       { id: "c", text: "Slovinsko" },
       { id: "d", text: "Slovensko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "SV = Recko. Svedsko = SM, Slovinsko = S5, Slovensko = OM.",
+      "SV = Řecko. Švédsko = SM, Slovinsko = S5, Slovensko = OM.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -906,7 +906,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-053",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix YU?",
+    wording: "Která země používá prefix YU?",
     choices: [
       { id: "a", text: "Srbsko" },
       { id: "b", text: "Rumunsko" },
@@ -923,7 +923,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-054",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jaky prefix ma Nemecko krome DL?",
+    wording: "Jaky prefix ma Německo krome DL?",
     choices: [
       { id: "a", text: "DA az DR (cely blok)" },
       { id: "b", text: "DE az DF" },
@@ -932,7 +932,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Nemecko ma prideleny blok DA az DR, protoze ma nejvetsi radioamaterskou komunitu v Evrope. Nejbeznejsi je DL. GM = Skotsko.",
+      "Německo ma přiděleny blok DA az DR, protoze ma nejvetsi radioamatérskou komunitu v Evrope. Nejbeznejsi je DL. GM = Skotsko.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -940,7 +940,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-055",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix oznacuje Severni Irsko?",
+    wording: "Ktery prefix označuje Severni Irsko?",
     choices: [
       { id: "a", text: "GI" },
       { id: "b", text: "EI" },
@@ -949,7 +949,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "GI = Severni Irsko (soucast Velke Britanie). EI = Irska republika (samostatny stat), GM = Skotsko, GW = Wales.",
+      "GI = Severni Irsko (soucast Velke Britanie). EI = Irska republika (samostatny stát), GM = Skotsko, GW = Wales.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -957,7 +957,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-056",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Jaky prefix ma Dansko?",
+    wording: "Jaky prefix ma Dánsko?",
     choices: [
       { id: "a", text: "OZ" },
       { id: "b", text: "DK" },
@@ -966,7 +966,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "OZ = Dansko. DK neni radioamatersky prefix. DA je soucasti nemeckeho bloku. SM = Svedsko.",
+      "OZ = Dánsko. DK není radioamatérský prefix. DA je součástí německého bloků. SM = Švédsko.",
     relatedLessonIds: ["prefixes-02"],
     tags: ["evropske-prefixy", "recall"],
   },
@@ -1013,7 +1013,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-059",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Do ktereho ITU regionu patri Ceska republika?",
+    wording: "Do kterého ITU regionu patri Česká republika?",
     choices: [
       { id: "a", text: "Region 1" },
       { id: "b", text: "Region 2" },
@@ -1022,7 +1022,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Ceska republika lezi v Evrope, ktera patri do ITU Regionu 1. Region 4 neexistuje.",
+      "Česká republika lezi v Evrope, která patri do ITU Regionu 1. Region 4 neexistuje.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1039,7 +1039,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Region 1 = Evropa a Afrika. Region 2 = Amerika. Region 3 = Asie a Pacifik. Evropa neni samostatny region.",
+      "Region 1 = Evropa a Afrika. Region 2 = Amerika. Region 3 = Asie a Pacifik. Evropa není samostatny region.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1073,7 +1073,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Region 3 = Asie a Pacifik (vcetne Australie, Noveho Zelandu, Japonska atd.).",
+      "Region 3 = Asie a Pacifik (včetně Australie, Noveho Zelandu, Japonska atd.).",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1081,7 +1081,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-063",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix oznacuje USA?",
+    wording: "Ktery prefix označuje USA?",
     choices: [
       { id: "a", text: "W" },
       { id: "b", text: "US" },
@@ -1090,7 +1090,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "W (take K a N) = USA. US neni radioamatersky prefix. UA = Rusko. AM neni prefix.",
+      "W (take K a N) = USA. US není radioamatérský prefix. UA = Rusko. AM není prefix.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },
@@ -1098,7 +1098,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-064",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix oznacuje Kanadu?",
+    wording: "Ktery prefix označuje Kanadu?",
     choices: [
       { id: "a", text: "VE" },
       { id: "b", text: "CA" },
@@ -1107,7 +1107,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "VE = Kanada. CA neni radioamatersky prefix. CQ je vseobecna vyzva, ne prefix. VK = Australie.",
+      "VE = Kanada. CA není radioamatérský prefix. CQ je vseobecna výzva, ne prefix. VK = Australie.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },
@@ -1115,7 +1115,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-065",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix PY?",
+    wording: "Která země používá prefix PY?",
     choices: [
       { id: "a", text: "Brazilie" },
       { id: "b", text: "Paraguay" },
@@ -1132,7 +1132,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-066",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix JA?",
+    wording: "Která země používá prefix JA?",
     choices: [
       { id: "a", text: "Japonsko" },
       { id: "b", text: "Jamajka" },
@@ -1149,7 +1149,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-067",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix VK?",
+    wording: "Která země používá prefix VK?",
     choices: [
       { id: "a", text: "Australie" },
       { id: "b", text: "Kanada" },
@@ -1166,7 +1166,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-068",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix ZL?",
+    wording: "Která země používá prefix ZL?",
     choices: [
       { id: "a", text: "Novy Zeland" },
       { id: "b", text: "Jizni Afrika" },
@@ -1183,7 +1183,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-069",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix VU?",
+    wording: "Která země používá prefix VU?",
     choices: [
       { id: "a", text: "Indie" },
       { id: "b", text: "Vietnam" },
@@ -1200,7 +1200,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-070",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix HL?",
+    wording: "Která země používá prefix HL?",
     choices: [
       { id: "a", text: "Jizni Korea" },
       { id: "b", text: "Japonsko" },
@@ -1217,7 +1217,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-071",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix BY?",
+    wording: "Která země používá prefix BY?",
     choices: [
       { id: "a", text: "Cina" },
       { id: "b", text: "Belorusko" },
@@ -1234,7 +1234,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-072",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix 4X?",
+    wording: "Která země používá prefix 4X?",
     choices: [
       { id: "a", text: "Izrael" },
       { id: "b", text: "Jordansko" },
@@ -1251,7 +1251,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-073",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix ZS?",
+    wording: "Která země používá prefix ZS?",
     choices: [
       { id: "a", text: "Jizni Afrika" },
       { id: "b", text: "Novy Zeland" },
@@ -1268,7 +1268,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-074",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix A4?",
+    wording: "Která země používá prefix A4?",
     choices: [
       { id: "a", text: "Oman" },
       { id: "b", text: "Spojene arabske emiraty" },
@@ -1285,16 +1285,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-075",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix 5B?",
+    wording: "Která země používá prefix 5B?",
     choices: [
       { id: "a", text: "Kypr" },
-      { id: "b", text: "Recko" },
+      { id: "b", text: "Řecko" },
       { id: "c", text: "Malta" },
       { id: "d", text: "Turecko" },
     ],
     correctChoiceId: "a",
     explanation:
-      "5B = Kypr. Recko = SV, Malta = 9H, Turecko = TA.",
+      "5B = Kypr. Řecko = SV, Malta = 9H, Turecko = TA.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },
@@ -1302,16 +1302,16 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-076",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix SU?",
+    wording: "Která země používá prefix SU?",
     choices: [
       { id: "a", text: "Egypt" },
       { id: "b", text: "Sudan" },
-      { id: "c", text: "Svedsko" },
+      { id: "c", text: "Švédsko" },
       { id: "d", text: "Surinam" },
     ],
     correctChoiceId: "a",
     explanation:
-      "SU = Egypt. Sudan = ST, Svedsko = SM, Surinam = PZ.",
+      "SU = Egypt. Sudan = ST, Švédsko = SM, Surinam = PZ.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },
@@ -1319,7 +1319,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-077",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Do ktereho ITU regionu patri Japonsko?",
+    wording: "Do kterého ITU regionu patri Japonsko?",
     choices: [
       { id: "a", text: "Region 3" },
       { id: "b", text: "Region 1" },
@@ -1328,7 +1328,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Japonsko lezi v Asii, ktera patri do ITU Regionu 3 (Asie a Pacifik). Region 4 neexistuje.",
+      "Japonsko lezi v Asii, která patri do ITU Regionu 3 (Asie a Pacifik). Region 4 neexistuje.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1336,7 +1336,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-078",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Do ktereho ITU regionu patri Brazilie?",
+    wording: "Do kterého ITU regionu patri Brazilie?",
     choices: [
       { id: "a", text: "Region 2" },
       { id: "b", text: "Region 1" },
@@ -1345,7 +1345,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Brazilie lezi v Jizni Americe, ktera patri do ITU Regionu 2 (cela Amerika).",
+      "Brazilie lezi v Jizni Americe, která patri do ITU Regionu 2 (cela Amerika).",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1353,7 +1353,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-079",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Do ktereho ITU regionu patri Jizni Afrika?",
+    wording: "Do kterého ITU regionu patri Jizni Afrika?",
     choices: [
       { id: "a", text: "Region 1" },
       { id: "b", text: "Region 2" },
@@ -1362,7 +1362,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Jizni Afrika je v Africe, ktera patri do ITU Regionu 1 (Evropa a Afrika).",
+      "Jizni Afrika je v Africe, která patri do ITU Regionu 1 (Evropa a Afrika).",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1370,7 +1370,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-080",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktery prefix pouzivaji USA krome W?",
+    wording: "Ktery prefix používají USA krome W?",
     choices: [
       { id: "a", text: "K a N" },
       { id: "b", text: "U a V" },
@@ -1379,7 +1379,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "USA ma prefixy W, K, N a dale blok AA-AL. K a N jsou nejbeznejsi vedle W.",
+      "USA ma prefixy W, K, N a dále blok AA-AL. K a N jsou nejbeznejsi vedle W.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },
@@ -1387,7 +1387,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-081",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix LU?",
+    wording: "Která země používá prefix LU?",
     choices: [
       { id: "a", text: "Argentina" },
       { id: "b", text: "Lucembursko" },
@@ -1404,7 +1404,7 @@ export const operatingPrefixesQuestions: Question[] = [
     id: "O-PRF-082",
     examPartId: "operating",
     sectionId: "prefixes",
-    wording: "Ktera zeme pouziva prefix CE?",
+    wording: "Která země používá prefix CE?",
     choices: [
       { id: "a", text: "Chile" },
       { id: "b", text: "Kolumbie" },
@@ -1422,7 +1422,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Do ktereho ITU regionu patri Australie?",
+      "Do kterého ITU regionu patri Australie?",
     choices: [
       { id: "a", text: "Region 3" },
       { id: "b", text: "Region 1" },
@@ -1431,7 +1431,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "Australie patri do ITU Regionu 3 (Asie a Pacifik). Kazda zeme ma prirazeny region.",
+      "Australie patri do ITU Regionu 3 (Asie a Pacifik). Kazda země ma přiřazeny region.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1440,7 +1440,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Ktera organizace rozdelila svet do tri frekvencnich regionu?",
+      "Ktera organizace rozdelila svet do tři frekvencnich regionu?",
     choices: [
       { id: "a", text: "ITU (Mezinarodni telekomunikacni unie)" },
       { id: "b", text: "IARU (Mezinarodni radioamaterskam unie)" },
@@ -1449,7 +1449,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "ITU rozdelila svet do 3 regionu pro spravu frekvencniho spektra. IARU je radioamaterskam organizace, ale nerozhoduje o regionech.",
+      "ITU rozdelila svet do 3 regionu pro správu frekvenčního spektra. IARU je radioamaterskam organizace, ale nerozhoduje o regionech.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["itu-regiony", "recall"],
   },
@@ -1458,7 +1458,7 @@ export const operatingPrefixesQuestions: Question[] = [
     examPartId: "operating",
     sectionId: "prefixes",
     wording:
-      "Proc ma USA prideleno vice radioamaterskych prefixu (W, K, N, AA-AL)?",
+      "Proc ma USA prideleno vice radioamatérských prefixu (W, K, N, AA-AL)?",
     choices: [
       { id: "a", text: "Ma nejvetsi pocet radioamateru na svete" },
       { id: "b", text: "Je nejvetsi zeme na svete" },
@@ -1467,7 +1467,7 @@ export const operatingPrefixesQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "USA ma pres 750 000 licencovanych radioamateru, coz je nejvice na svete. Jeden prefix by nestacil pro tak velky pocet znacek.",
+      "USA ma pres 750 000 licencovanych radioamatérů, coz je nejvice na svete. Jeden prefix by nestacil pro tak velky počet značek.",
     relatedLessonIds: ["prefixes-03"],
     tags: ["svetove-prefixy", "recall"],
   },

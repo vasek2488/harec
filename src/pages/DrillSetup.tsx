@@ -7,6 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { PageContainer } from "@/components/layout/PageContainer";
 import { FilterPanel } from "@/components/drill/FilterPanel";
 import { Button } from "@/components/ui/button";
+import { cs } from "@/../content/i18n/cs";
 import type { Question } from "@/lib/types";
 
 export function DrillSetup() {
@@ -75,7 +76,7 @@ export function DrillSetup() {
 
   return (
     <>
-      <Header title="Procvičování" />
+      <Header title={cs.drill.title} />
       <PageContainer>
         <div className="space-y-6 pb-24">
           <FilterPanel
@@ -87,15 +88,17 @@ export function DrillSetup() {
       </PageContainer>
 
       {/* Sticky start button */}
-      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur">
-        <Button
-          className="w-full"
-          size="lg"
-          onClick={handleStart}
-          disabled={filtered.length === 0}
-        >
-          Start{filtered.length > 0 ? ` (${filtered.length} questions)` : " — no questions match"}
-        </Button>
+      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur lg:bottom-0">
+        <div className="max-w-md mx-auto lg:max-w-5xl">
+          <Button
+            className="w-full"
+            size="lg"
+            onClick={handleStart}
+            disabled={filtered.length === 0}
+          >
+            {cs.drill.startDrill(filtered.length)}
+          </Button>
+        </div>
       </div>
     </>
   );

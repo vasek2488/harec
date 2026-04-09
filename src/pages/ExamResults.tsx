@@ -140,7 +140,7 @@ export function ExamResults() {
         </div>
       </PageContainer>
 
-      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur">
+      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur lg:bottom-0">
         <div className="flex gap-3">
           <Button
             variant="outline"

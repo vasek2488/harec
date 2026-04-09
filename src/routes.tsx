@@ -1,6 +1,7 @@
 import { createBrowserRouter, Outlet } from "react-router";
 import { AppShell } from "@/components/layout/AppShell";
 import { Dashboard } from "@/pages/Dashboard";
+import { Welcome } from "@/pages/Welcome";
 import { Learn } from "@/pages/Learn";
 import { LessonPage } from "@/pages/LessonPage";
 import { DrillSetup } from "@/pages/DrillSetup";
@@ -14,6 +15,7 @@ import { Mistakes } from "@/pages/Mistakes";
 import { Glossary } from "@/pages/Glossary";
 import { Formulas } from "@/pages/Formulas";
 import { Settings } from "@/pages/Settings";
+import { useProgressStore } from "@/stores/progress-store";
 
 function RootLayout() {
   return (
@@ -23,12 +25,23 @@ function RootLayout() {
   );
 }
 
+function HomePage() {
+  const lessonProgress = useProgressStore((s) => s.lessonProgress);
+  const questionStats = useProgressStore((s) => s.questionStats);
+
+  const hasProgress =
+    lessonProgress.some((lp) => lp.completed) ||
+    questionStats.some((qs) => qs.timesAnswered > 0);
+
+  return hasProgress ? <Dashboard /> : <Welcome />;
+}
+
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     children: [
-      { index: true, element: <Dashboard /> },
+      { index: true, element: <HomePage /> },
       { path: "learn", element: <Learn /> },
       { path: "learn/:lessonId", element: <LessonPage /> },
       { path: "drill", element: <DrillSetup /> },

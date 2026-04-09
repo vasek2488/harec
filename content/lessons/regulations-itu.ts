@@ -2,86 +2,86 @@ import type { Lesson } from "@/lib/types";
 
 export const regulationsItuLessons: Lesson[] = [
   // -----------------------------------------------------------------------
-  // Lesson 1: ITU a Radiokomunikacni rad
+  // Lesson 1: ITU a Radiokomunikační řád
   // -----------------------------------------------------------------------
   {
     id: "itu-01",
     examPartId: "regulations",
     sectionId: "itu",
     order: 1,
-    title: "ITU a Radiokomunikacni rad",
+    title: "ITU a Radiokomunikační řád",
     objective:
-      "Porozumet strukture ITU, ucelu Radiokomunikacniho radu a roli Svetove radiokomunikacni konference (WRC).",
+      "Porozumět struktuře ITU, účelu Radiokomunikačního řádu a roli Světové radiokomunikační konference (WRC).",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "Mezinarodni telekomunikacni unie (ITU) je specializovana agentura OSN se sidlem v Zeneve. Spravuje mezinarodni vyuzivani radioveho spektra a druzicovych drah. Pro radioamatery je dulezita, protoze stanovuje ramcova pravidla pro amaterskou sluzbu celosvetove.",
-        note: "ITU byla zalozena v roce 1865 jako Mezinarodni telegrafni unie - je jednou z nejstarsich mezinarodních organizaci.",
+          "Mezinárodní telekomunikační unie (ITU) je specializovaná agentura OSN se sídlem v Ženevě. Spravuje mezinárodní využívání rádiového spektra a družicových drah. Pro radioamatéry je důležitá, protože stanovuje rámcová pravidla pro amatérskou službu celosvětově.",
+        note: "ITU byla založena v roce 1865 jako Mezinárodní telegrafní unie - je jednou z nejstarších mezinárodních organizací.",
       },
       {
         type: "match",
-        instruction: "Priradte sektory ITU k jejich oblasti pusobnosti:",
+        instruction: "Přiřaďte sektory ITU k jejich oblasti působnosti:",
         pairs: [
           { left: "ITU-R", right: "Radiokomunikace a spektrum" },
-          { left: "ITU-T", right: "Standardizace telekomunikaci" },
-          { left: "ITU-D", right: "Rozvoj telekomunikaci" },
+          { left: "ITU-T", right: "Standardizace telekomunikací" },
+          { left: "ITU-D", right: "Rozvoj telekomunikací" },
         ],
         explanation:
-          "ITU ma tri sektory. Pro radioamatery je nejdulezitejsi ITU-R (Radiocommunication Sector), ktery spravuje kmitoctove spektrum a pripravuje Radiokomunikacni rad.",
+          "ITU má tři sektory. Pro radioamatéry je nejdůležitější ITU-R (Radiocommunication Sector), který spravuje kmitočtové spektrum a připravuje Radiokomunikační řád.",
       },
       {
         type: "select-answer",
-        question: "Co je Radiokomunikacni rad (Radio Regulations)?",
+        question: "Co je Radiokomunikační řád (Radio Regulations)?",
         choices: [
           {
             id: "a",
-            text: "Mezinarodni smlouva regulujici vyuzivani kmitoctoveho spektra",
+            text: "Mezinárodní smlouva regulující využívání kmitočtového spektra",
           },
-          { id: "b", text: "Narodni zakon o telekomunikacich" },
-          { id: "c", text: "Technicka norma pro vysilace" },
-          { id: "d", text: "Ucebnice radiokomunikaci" },
+          { id: "b", text: "Národní zákon o telekomunikacích" },
+          { id: "c", text: "Technická norma pro vysílače" },
+          { id: "d", text: "Učebnice radiokomunikací" },
         ],
         correctId: "a",
         explanation:
-          "Radiokomunikacni rad je mezinarodni smlouva s pravni zavaznosti pro clenske staty ITU. Reguluje vyuzivani kmitoctoveho spektra a druzicovych drah.",
+          "Radiokomunikační řád je mezinárodní smlouva s právní závazností pro členské státy ITU. Reguluje využívání kmitočtového spektra a družicových drah.",
       },
       {
         type: "explain",
         content:
-          "Svetova radiokomunikacni konference (WRC - World Radiocommunication Conference) je nejvyssi organ ITU-R pro revizi Radiokomunikacniho radu. Kona se kazdych 3-4 roky. Na WRC se rozhoduje o zmenach v pridelovani kmitoctu, vcetne pasem pro amaterskou sluzbu. Kazda clenska zeme ma jeden hlas.",
+          "Světová radiokomunikační konference (WRC - World Radiocommunication Conference) je nejvyšší orgán ITU-R pro revizi Radiokomunikačního řádu. Koná se každých 3-4 roky. Na WRC se rozhoduje o změnách v přidělování kmitočtů, včetně pásem pro amatérskou službu. Každá členská země má jeden hlas.",
       },
       {
         type: "fill-blank",
-        textBefore: "Svetova radiokomunikacni konference (WRC) se kona priblizne kazdych",
+        textBefore: "Světová radiokomunikační konference (WRC) se koná přibližně každých",
         blank: "3-4 roky",
-        distractors: ["rok", "10 let", "6 mesicu"],
-        textAfter: " a aktualizuje Radiokomunikacni rad.",
+        distractors: ["rok", "10 let", "6 měsíců"],
+        textAfter: " a aktualizuje Radiokomunikační řád.",
         explanation:
-          "WRC se kona zpravidla kazdych 3-4 roky. Posledni konference WRC-23 se konala v roce 2023 v Dubaji.",
+          "WRC se koná zpravidla každých 3-4 roky. Poslední konference WRC-23 se konala v roce 2023 v Dubaji.",
       },
       {
         type: "reveal",
         prompt:
-          "Jaky je zakladni dokument ITU, ktery definuje cile a strukturu organizace?",
-        answer: "Ustava ITU (ITU Constitution)",
+          "Jaký je základní dokument ITU, který definuje cíle a strukturu organizace?",
+        answer: "Ústava ITU (ITU Constitution)",
         explanation:
-          "Ustava ITU spolu s Umluvou ITU (Convention) tvori zakladni pravni ramec organizace. Radiokomunikacni rad je pak doplnkova smlouva.",
+          "Ústava ITU spolu s Úmluvou ITU (Convention) tvoří základní právní rámec organizace. Radiokomunikační řád je pak doplňková smlouva.",
       },
       {
         type: "highlight",
         instruction:
-          "Oznacte, co spada do pusobnosti ITU-R (Radiokomunikacniho sektoru):",
+          "Označte, co spadá do působnosti ITU-R (Radiokomunikačního sektoru):",
         terms: [
-          { text: "Sprava kmitoctoveho spektra", correct: true },
-          { text: "Priprava Radiokomunikacniho radu", correct: true },
+          { text: "Správa kmitočtového spektra", correct: true },
+          { text: "Příprava Radiokomunikačního řádu", correct: true },
           { text: "Organizace WRC", correct: true },
-          { text: "Standardizace pevnych siticovych protokolu", correct: false },
-          { text: "Rozvojova pomoc chudy zemim", correct: false },
+          { text: "Standardizace pevných síťových protokolů", correct: false },
+          { text: "Rozvojová pomoc chudým zemím", correct: false },
         ],
         explanation:
-          "ITU-R se zabyva radiokomunikacemi - spravou spektra, pripravou Radio Regulations a organizaci WRC. Sitove protokoly resi ITU-T, rozvojovou pomoc ITU-D.",
+          "ITU-R se zabývá radiokomunikacemi - správou spektra, přípravou Radio Regulations a organizací WRC. Síťové protokoly řeší ITU-T, rozvojovou pomoc ITU-D.",
       },
       {
         type: "exam-question",
@@ -103,27 +103,27 @@ export const regulationsItuLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 2: Kmitoctove prideleni a tridy emisi
+  // Lesson 2: Kmitočtové přidělení a třídy emisí
   // -----------------------------------------------------------------------
   {
     id: "itu-02",
     examPartId: "regulations",
     sectionId: "itu",
     order: 2,
-    title: "Kmitoctove prideleni a tridy emisi",
+    title: "Kmitočtové přidělení a třídy emisí",
     objective:
-      "Znat rozdeleni sveta na ITU regiony, chapat system oznacovani trid emisi a umet identifikovat bezne druhy emisi pouzivane v amaterske sluzbe.",
+      "Znát rozdělení světa na ITU regiony, chápat systém označování tříd emisí a umět identifikovat běžné druhy emisí používané v amatérské službě.",
     estimatedMinutes: 10,
     slides: [
       {
         type: "explain",
         content:
-          "ITU deli svet na 3 regiony pro ucely pridelovani kmitoctu. Kazdy region ma vlastni tabulku kmitoctovych prideleni. Ceska republika lezi v Regionu 1, ktery zahrnuje Evropu, Afriku, Blizky vychod a cast Asie zapade od Iranu.",
-        note: "Region 2 = Amerika (Severní i Jizni), Region 3 = Asie a Pacifik (vcetne Australie).",
+          "ITU dělí svět na 3 regiony pro účely přidělování kmitočtů. Každý region má vlastní tabulku kmitočtových přidělení. Česká republika leží v Regionu 1, který zahrnuje Evropu, Afriku, Blízký východ a část Asie západně od Íránu.",
+        note: "Region 2 = Amerika (Severní i Jižní), Region 3 = Asie a Pacifik (včetně Austrálie).",
       },
       {
         type: "select-answer",
-        question: "Do ktereho ITU regionu patri Ceska republika?",
+        question: "Do kterého ITU regionu patří Česká republika?",
         choices: [
           { id: "a", text: "Region 1" },
           { id: "b", text: "Region 2" },
@@ -132,17 +132,17 @@ export const regulationsItuLessons: Lesson[] = [
         ],
         correctId: "a",
         explanation:
-          "CR je v Regionu 1 (Evropa, Afrika, Blizky vychod). Proto se kmitoctova prideleni pro ceske radioamatery ridi tabulkou pro Region 1.",
+          "ČR je v Regionu 1 (Evropa, Afrika, Blízký východ). Proto se kmitočtová přidělení pro české radioamatéry řídí tabulkou pro Region 1.",
       },
       {
         type: "explain",
         content:
-          "Trida emise se v ITU oznacuje kodem o minimalne 3 znacich. Prvni znak urcuje typ modulace nosne (napr. A = amplitudova, F = kmitoctova, J = SSB s potlacenou nosnou). Druhy znak urcuje povahu modulacniho signalu (napr. 1 = digitalni bez podnosne, 3 = jeden analogovy kanal). Treti znak urcuje typ prenasene informace (napr. A = telegrafie, E = telefonie/hlas).",
+          "Třída emise se v ITU označuje kódem o minimálně 3 znacích. První znak určuje typ modulace nosné (např. A = amplitudová, F = kmitočtová, J = SSB s potlačenou nosnou). Druhý znak určuje povahu modulačního signálu (např. 1 = digitální bez podnosné, 3 = jeden analogový kanál). Třetí znak určuje typ přenášené informace (např. A = telegrafie, E = telefonie/hlas).",
       },
       {
         type: "match",
         instruction:
-          "Priradte oznaceni emise k odpovidajicimu druhu provozu:",
+          "Přiřaďte označení emise k odpovídajícímu druhu provozu:",
         pairs: [
           { left: "A1A", right: "CW (telegrafie Morseovkou)" },
           { left: "J3E", right: "SSB telefonie (hlas)" },
@@ -150,25 +150,25 @@ export const regulationsItuLessons: Lesson[] = [
           { left: "A3E", right: "AM telefonie (hlas)" },
         ],
         explanation:
-          "A1A = CW, J3E = SSB hlas, F3E = FM hlas, A3E = AM hlas. Toto jsou nejbeznejsi tridy emise v amaterske sluzbe.",
+          "A1A = CW, J3E = SSB hlas, F3E = FM hlas, A3E = AM hlas. Toto jsou nejběžnější třídy emisí v amatérské službě.",
       },
       {
         type: "fill-blank",
-        textBefore: "Oznaceni emise J3E znamena",
-        blank: "SSB s potlacenou nosnou - telefonie",
+        textBefore: "Označení emise J3E znamená",
+        blank: "SSB s potlačenou nosnou - telefonie",
         distractors: [
           "FM telefonie",
           "CW telegrafie",
           "AM s plnou nosnou",
         ],
-        textAfter: ". Je to nejbeznejsi druh emise na KV pasmech.",
+        textAfter: ". Je to nejběžnější druh emise na KV pásmech.",
         explanation:
-          "J = jednopasmenova emise s potlacenou nosnou (SSB), 3 = jeden analogovy kanal, E = telefonie (hlas).",
+          "J = jednopásmová emise s potlačenou nosnou (SSB), 3 = jeden analogový kanál, E = telefonie (hlas).",
       },
       {
         type: "pool-pick",
         instruction:
-          "Vyberte spravne kombinace oznaceni emise a jejich vyznamu:",
+          "Vyberte správné kombinace označení emise a jejich významu:",
         pool: [
           { text: "A1A = CW telegrafie", correct: true },
           { text: "F3E = FM hlas", correct: true },
@@ -178,19 +178,19 @@ export const regulationsItuLessons: Lesson[] = [
           { text: "F3E = CW telegrafie", correct: false },
         ],
         explanation:
-          "A1A je CW (telegrafie klicovanim nosne), F3E je FM telefonie a J3E je SSB telefonie s potlacenou nosnou.",
+          "A1A je CW (telegrafie klíčováním nosné), F3E je FM telefonie a J3E je SSB telefonie s potlačenou nosnou.",
       },
       {
         type: "order",
         instruction:
-          "Seradte casti oznaceni tridy emise v poradi, jak se zapisuji (zleva doprava):",
+          "Seřaďte části označení třídy emise v pořadí, jak se zapisují (zleva doprava):",
         items: [
-          "Typ modulace nosne (pismeno)",
-          "Povaha modulacniho signalu (cislo)",
-          "Typ prenasene informace (pismeno)",
+          "Typ modulace nosné (písmeno)",
+          "Povaha modulačního signálu (číslo)",
+          "Typ přenášené informace (písmeno)",
         ],
         explanation:
-          "Oznaceni tridy emise se cte zleva: prvni znak = typ modulace, druhy = povaha signalu, treti = typ informace. Napr. J-3-E.",
+          "Označení třídy emise se čte zleva: první znak = typ modulace, druhý = povaha signálu, třetí = typ informace. Např. J-3-E.",
       },
       {
         type: "exam-question",
@@ -217,87 +217,87 @@ export const regulationsItuLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 3: Amaterska sluzba v ITU
+  // Lesson 3: Amatérská služba v ITU
   // -----------------------------------------------------------------------
   {
     id: "itu-03",
     examPartId: "regulations",
     sectionId: "itu",
     order: 3,
-    title: "Amaterska sluzba v ITU",
+    title: "Amatérská služba v ITU",
     objective:
-      "Znat definici amaterske sluzby podle ITU, obsah Clanku 25 Radiokomunikacniho radu a zakladni principy amaterske druzicove sluzby.",
+      "Znát definici amatérské služby podle ITU, obsah Článku 25 Radiokomunikačního řádu a základní principy amatérské družicové služby.",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "Amaterska sluzba je v Radiokomunikacnim radu ITU definovana v Clanku 25 (Article 25). Definice zni: radiokomunikacni sluzba pro ucely sebevzdelavani (self-training), vzajemne komunikace a technickych pokusu provadenych radioamatery - tedy osobami s prislusnym opravnenim, ktere se zajimaji o radiotechniku ciste z osobniho zajmu a bez financniho prospechu.",
-        note: "Klicova slova definice: self-training, osobni zajem, bez financniho prospechu (without pecuniary interest).",
+          "Amatérská služba je v Radiokomunikačním řádu ITU definována v Článku 25 (Article 25). Definice zní: radiokomunikační služba pro účely sebevzdělávání (self-training), vzájemné komunikace a technických pokusů prováděných radioamatéry - tedy osobami s příslušným oprávněním, které se zajímají o radiotechniku čistě z osobního zájmu a bez finančního prospěchu.",
+        note: "Klíčová slova definice: self-training, osobní zájem, bez finančního prospěchu (without pecuniary interest).",
       },
       {
         type: "highlight",
         instruction:
-          "Oznacte vlastnosti, ktere podle ITU patri k definici amaterske sluzby:",
+          "Označte vlastnosti, které podle ITU patří k definici amatérské služby:",
         terms: [
-          { text: "Sebevzdelavani (self-training)", correct: true },
-          { text: "Technicke experimentovani", correct: true },
-          { text: "Osobni zajem bez financniho prospechu", correct: true },
-          { text: "Komercni komunikace", correct: false },
-          { text: "Vojenske ucely", correct: false },
-          { text: "Sireni rozhlasoveho vysílani", correct: false },
+          { text: "Sebevzdělávání (self-training)", correct: true },
+          { text: "Technické experimentování", correct: true },
+          { text: "Osobní zájem bez finančního prospěchu", correct: true },
+          { text: "Komerční komunikace", correct: false },
+          { text: "Vojenské účely", correct: false },
+          { text: "Šíření rozhlasového vysílání", correct: false },
         ],
         explanation:
-          "Amaterska sluzba je vyhradne pro sebevzdelavani, technicke pokusy a osobni zajem. Komercni, vojenske ci rozhlasove vyuziti neni povoleno.",
+          "Amatérská služba je výhradně pro sebevzdělávání, technické pokusy a osobní zájem. Komerční, vojenské či rozhlasové využití není povoleno.",
       },
       {
         type: "select-answer",
         question:
-          "Muze radioamater vyuzivat amaterskou sluzbu ke komercnim ucelum?",
+          "Může radioamatér využívat amatérskou službu ke komerčním účelům?",
         choices: [
-          { id: "a", text: "Ne, je to vyslovne zakazano definici ITU" },
-          { id: "b", text: "Ano, pokud ma povoleni od CTU" },
-          { id: "c", text: "Ano, pro maly rozsah podnikani" },
-          { id: "d", text: "Ano, pokud je clnem radioamaterskeho klubu" },
+          { id: "a", text: "Ne, je to výslovně zakázáno definicí ITU" },
+          { id: "b", text: "Ano, pokud má povolení od ČTÚ" },
+          { id: "c", text: "Ano, pro malý rozsah podnikání" },
+          { id: "d", text: "Ano, pokud je členem radioamatérského klubu" },
         ],
         correctId: "a",
         explanation:
-          "Definice ITU vyslovne uvadi 'without pecuniary interest' (bez financniho prospechu). Komercni vyuziti amaterske sluzby je zakazano.",
+          "Definice ITU výslovně uvádí 'without pecuniary interest' (bez finančního prospěchu). Komerční využití amatérské služby je zakázáno.",
       },
       {
         type: "explain",
         content:
-          "Amaterska druzicova sluzba (Amateur-Satellite Service) je definovana jako radiokomunikacni sluzba vyuzivajici kosmicke stanice na druzicich Zeme pro tytez ucely jako amaterska sluzba. Radioamateri mohou komunikovat prostrednictvim amaterskich druzic, jako je napriklad rada satelitu OSCAR.",
+          "Amatérská družicová služba (Amateur-Satellite Service) je definována jako radiokomunikační služba využívající kosmické stanice na družicích Země pro tytéž účely jako amatérská služba. Radioamatéři mohou komunikovat prostřednictvím amatérských družic, jako je například řada satelitů OSCAR.",
       },
       {
         type: "fill-blank",
-        textBefore: "Amaterska sluzba je v Radiokomunikacnim radu ITU definovana v",
-        blank: "Clanku 25",
-        distractors: ["Clanku 1", "Clanku 19", "Clanku 30"],
+        textBefore: "Amatérská služba je v Radiokomunikačním řádu ITU definována v",
+        blank: "Článku 25",
+        distractors: ["Článku 1", "Článku 19", "Článku 30"],
         textAfter: " (Article 25).",
         explanation:
-          "Clanek 25 je venovany amaterske sluzbe a amaterske druzicove sluzbe. Stanovi zakladni podminky pro provozovani techto sluzeb.",
+          "Článek 25 je věnovaný amatérské službě a amatérské družicové službě. Stanoví základní podmínky pro provozování těchto služeb.",
       },
       {
         type: "reveal",
         prompt:
-          "Jaky mezinarodni nouzovy kmitocet se pouziva v amaterske sluzbe na KV?",
+          "Jaký mezinárodní nouzový kmitočet se používá v amatérské službě na KV?",
         answer: "14,300 MHz",
         explanation:
-          "Kmitocet 14,300 MHz (pasmo 20 m) je mezinarodne uznavan jako nouzovy kmitocet amaterske sluzby. Pouziva se pro tisnovouvolani a koordinaci pomoci pri katastrofach.",
+          "Kmitočet 14,300 MHz (pásmo 20 m) je mezinárodně uznáván jako nouzový kmitočet amatérské služby. Používá se pro tísňové volání a koordinaci pomoci při katastrofách.",
       },
       {
         type: "match",
         instruction:
-          "Priradte pojmy z Clanku 25 k jejich vyznamum:",
+          "Přiřaďte pojmy z Článku 25 k jejich významům:",
         pairs: [
-          { left: "Self-training", right: "Sebevzdelavani" },
-          { left: "Without pecuniary interest", right: "Bez financniho prospechu" },
-          { left: "Amateur-Satellite Service", right: "Amaterska druzicova sluzba" },
-          { left: "Duly authorized persons", right: "Osoby s prislusnym opravnenim" },
+          { left: "Self-training", right: "Sebevzdělávání" },
+          { left: "Without pecuniary interest", right: "Bez finančního prospěchu" },
+          { left: "Amateur-Satellite Service", right: "Amatérská družicová služba" },
+          { left: "Duly authorized persons", right: "Osoby s příslušným oprávněním" },
         ],
         explanation:
-          "Tyto pojmy jsou klicove pro pochopeni definice amaterske sluzby v ITU Radio Regulations.",
+          "Tyto pojmy jsou klíčové pro pochopení definice amatérské služby v ITU Radio Regulations.",
       },
       {
         type: "exam-question",

@@ -9,20 +9,20 @@ export const operatingPhoneticLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "phonetic",
     order: 1,
-    title: "Mezinarodni hlaskovaci abeceda (NATO)",
+    title: "Mezinárodní hláskování abeceda (NATO)",
     objective:
-      "Spravne hlaskovat pismena a cisla podle mezinarodni hlaskovaci abecedy NATO.",
+      "Správně hláskovat písmena a čísla podle mezinárodní hláskování abecedy NATO.",
     estimatedMinutes: 7,
     slides: [
       {
         type: "explain",
         content:
-          "Pri radiovem provozu je spravne porozumeni klicove. Suma, ruseni a slaby signal mohou zkreslovat pismena. Proto se pouziva hlaskovaci abeceda NATO, kde kazde pismeno ma jednoznacne slovo. Napriklad misto 'B' rikame 'Bravo', aby si ho nikdo nespletl s 'D' nebo 'P'.",
-        note: "NATO fonetickou abecedu pouzivaji piloti, namornici i radioamateri po celem svete.",
+          "Při rádiovém provozu je správné porozumění klíčové. Šum, rušení a slabý signál mohou zkreslovat písmena. Proto se používá hláskování abeceda NATO, kde každé písmeno má jednoznačné slovo. Například místo 'B' říkáme 'Bravo', aby si ho nikdo nespletl s 'D' nebo 'P'.",
+        note: "NATO fonetickou abecedu používají piloti, námořníci i radioamatéři po celém světě.",
       },
       {
         type: "match",
-        instruction: "Priradte pismeno ke spravnemu hlaskovaci slovu (A-F):",
+        instruction: "Přiřaďte písmeno ke správnému hláskování slovu (A-F):",
         pairs: [
           { left: "A", right: "Alfa" },
           { left: "B", right: "Bravo" },
@@ -32,20 +32,20 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "F", right: "Foxtrot" },
         ],
         explanation:
-          "Alfa se pise bez 'ph' (ne Alpha), aby byla vyslovnost jednoznacna ve vsech jazycich.",
+          "Alfa se píše bez 'ph' (ne Alpha), aby byla výslovnost jednoznačná ve všech jazycích.",
       },
       {
         type: "fill-blank",
-        textBefore: "Pismeno G se v NATO abecede hlaskuje jako",
+        textBefore: "Písmeno G se v NATO abecedě hláskuje jako",
         blank: "Golf",
         distractors: ["Gustav", "Gamma", "George"],
         textAfter: ".",
         explanation:
-          "Golf - neplest s ceskou abecedou, kde G = Gustav. George se pouziva v britske civilni abecede.",
+          "Golf - neplést s českou abecedou, kde G = Gustav. George se používá v britské civilní abecedě.",
       },
       {
         type: "match",
-        instruction: "Priradte pismena G-M ke spravnym slovum:",
+        instruction: "Přiřaďte písmena G-M ke správným slovům:",
         pairs: [
           { left: "G", right: "Golf" },
           { left: "H", right: "Hotel" },
@@ -56,12 +56,12 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "M", right: "Mike" },
         ],
         explanation:
-          "Juliet (ne Julie) a Lima (ne Linda) jsou caste chyby. Zapamatujte si presna NATO slova.",
+          "Juliet (ne Julie) a Lima (ne Linda) jsou časté chyby. Zapamatujte si přesná NATO slova.",
       },
       {
         type: "pool-pick",
         instruction:
-          "Vyberte spravne NATO hlaskovani pro pismena N, O a P:",
+          "Vyberte správné NATO hláskování pro písmena N, O a P:",
         pool: [
           { text: "N = November", correct: true },
           { text: "O = Oscar", correct: true },
@@ -71,11 +71,11 @@ export const operatingPhoneticLessons: Lesson[] = [
           { text: "P = Peter", correct: false },
         ],
         explanation:
-          "Norbert a Ota jsou z ceske abecedy, ne NATO. NATO pouziva November, Oscar, Papa.",
+          "Norbert a Ota jsou z české abecedy, ne NATO. NATO používá November, Oscar, Papa.",
       },
       {
         type: "match",
-        instruction: "Priradte pismena N-S ke spravnym NATO slovum:",
+        instruction: "Přiřaďte písmena N-S ke správným NATO slovům:",
         pairs: [
           { left: "N", right: "November" },
           { left: "O", right: "Oscar" },
@@ -85,20 +85,20 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "S", right: "Sierra" },
         ],
         explanation:
-          "Quebec se vyslovuje 'ke-BEK'. Sierra ma dve 'r' - vyslovuje se 'si-E-ra'.",
+          "Quebec se vyslovuje 'ke-BEK'. Sierra má dvě 'r' - vyslovuje se 'si-E-ra'.",
       },
       {
         type: "fill-blank",
-        textBefore: "Pismeno W se v NATO abecede hlaskuje jako",
+        textBefore: "Písmeno W se v NATO abecedě hláskuje jako",
         blank: "Whiskey",
-        distractors: ["William", "dvojite V", "Wilson"],
+        distractors: ["William", "dvojité V", "Wilson"],
         textAfter: ".",
         explanation:
-          "'Dvojite V' je ceske oznaceni. V NATO abecede je W vzdy Whiskey.",
+          "'Dvojité V' je české označení. V NATO abecedě je W vždy Whiskey.",
       },
       {
         type: "match",
-        instruction: "Priradte pismena T-Z ke spravnym NATO slovum:",
+        instruction: "Přiřaďte písmena T-Z ke správným NATO slovům:",
         pairs: [
           { left: "T", right: "Tango" },
           { left: "U", right: "Uniform" },
@@ -109,18 +109,18 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "Z", right: "Zulu" },
         ],
         explanation:
-          "X-ray se pise se spojovnikem. Zulu se vyslovuje 'ZU-lu'.",
+          "X-ray se píše se spojovníkem. Zulu se vyslovuje 'ZU-lu'.",
       },
       {
         type: "explain",
         content:
-          "Pri hlaskovani znacek pouzivame NATO abecedu pro pismena a specialni vyslovnost pro cislice: 0 = Zero, 1 = One, 2 = Two, 3 = Tree (ne Three!), 4 = Fower (ne Four!), 5 = Fife (ne Five!), 6 = Six, 7 = Seven, 8 = Eight, 9 = Niner (ne Nine!).",
-        note: "Upravena vyslovnost cislic brani zamene: Tree/Three, Fower/Four, Fife/Five, Niner/Nine.",
+          "Při hláskování značek používáme NATO abecedu pro písmena a speciální výslovnost pro číslice: 0 = Zero, 1 = One, 2 = Two, 3 = Tree (ne Three!), 4 = Fower (ne Four!), 5 = Fife (ne Five!), 6 = Six, 7 = Seven, 8 = Eight, 9 = Niner (ne Nine!).",
+        note: "Upravená výslovnost číslic brání záměně: Tree/Three, Fower/Four, Fife/Five, Niner/Nine.",
       },
       {
         type: "select-answer",
         question:
-          "Jak spravne vyhlaskujete znacku DL3XY v NATO abecede?",
+          "Jak správně vyhláskujete značku DL3XY v NATO abecedě?",
         choices: [
           {
             id: "a",
@@ -141,7 +141,7 @@ export const operatingPhoneticLessons: Lesson[] = [
         ],
         correctId: "a",
         explanation:
-          "D = Delta (ne David), L = Lima (ne Ludwig), 3 = Tree (ne Three/Tri), X = X-ray, Y = Yankee (ne Ypsilon). Pouzivame vyhradne NATO slova a upravenou vyslovnost cislic.",
+          "D = Delta (ne David), L = Lima (ne Ludwig), 3 = Tree (ne Three/Tri), X = X-ray, Y = Yankee (ne Ypsilon). Používáme výhradně NATO slova a upravenou výslovnost číslic.",
       },
       {
         type: "exam-question",
@@ -187,45 +187,45 @@ export const operatingPhoneticLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "phonetic",
     order: 2,
-    title: "Ceska hlaskovaci abeceda",
+    title: "Česká hláskování abeceda",
     objective:
-      "Spravne hlaskovat pismena podle ceske hlaskovaci abecedy a rozlisit ji od NATO abecedy.",
+      "Správně hláskovat písmena podle české hláskování abecedy a rozlišit ji od NATO abecedy.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "Ceska hlaskovaci abeceda pouziva ceska krestni jmena a slova. Pouziva se pri vnitrostatnich spojenich v ceskem jazyce. Pro mezinarodni provoz se pouziva NATO abeceda. Ceska abeceda ma navic pismeno CH (digraf), ktere v NATO abecede neexistuje.",
-        note: "Pri mezinarodnim QSO vzdy pouzivejte NATO abecedu, ne ceskou.",
+          "Česká hláskování abeceda používá česká křestní jména a slova. Používá se při vnitrostátních spojeních v českém jazyce. Pro mezinárodní provoz se používá NATO abeceda. Česká abeceda má navíc písmeno CH (digraf), které v NATO abecedě neexistuje.",
+        note: "Při mezinárodním QSO vždy používejte NATO abecedu, ne českou.",
       },
       {
         type: "match",
         instruction:
-          "Priradte pismena A-F k ceskym hlaskovacim slovum:",
+          "Přiřaďte písmena A-F k českým hláskování slovům:",
         pairs: [
           { left: "A", right: "Adam" },
-          { left: "B", right: "Bozena" },
+          { left: "B", right: "Božena" },
           { left: "C", right: "Cyril" },
           { left: "D", right: "David" },
           { left: "E", right: "Emil" },
-          { left: "F", right: "Frantisek" },
+          { left: "F", right: "František" },
         ],
         explanation:
-          "Ceska abeceda pouziva prevazne ceska krestni jmena. Srovnejte: NATO ma Alfa, Bravo, Charlie...",
+          "Česká abeceda používá převážně česká křestní jména. Srovnejte: NATO má Alfa, Bravo, Charlie...",
       },
       {
         type: "fill-blank",
-        textBefore: "Pismeno K se v ceske hlaskovaci abecede hlaskuje jako",
+        textBefore: "Písmeno K se v české hláskování abecedě hláskuje jako",
         blank: "Karel",
-        distractors: ["Kilo", "Kamil", "Klara"],
+        distractors: ["Kilo", "Kamil", "Klára"],
         textAfter: ".",
         explanation:
-          "Karel je spravne ceske hlaskovaci slovo. Kilo je NATO varianta. Kamil ani Klara nejsou standardni.",
+          "Karel je správné české hláskování slovo. Kilo je NATO varianta. Kamil ani Klára nejsou standardní.",
       },
       {
         type: "match",
         instruction:
-          "Priradte pismena G-L (vcetne CH) k ceskym hlaskovacim slovum:",
+          "Přiřaďte písmena G-L (včetně CH) k českým hláskování slovům:",
         pairs: [
           { left: "G", right: "Gustav" },
           { left: "H", right: "Helena" },
@@ -233,24 +233,24 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "I", right: "Ivan" },
           { left: "J", right: "Josef" },
           { left: "K", right: "Karel" },
-          { left: "L", right: "Ludvik" },
+          { left: "L", right: "Ludvík" },
         ],
         explanation:
-          "CH = Chrudim je unikatni pro ceskou abecedu. V NATO abecede digraf CH neexistuje.",
+          "CH = Chrudim je unikátní pro českou abecedu. V NATO abecedě digraf CH neexistuje.",
       },
       {
         type: "reveal",
         prompt:
-          "Proc ma ceska hlaskovaci abeceda pismeno CH, ale NATO abeceda ne?",
+          "Proč má česká hláskování abeceda písmeno CH, ale NATO abeceda ne?",
         answer:
-          "Cestina ma digraf CH jako samostatne pismeno abecedy. V anglictine (a NATO) CH neni samostatne pismeno - hlaskuje se jako Charlie Hotel.",
+          "Čeština má digraf CH jako samostatné písmeno abecedy. V angličtině (a NATO) CH není samostatné písmeno - hláskuje se jako Charlie Hotel.",
         explanation:
-          "Chrudim je mesto ve vychodnich Cechach. CH = Chrudim je jediny digraf v ceske hlaskovaci abecede.",
+          "Chrudim je město ve východních Čechách. CH = Chrudim je jediný digraf v české hláskování abecedě.",
       },
       {
         type: "match",
         instruction:
-          "Priradte pismena M-R k ceskym hlaskovacim slovum:",
+          "Přiřaďte písmena M-R k českým hláskování slovům:",
         pairs: [
           { left: "M", right: "Marie" },
           { left: "N", right: "Norbert" },
@@ -260,64 +260,64 @@ export const operatingPhoneticLessons: Lesson[] = [
           { left: "R", right: "Rudolf" },
         ],
         explanation:
-          "Quido (ne Kvido) - zachovava se pismeno Q. Srovnejte s NATO: Mike, November, Oscar, Papa, Quebec, Romeo.",
+          "Quido (ne Kvido) - zachovává se písmeno Q. Srovnejte s NATO: Mike, November, Oscar, Papa, Quebec, Romeo.",
       },
       {
         type: "pool-pick",
         instruction:
-          "Vyberte spravne ceske hlaskovaci slova:",
+          "Vyberte správné české hláskování slova:",
         pool: [
           { text: "S = Svatopluk", correct: true },
-          { text: "T = Tomas", correct: true },
+          { text: "T = Tomáš", correct: true },
           { text: "U = Urban", correct: true },
           { text: "V = Viktor", correct: false },
           { text: "W = Whiskey", correct: false },
         ],
         explanation:
-          "V ceske abecede je V = Vaclav (ne Viktor, to je NATO). W = dvojite V (ne Whiskey, to je NATO).",
+          "V české abecedě je V = Václav (ne Viktor, to je NATO). W = dvojité V (ne Whiskey, to je NATO).",
       },
       {
         type: "match",
         instruction:
-          "Priradte pismena S-Z k ceskym hlaskovacim slovum:",
+          "Přiřaďte písmena S-Z k českým hláskování slovům:",
         pairs: [
           { left: "S", right: "Svatopluk" },
-          { left: "T", right: "Tomas" },
+          { left: "T", right: "Tomáš" },
           { left: "U", right: "Urban" },
-          { left: "V", right: "Vaclav" },
-          { left: "W", right: "dvojite V" },
+          { left: "V", right: "Václav" },
+          { left: "W", right: "dvojité V" },
           { left: "X", right: "Xaver" },
           { left: "Y", right: "Ypsilon" },
           { left: "Z", right: "Zuzana" },
         ],
         explanation:
-          "W = 'dvojite V' je unikatni - pouziva popis pismene, ne jmeno. Ypsilon oznacuje pismeno Y.",
+          "W = 'dvojité V' je unikátní - používá popis písmene, ne jméno. Ypsilon označuje písmeno Y.",
       },
       {
         type: "select-answer",
         question:
-          "Jaky je hlavni rozdil mezi ceskou a NATO hlaskovaci abecedou?",
+          "Jaký je hlavní rozdíl mezi českou a NATO hláskování abecedou?",
         choices: [
           {
             id: "a",
-            text: "Ceska pouziva ceska jmena a ma digraf CH, NATO pouziva mezinarodne srozumitelna slova",
+            text: "Česká používá česká jména a má digraf CH, NATO používá mezinárodně srozumitelná slova",
           },
           {
             id: "b",
-            text: "NATO abeceda ma vice pismen nez ceska",
+            text: "NATO abeceda má více písmen než česká",
           },
           {
             id: "c",
-            text: "Ceska abeceda se pouziva jen v armade",
+            text: "Česká abeceda se používá jen v armádě",
           },
           {
             id: "d",
-            text: "Mezi abecedami neni zadny rozdil",
+            text: "Mezi abecedami není žádný rozdíl",
           },
         ],
         correctId: "a",
         explanation:
-          "Ceska abeceda pouziva ceska jmena (Adam, Bozena...) a obsahuje CH = Chrudim. NATO abeceda pouziva mezinarodne srozumitelna slova (Alfa, Bravo...) a je standardem pro mezinarodni radiovy provoz.",
+          "Česká abeceda používá česká jména (Adam, Božena...) a obsahuje CH = Chrudim. NATO abeceda používá mezinárodně srozumitelná slova (Alfa, Bravo...) a je standardem pro mezinárodní rádiový provoz.",
       },
       {
         type: "exam-question",

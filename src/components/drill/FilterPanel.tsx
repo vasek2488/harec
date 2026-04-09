@@ -1,6 +1,7 @@
 import type { ExamConfig } from "@/lib/types";
 import type { DrillSettings } from "@/lib/types";
 import { Switch } from "@/components/ui/switch";
+import { cs } from "@/../content/i18n/cs";
 
 interface FilterPanelProps {
   config: ExamConfig;
@@ -32,7 +33,7 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
       {/* Parts filter */}
       <div>
         <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-          Parts
+          {cs.drill.parts}
         </h3>
         <div className="space-y-2">
           {config.parts.map((part) => {
@@ -41,7 +42,7 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
             return (
               <label
                 key={part.id}
-                className="flex cursor-pointer items-center justify-between rounded-lg border border-border p-3"
+                className="flex cursor-pointer items-center justify-between rounded-lg border border-border p-3 transition-colors hover:bg-muted/50"
               >
                 <div className="flex items-center gap-2">
                   {part.icon && <span aria-hidden>{part.icon}</span>}
@@ -60,7 +61,7 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
       {/* Question count */}
       <div>
         <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-          Question Count
+          {cs.drill.questionCount}
         </h3>
         <div className="space-y-2">
           <input
@@ -77,7 +78,7 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
           <div className="flex justify-between text-xs text-muted-foreground">
             <span>5</span>
             <span className="font-semibold text-foreground">
-              {settings.questionCount} questions
+              {cs.drill.questionsUnit(settings.questionCount)}
             </span>
             <span>50</span>
           </div>
@@ -86,10 +87,10 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
 
       {/* Toggles */}
       <div className="space-y-3">
-        <label className="flex items-center justify-between rounded-lg border border-border p-3">
+        <label className="flex items-center justify-between rounded-lg border border-border p-3 transition-colors hover:bg-muted/50">
           <div>
-            <p className="text-sm font-medium">Mistakes only</p>
-            <p className="text-xs text-muted-foreground">Questions you got wrong</p>
+            <p className="text-sm font-medium">{cs.drill.onlyMistakes}</p>
+            <p className="text-xs text-muted-foreground">{cs.drill.onlyMistakesDesc}</p>
           </div>
           <Switch
             checked={settings.onlyMistakes}
@@ -97,10 +98,10 @@ export function FilterPanel({ config, settings, onChange }: FilterPanelProps) {
           />
         </label>
 
-        <label className="flex items-center justify-between rounded-lg border border-border p-3">
+        <label className="flex items-center justify-between rounded-lg border border-border p-3 transition-colors hover:bg-muted/50">
           <div>
-            <p className="text-sm font-medium">Marked difficult</p>
-            <p className="text-xs text-muted-foreground">Questions you flagged</p>
+            <p className="text-sm font-medium">{cs.drill.onlyDifficult}</p>
+            <p className="text-xs text-muted-foreground">{cs.drill.onlyDifficultDesc}</p>
           </div>
           <Switch
             checked={settings.onlyMarkedDifficult}

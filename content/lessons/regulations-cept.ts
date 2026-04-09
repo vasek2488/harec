@@ -11,87 +11,87 @@ export const regulationsCeptLessons: Lesson[] = [
     order: 1,
     title: "CEPT a ECC",
     objective:
-      "Pochopit strukturu CEPT, roli ECC a doporuceni T/R 61-01 a T/R 61-02 pro radioamatery.",
+      "Pochopit strukturu CEPT, roli ECC a doporučení T/R 61-01 a T/R 61-02 pro radioamatéry.",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "CEPT (Conference Europeenne des administrations des Postes et des Telecommunications) je evropska organizace sdruzujici priblizne 48 clenskych statu. Byla zalozena v roce 1959 a jejim cilem je harmonizace postovnich a telekomunikacnich sluzeb v Evrope. Pro radioamatery je CEPT klicova - diky ni existuje system vzajemneho uznavani licenci.",
-        note: "CEPT zahrnuje i zeme mimo EU, napriklad Turecko, Rusko ci zeme Balkanu.",
+          "CEPT (Conference Europeenne des administrations des Postes et des Telecommunications) je evropská organizace sdružující přibližně 48 členských států. Byla založena v roce 1959 a jejím cílem je harmonizace poštovních a telekomunikačních služeb v Evropě. Pro radioamatéry je CEPT klíčová - díky ní existuje systém vzájemného uznávání licencí.",
+        note: "CEPT zahrnuje i země mimo EU, například Turecko, Rusko či země Balkánu.",
       },
       {
         type: "select-answer",
-        question: "Co je hlavnim poslanim organizace CEPT?",
+        question: "Co je hlavním posláním organizace CEPT?",
         choices: [
           {
             id: "a",
-            text: "Harmonizace telekomunikaci a postovnich sluzeb v Evrope",
+            text: "Harmonizace telekomunikací a poštovních služeb v Evropě",
           },
-          { id: "b", text: "Vydavani radioamaterskych licenci" },
-          { id: "c", text: "Provozovani satelitnich druzic" },
-          { id: "d", text: "Vyuka morseovky" },
+          { id: "b", text: "Vydávání radioamatérských licencí" },
+          { id: "c", text: "Provozování satelitních družic" },
+          { id: "d", text: "Výuka morseovky" },
         ],
         correctId: "a",
         explanation:
-          "CEPT se zabyva harmonizaci telekomunikaci a postovnich sluzeb. Licence vydavaji narodni spravy, ne CEPT primo.",
+          "CEPT se zabývá harmonizací telekomunikací a poštovních služeb. Licence vydávají národní správy, ne CEPT přímo.",
       },
       {
         type: "explain",
         content:
-          "V ramci CEPT pusobi ECC (Electronic Communications Committee) - vybor pro elektronicke komunikace. ECC se stara o harmonizaci vyuzivani radiofrekvencniho spektra a satelitnich orbit. Vydava doporuceni (Recommendations) a rozhodnuti (Decisions), ktera prijimaji jednotlive clenske staty. Pro radioamatery jsou klicova doporuceni rady T/R 61.",
+          "V rámci CEPT působí ECC (Electronic Communications Committee) - výbor pro elektronické komunikace. ECC se stará o harmonizaci využívání radiofrekvenčního spektra a satelitních orbit. Vydává doporučení (Recommendations) a rozhodnutí (Decisions), která přijímají jednotlivé členské státy. Pro radioamatéry jsou klíčová doporučení řady T/R 61.",
       },
       {
         type: "match",
         instruction:
-          "Priradte zkratky k jejich vyznamu:",
+          "Přiřaďte zkratky k jejich významu:",
         pairs: [
-          { left: "CEPT", right: "Evropska konference postovnich a telekomunikacnich sprav" },
-          { left: "ECC", right: "Vybor pro elektronicke komunikace" },
-          { left: "WG FM", right: "Pracovni skupina pro spavu frekvenci" },
-          { left: "IARU", right: "Mezinarodni svaz radioamateru" },
+          { left: "CEPT", right: "Evropská konference poštovních a telekomunikačních správ" },
+          { left: "ECC", right: "Výbor pro elektronické komunikace" },
+          { left: "WG FM", right: "Pracovní skupina pro správu frekvencí" },
+          { left: "IARU", right: "Mezinárodní svaz radioamatérů" },
         ],
         explanation:
-          "ECC a jeho pracovni skupiny (vcetne WG FM - Frequency Management) jsou organizacne soucasti CEPT. IARU je nezavisla organizace zastupujici radioamatery.",
+          "ECC a jeho pracovní skupiny (včetně WG FM - Frequency Management) jsou organizačně součástí CEPT. IARU je nezávislá organizace zastupující radioamatéry.",
       },
       {
         type: "explain",
         content:
-          "Doporuceni T/R 61-01 zavadi CEPT radioamaterskou licenci. Drzitel HAREC certifikatu z jedne zeme CEPT muze provozovat amaterskou stanici v jine zemi CEPT, aniz by musel zadat o mistni licenci. Staci mit s sebou platnou domovskou licenci s oznacenim CEPT. Musi vsak dodrzovat predpisy navstivene zeme.",
-        note: "T/R 61-01 se tyka radioamateru ze zemi, ktere jsou cleny CEPT a prijaly toto doporuceni.",
+          "Doporučení T/R 61-01 zavádí CEPT radioamatérskou licenci. Držitel HAREC certifikátu z jedné země CEPT může provozovat amatérskou stanici v jiné zemi CEPT, aniž by musel žádat o místní licenci. Stačí mít s sebou platnou domovskou licenci s označením CEPT. Musí však dodržovat předpisy navštívené země.",
+        note: "T/R 61-01 se týká radioamatérů ze zemí, které jsou členy CEPT a přijaly toto doporučení.",
       },
       {
         type: "fill-blank",
-        textBefore: "Doporuceni T/R 61-01 zavadi",
-        blank: "CEPT radioamaterskou licenci",
+        textBefore: "Doporučení T/R 61-01 zavádí",
+        blank: "CEPT radioamatérskou licenci",
         distractors: [
-          "zkusebni sylabus HAREC",
+          "zkušební sylabus HAREC",
           "povinnou morseovku",
-          "mezinarodni volaci znaky",
+          "mezinárodní volací znaky",
         ],
         textAfter:
-          "pro provoz v jinych zemich CEPT.",
+          "pro provoz v jiných zemích CEPT.",
         explanation:
-          "T/R 61-01 je zakladem systemu CEPT licence - umoznuje provoz bez mistni licence pri cestovani po zemich CEPT.",
+          "T/R 61-01 je základem systému CEPT licence - umožňuje provoz bez místní licence při cestování po zemích CEPT.",
       },
       {
         type: "explain",
         content:
-          "Doporuceni T/R 61-02 resi situaci radioamateru ze zemi, ktere nejsou cleny CEPT nebo neprijaly T/R 61-01. Diky T/R 61-02 mohou tito navstevnici ziskat docasne povoleni k provozu v zemi CEPT. Podminka je, ze maji HAREC certifikat nebo ekvivalentni kvalifikaci.",
+          "Doporučení T/R 61-02 řeší situaci radioamatérů ze zemí, které nejsou členy CEPT nebo nepřijaly T/R 61-01. Díky T/R 61-02 mohou tito návštěvníci získat dočasné povolení k provozu v zemi CEPT. Podmínka je, že mají HAREC certifikát nebo ekvivalentní kvalifikaci.",
       },
       {
         type: "highlight",
         instruction:
-          "Oznacte pravdiva tvrzeni o doporucenich T/R 61-01 a T/R 61-02:",
+          "Označte pravdivá tvrzení o doporučeních T/R 61-01 a T/R 61-02:",
         terms: [
-          { text: "T/R 61-01 je pro radioamatery ze zemi CEPT", correct: true },
-          { text: "T/R 61-02 je pro navstevniky z ne-CEPT zemi", correct: true },
-          { text: "T/R 61-01 vyzaduje HAREC certifikat", correct: true },
-          { text: "T/R 61-02 plati pouze na KV pasmech", correct: false },
-          { text: "T/R 61-01 nahradi domovskou licenci", correct: false },
+          { text: "T/R 61-01 je pro radioamatéry ze zemí CEPT", correct: true },
+          { text: "T/R 61-02 je pro návštěvníky z ne-CEPT zemí", correct: true },
+          { text: "T/R 61-01 vyžaduje HAREC certifikát", correct: true },
+          { text: "T/R 61-02 platí pouze na KV pásmech", correct: false },
+          { text: "T/R 61-01 nahradí domovskou licenci", correct: false },
         ],
         explanation:
-          "T/R 61-01 i T/R 61-02 vyzaduji HAREC. T/R 61-02 neni omezeno na KV pasma. CEPT licence doplnuje, ale nenahradi domovskou licenci.",
+          "T/R 61-01 i T/R 61-02 vyžadují HAREC. T/R 61-02 není omezeno na KV pásma. CEPT licence doplňuje, ale nenahradí domovskou licenci.",
       },
       {
         type: "exam-question",
@@ -116,94 +116,94 @@ export const regulationsCeptLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 2: HAREC a vzajemne uznavani
+  // Lesson 2: HAREC a vzájemné uznávání
   // -----------------------------------------------------------------------
   {
     id: "cept-02",
     examPartId: "regulations",
     sectionId: "cept",
     order: 2,
-    title: "HAREC a vzajemne uznavani",
+    title: "HAREC a vzájemné uznávání",
     objective:
-      "Vysvetlit ucel certifikatu HAREC, princip vzajemneho uznavani licenci a roli ERC Report 32.",
+      "Vysvětlit účel certifikátu HAREC, princip vzájemného uznávání licencí a roli ERC Report 32.",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "HAREC (Harmonised Amateur Radio Examination Certificate) je harmonizovany certifikat, ktery prokazuje, ze jeho drzitel slozil radioamaterskou zkousku podle jednotneho evropskeho standardu. Diky HAREC certifikatu radioamater nemusí skladat novou zkousku pri stazeni se do jine zeme CEPT - jeho kvalifikace je automaticky uznana.",
-        note: "HAREC je certifikat o kvalifikaci, ne licence k provozu. Licenci vydava vzdy narodni sprava.",
+          "HAREC (Harmonised Amateur Radio Examination Certificate) je harmonizovaný certifikát, který prokazuje, že jeho držitel složil radioamatérskou zkoušku podle jednotného evropského standardu. Díky HAREC certifikátu radioamatér nemusí skládat novou zkoušku při stěhování se do jiné země CEPT - jeho kvalifikace je automaticky uznána.",
+        note: "HAREC je certifikát o kvalifikaci, ne licence k provozu. Licenci vydává vždy národní správa.",
       },
       {
         type: "select-answer",
-        question: "Co presne je HAREC?",
+        question: "Co přesně je HAREC?",
         choices: [
           {
             id: "a",
-            text: "Harmonizovany certifikat o slozeni radioamaterske zkousky",
+            text: "Harmonizovaný certifikát o složení radioamatérské zkoušky",
           },
-          { id: "b", text: "Mezinarodni radioamaterska licence" },
-          { id: "c", text: "Volaci znak pro provoz v zahranici" },
-          { id: "d", text: "Organizace provozujici zkousky" },
+          { id: "b", text: "Mezinárodní radioamatérská licence" },
+          { id: "c", text: "Volací znak pro provoz v zahraničí" },
+          { id: "d", text: "Organizace provozující zkoušky" },
         ],
         correctId: "a",
         explanation:
-          "HAREC je certifikat (osvedceni), ne licence. Licence se vydava na zaklade certifikatu narodni spravou.",
+          "HAREC je certifikát (osvědčení), ne licence. Licence se vydává na základě certifikátu národní správou.",
       },
       {
         type: "explain",
         content:
-          "Obsah zkousky HAREC je definovan v dokumentu ERC Report 32. Tento sylabus specifikuje tri hlavni oblasti: technickou teorii (elektrotechnika, soucastky, prijimace, vysilace, anteny, sireni vln, mereni, ruseni, bezpecnost), provozni postupy (provozni pravidla, Q-kody, hlaskovaci abeceda) a predpisy (narodni i mezinarodni). Kazda zeme CEPT vytvorí zkousku pokryvajici vsechna temata ERC Report 32.",
+          "Obsah zkoušky HAREC je definován v dokumentu ERC Report 32. Tento sylabus specifikuje tři hlavní oblasti: technickou teorii (elektrotechnika, součástky, přijímače, vysílače, antény, šíření vln, měření, rušení, bezpečnost), provozní postupy (provozní pravidla, Q-kódy, hláskovací abeceda) a předpisy (národní i mezinárodní). Každá země CEPT vytvoří zkoušku pokrývající všechna témata ERC Report 32.",
       },
       {
         type: "pool-pick",
         instruction:
-          "Vyberte oblasti, ktere patri do zkousky HAREC podle ERC Report 32:",
+          "Vyberte oblasti, které patří do zkoušky HAREC podle ERC Report 32:",
         pool: [
-          { text: "Technicka teorie", correct: true },
-          { text: "Provozni postupy a predpisy", correct: true },
-          { text: "Predpisy (narodni a mezinarodni)", correct: true },
-          { text: "Programovani v jazyce C", correct: false },
-          { text: "Stavba anten ze drevа", correct: false },
-          { text: "Dejiny radioamaterstvi", correct: false },
+          { text: "Technická teorie", correct: true },
+          { text: "Provozní postupy a předpisy", correct: true },
+          { text: "Předpisy (národní a mezinárodní)", correct: true },
+          { text: "Programování v jazyce C", correct: false },
+          { text: "Stavba antén ze dřeva", correct: false },
+          { text: "Dějiny radioamatérství", correct: false },
         ],
         explanation:
-          "ERC Report 32 definuje tri pilire zkousky: techniku, provoz a predpisy. Programovani, stavba anten ani historie nejsou soucasti HAREC zkousky.",
+          "ERC Report 32 definuje tři pilíře zkoušky: techniku, provoz a předpisy. Programování, stavba antén ani historie nejsou součástí HAREC zkoušky.",
       },
       {
         type: "reveal",
         prompt:
-          "Proc je system HAREC vyhodny pro radioamatery, kteri cestuji nebo se stehuji?",
+          "Proč je systém HAREC výhodný pro radioamatéry, kteří cestují nebo se stěhují?",
         answer:
-          "Drzitel HAREC nemusi skladat novou zkousku v jine zemi CEPT. Jeho kvalifikace je automaticky uznana diky vzajemnemu uznavani. Pri cestovani muze provozovat na zaklade CEPT licence (T/R 61-01), pri stazeni muze pozadat o mistni licenci bez dalsi zkousky.",
+          "Držitel HAREC nemusí skládat novou zkoušku v jiné zemi CEPT. Jeho kvalifikace je automaticky uznána díky vzájemnému uznávání. Při cestování může provozovat na základě CEPT licence (T/R 61-01), při stěhování může požádat o místní licenci bez další zkoušky.",
         explanation:
-          "Vzajemne uznavani setri cas i naklady - bez HAREC by radioamater musel skladat zkousku v kazde zemi zvlast.",
+          "Vzájemné uznávání šetří čas i náklady - bez HAREC by radioamatér musel skládat zkoušku v každé zemi zvlášť.",
       },
       {
         type: "match",
         instruction:
-          "Priradte dokument k jeho ucelu:",
+          "Přiřaďte dokument k jeho účelu:",
         pairs: [
-          { left: "ERC Report 32", right: "Definuje sylabus zkousky HAREC" },
-          { left: "T/R 61-01", right: "CEPT licence pro zeme CEPT" },
-          { left: "T/R 61-02", right: "Docasne povoleni pro ne-CEPT navstevniky" },
-          { left: "HAREC certifikat", right: "Potvrzeni o slozeni harmonizovane zkousky" },
+          { left: "ERC Report 32", right: "Definuje sylabus zkoušky HAREC" },
+          { left: "T/R 61-01", right: "CEPT licence pro země CEPT" },
+          { left: "T/R 61-02", right: "Dočasné povolení pro ne-CEPT návštěvníky" },
+          { left: "HAREC certifikát", right: "Potvrzení o složení harmonizované zkoušky" },
         ],
         explanation:
-          "Kazdy dokument ma odlisny ucel: ERC Report 32 = co se zkusi, HAREC = doklad o uspesne zkousce, T/R 61-01 a 61-02 = jak licenci pouzit v zahranici.",
+          "Každý dokument má odlišný účel: ERC Report 32 = co se zkouší, HAREC = doklad o úspěšné zkoušce, T/R 61-01 a 61-02 = jak licenci použít v zahraničí.",
       },
       {
         type: "order",
         instruction:
-          "Seradte kroky, ktere radioamater absolvuje od zkousky po provoz v zahranici:",
+          "Seřaďte kroky, které radioamatér absolvuje od zkoušky po provoz v zahraničí:",
         items: [
-          "Slozi zkousku podle sylabu ERC Report 32",
-          "Obdrzi HAREC certifikat",
-          "Ziska narodni radioamaterskou licenci s oznacenim CEPT",
-          "Provozuje v jine zemi CEPT na zaklade T/R 61-01",
+          "Složí zkoušku podle sylabu ERC Report 32",
+          "Obdrží HAREC certifikát",
+          "Získá národní radioamatérskou licenci s označením CEPT",
+          "Provozuje v jiné zemi CEPT na základě T/R 61-01",
         ],
         explanation:
-          "Proces zacina zkouskou, pokracuje ziskanim HAREC certifikatu a narodni licence, a konci moznosti provozovat v zahranici diky CEPT licenci.",
+          "Proces začíná zkouškou, pokračuje získáním HAREC certifikátu a národní licence, a končí možností provozovat v zahraničí díky CEPT licenci.",
       },
       {
         type: "exam-question",

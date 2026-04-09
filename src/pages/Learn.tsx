@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/Header";
 import { PageContainer } from "@/components/layout/PageContainer";
 import { TopicList } from "@/components/learn/TopicList";
 import { getLessons, getConfig } from "@/lib/content-loader";
+import { cs } from "@/../content/i18n/cs";
 
 export function Learn() {
   const lessonProgress = useProgressStore((s) => s.lessonProgress);
@@ -17,10 +18,10 @@ export function Learn() {
     <>
       <Header />
       <PageContainer>
-        <div className="space-y-4 pb-20">
+        <div className="space-y-4 pb-20 lg:pb-0">
         {/* Summary bar */}
         <div className="flex items-center justify-between rounded-lg bg-muted px-4 py-3">
-          <span className="text-sm font-medium">Lessons completed</span>
+          <span className="text-sm font-medium">{cs.learn.lessonsCompleted}</span>
           <span className="text-sm font-semibold">
             {completedLessons}/{totalLessons}
           </span>

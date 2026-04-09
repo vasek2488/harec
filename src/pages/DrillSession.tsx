@@ -10,6 +10,7 @@ import { QuestionCard } from "@/components/drill/QuestionCard";
 import { AnswerInput } from "@/components/drill/AnswerInput";
 import { Button } from "@/components/ui/button";
 import type { Choice } from "@/lib/types";
+import { cs } from "@/../content/i18n/cs";
 
 function shuffleArray<T>(items: T[]): T[] {
   const copy = [...items];
@@ -133,21 +134,23 @@ export function DrillSession() {
       </PageContainer>
 
       {/* Bottom action */}
-      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur">
-        {!submitted ? (
-          <Button
-            className="w-full"
-            size="lg"
-            onClick={handleSubmit}
-            disabled={!selectedId}
-          >
-            Submit
-          </Button>
-        ) : (
-          <Button className="w-full" size="lg" onClick={handleNext}>
-            {isLast ? "See Results" : "Next Question"}
-          </Button>
-        )}
+      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur lg:bottom-0">
+        <div className="max-w-md mx-auto lg:max-w-5xl">
+          {!submitted ? (
+            <Button
+              className="w-full"
+              size="lg"
+              onClick={handleSubmit}
+              disabled={!selectedId}
+            >
+              {cs.common.confirm}
+            </Button>
+          ) : (
+            <Button className="w-full" size="lg" onClick={handleNext}>
+              {isLast ? cs.drill.results : cs.common.next}
+            </Button>
+          )}
+        </div>
       </div>
     </>
   );

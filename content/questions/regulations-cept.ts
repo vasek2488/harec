@@ -8,7 +8,7 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-001",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Co znamena zkratka CEPT?",
+    wording: "Co znamená zkratka CEPT?",
     choices: [
       {
         id: "a",
@@ -29,7 +29,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "CEPT je Evropska konference postovnich a telekomunikacnich sprav (Conference Europeenne des administrations des Postes et des Telecommunications). Byla zalozena v roce 1959.",
+      "CEPT je Evropska konference poštovních a telekomunikačních správ (Conference Europeenne des administrations des Postes et des Telecommunications). Byla založena v roce 1959.",
     relatedLessonIds: ["cept-01"],
     tags: ["cept", "organizace", "recall"],
   },
@@ -37,28 +37,28 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-002",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Jaky je hlavni ucel vyboru ECC v ramci CEPT?",
+    wording: "Jaky je hlavní účel výboru ECC v ramci CEPT?",
     choices: [
       {
         id: "a",
-        text: "Harmonizace vyuzivani radiofrekvencniho spektra v Evrope",
+        text: "Harmonizace využívání radiofrekvencniho spektra v Evrope",
       },
       {
         id: "b",
-        text: "Vydavani radioamaterske licence primo jednotlivcum",
+        text: "Vydavani radioamatérské licence přímo jednotlivcům",
       },
       {
         id: "c",
-        text: "Provozovani satelitnich komunikacnich systemu",
+        text: "Provozovani satelitních komunikačních systemu",
       },
       {
         id: "d",
-        text: "Vyuka radioamaterskych kurzu",
+        text: "Vyuka radioamatérských kurzu",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "ECC (Electronic Communications Committee) je vybor CEPT zodpovedny za harmonizaci vyuzivani radiofrekvencniho spektra a satelitnich orbit v Evrope. Nevydava licence primo - to delaji narodni spravy.",
+      "ECC (Electronic Communications Committee) je výbor CEPT zodpovědný za harmonizací využívání radiofrekvencniho spektra a satelitních orbit v Evrope. Nevydava licence přímo - to delaji narodni správy.",
     relatedLessonIds: ["cept-01"],
     tags: ["ecc", "harmonizace", "recall"],
   },
@@ -66,28 +66,28 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-003",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Co upravuje doporuceni CEPT T/R 61-01?",
+    wording: "Co upravuje doporučení CEPT T/R 61-01?",
     choices: [
       {
         id: "a",
-        text: "CEPT radioamaterskou licenci pro provoz v zemich CEPT",
+        text: "CEPT radioamatérskou licenci pro provoz v zemích CEPT",
       },
       {
         id: "b",
-        text: "Pozadavky na zkousku HAREC",
+        text: "Pozadavky na zkoušku HAREC",
       },
       {
         id: "c",
-        text: "Docasne povoleni pro navstevniky z ne-CEPT zemi",
+        text: "Docasne povolení pro návštěvníky z ne-CEPT zemí",
       },
       {
         id: "d",
-        text: "Pridel kmitoctu pro amaterskou sluzbu",
+        text: "Pridel kmitočtů pro amatérskou sluzbu",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "T/R 61-01 stanovuje CEPT radioamaterskou licenci, ktera umoznuje drzitelum HAREC certifikatu provozovat amaterskou stanici v jinych zemich CEPT bez potreby ziskat mistni licenci.",
+      "T/R 61-01 stanovuje CEPT radioamatérskou licenci, která umožňuje držitelům HAREC certifikátu provozovat amatérskou stanici v jinych zemích CEPT bez potřeby získat místní licenci.",
     relatedLessonIds: ["cept-01"],
     tags: ["tr-61-01", "licence", "recall"],
   },
@@ -95,19 +95,19 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-004",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Doporuceni T/R 61-02 se tyka:",
+    wording: "Doporuceni T/R 61-02 se týká:",
     choices: [
       {
         id: "a",
-        text: "Docasneho povoleni pro radioamatery z ne-CEPT zemi navstevujici zeme CEPT",
+        text: "Docasneho povolení pro radioamatéry z ne-CEPT zemí navštěvující země CEPT",
       },
       {
         id: "b",
-        text: "Trvaleho povoleni pro radioamatery v jejich domovske zemi",
+        text: "Trvaleho povolení pro radioamatéry v jejich domovské zemí",
       },
       {
         id: "c",
-        text: "Prodeje radioamaterske techniky v Evrope",
+        text: "Prodeje radioamatérské techniky v Evrope",
       },
       {
         id: "d",
@@ -116,7 +116,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "T/R 61-02 umoznuje radioamaterum ze zemi, ktere neprijaly T/R 61-01, ziskat docasne povoleni k provozu v zemich CEPT. Podminka je drzeni HAREC certifikatu.",
+      "T/R 61-02 umožňuje radioamatérům ze zemí, které nepřijaly T/R 61-01, získat dočasné povolení k provozu v zemích CEPT. Podminka je držení HAREC certifikátu.",
     relatedLessonIds: ["cept-01"],
     tags: ["tr-61-02", "ne-cept", "recall"],
   },
@@ -125,7 +125,7 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Kolik clenskych statu ma priblizne CEPT?",
+      "Kolik členských států ma přibližně CEPT?",
     choices: [
       { id: "a", text: "Asi 48" },
       { id: "b", text: "Asi 27" },
@@ -134,7 +134,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "CEPT ma priblizne 48 clenskych statu - zahrnuje nejen zeme EU, ale i dalsi evropske staty vcetne napriklad Turecka, Ruska ci zemi zapadniho Balkanu.",
+      "CEPT ma přibližně 48 členských států - zahrnuje nejen země EU, ale i další evropské státy včetně například Turecka, Ruska ci zemí zapadniho Balkanu.",
     relatedLessonIds: ["cept-01"],
     tags: ["cept", "clenove", "recall"],
   },
@@ -143,28 +143,28 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Jaka je hlavni podminka pro vyuziti CEPT licence podle T/R 61-01?",
+      "Jaka je hlavní podmínka pro využití CEPT licence podle T/R 61-01?",
     choices: [
       {
         id: "a",
-        text: "Drzitel musi mit platny HAREC certifikat",
+        text: "Drzitel musí mit platný HAREC certifikát",
       },
       {
         id: "b",
-        text: "Drzitel musi slozit zkousku v navstivene zemi",
+        text: "Drzitel musí složit zkoušku v navštívené zemí",
       },
       {
         id: "c",
-        text: "Drzitel musi byt obcanem zeme EU",
+        text: "Drzitel musí byt občanem země EU",
       },
       {
         id: "d",
-        text: "Drzitel musi pouzivat pouze VKV pasma",
+        text: "Drzitel musí používat pouze VKV pásma",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "Zakladni podminkou pro vyuziti CEPT licence (T/R 61-01) je drzeni platneho HAREC certifikatu. Neni nutne byt obcanem EU ani skladat zkousku v navstivene zemi.",
+      "Zakladni podmínkou pro využití CEPT licence (T/R 61-01) je držení platného HAREC certifikátu. Neni nutné byt občanem EU ani skládat zkoušku v navštívené zemí.",
     relatedLessonIds: ["cept-01"],
     tags: ["tr-61-01", "harec", "application"],
   },
@@ -173,7 +173,7 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Ktera organizace je nadrazena ECC a WG FM?",
+      "Ktera organizace je nadřazená ECC a WG FM?",
     choices: [
       { id: "a", text: "CEPT" },
       { id: "b", text: "ITU" },
@@ -182,7 +182,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "ECC (Electronic Communications Committee) a jeho pracovni skupiny (vcetne WG FM) jsou soucasti CEPT. ITU je svetova organizace, IARU je svaz radioamateru a ETSI je normalizacni organizace.",
+      "ECC (Electronic Communications Committee) a jeho pracovni skupiny (včetně WG FM) jsou součástí CEPT. ITU je svetova organizace, IARU je svaz radioamatérů a ETSI je normalizační organizace.",
     relatedLessonIds: ["cept-01"],
     tags: ["cept", "ecc", "organizace", "recall"],
   },
@@ -191,7 +191,7 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Radioamater z ne-CEPT zeme navstivi Nemecko. Podle ktereho doporuceni muze ziskat docasne povoleni?",
+      "Radioamater z ne-CEPT země navštíví Nemecko. Podle kterého doporučení může získat dočasné povolení?",
     choices: [
       { id: "a", text: "T/R 61-02" },
       { id: "b", text: "T/R 61-01" },
@@ -200,7 +200,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "T/R 61-02 se tyka docasneho povoleni pro navstevniky z ne-CEPT zemi. T/R 61-01 je pro drzitele licenci ze zemi CEPT. ERC Report 32 definuje zkousky, nikoli povoleni.",
+      "T/R 61-02 se týká dočasného povolení pro návštěvníky z ne-CEPT zemí. T/R 61-01 je pro držitele licenci ze zemí CEPT. ERC Report 32 definuje zkoušky, nikoli povolení.",
     relatedLessonIds: ["cept-01", "cept-02"],
     tags: ["tr-61-02", "ne-cept", "application"],
   },
@@ -212,7 +212,7 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-009",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Co znamena zkratka HAREC?",
+    wording: "Co znamená zkratka HAREC?",
     choices: [
       {
         id: "a",
@@ -233,7 +233,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "HAREC = Harmonised Amateur Radio Examination Certificate. Je to harmonizovany certifikat prokazujici slozeni zkousky podle jednotneho evropskeho standardu.",
+      "HAREC = Harmonised Amateur Radio Examination Certificate. Je to harmonizovaný certifikát prokazující složení zkoušky podle jednotného evropskeho standardu.",
     relatedLessonIds: ["cept-02"],
     tags: ["harec", "certifikat", "recall"],
   },
@@ -241,28 +241,28 @@ export const regulationsCeptQuestions: Question[] = [
     id: "R-CEP-010",
     examPartId: "regulations",
     sectionId: "cept",
-    wording: "Jaky je hlavni ucel certifikatu HAREC?",
+    wording: "Jaky je hlavní účel certifikátu HAREC?",
     choices: [
       {
         id: "a",
-        text: "Umoznit vzajemne uznavani radioamaterskych zkousek mezi zememi CEPT",
+        text: "Umoznit vzájemně uznávání radioamatérských zkoušek mezi zememi CEPT",
       },
       {
         id: "b",
-        text: "Povolit provoz jen na VKV pasmech",
+        text: "Povolit provoz jen na VKV pásmech",
       },
       {
         id: "c",
-        text: "Nahradit narodni radioamaterske licence",
+        text: "Nahradit narodni radioamatérské licence",
       },
       {
         id: "d",
-        text: "Udelit povoleni k prodeji radioamaterske techniky",
+        text: "Udelit povolení k prodeji radioamatérské techniky",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "HAREC umoznuje vzajemne uznavani zkousek - radioamater, ktery slozi zkousku v jedne zemi CEPT na urovni HAREC, nemusí skladat novou zkousku v jine zemi CEPT.",
+      "HAREC umožňuje vzájemně uznávání zkoušek - radioamater, který složí zkoušku v jedné zemí CEPT na urovni HAREC, nemusí skládat novou zkoušku v jine zemí CEPT.",
     relatedLessonIds: ["cept-02"],
     tags: ["harec", "uznavani", "recall"],
   },
@@ -271,7 +271,7 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Ktery dokument definuje obsah (sylabus) zkousky pro ziskani HAREC certifikatu?",
+      "Ktery dokument definuje obsah (sylabus) zkoušky pro získání HAREC certifikátu?",
     choices: [
       { id: "a", text: "ERC Report 32" },
       { id: "b", text: "T/R 61-01" },
@@ -280,7 +280,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "ERC Report 32 definuje zkusebni sylabus - temata a rozsah vedomosti, ktere musi radioamater prokazat pro ziskani HAREC certifikatu. T/R 61-01 resi licenci, ne obsah zkousky.",
+      "ERC Report 32 definuje zkušební sylabus - temata a rozsah vědomostí, které musí radioamater prokázat pro získání HAREC certifikátu. T/R 61-01 resi licenci, ne obsah zkoušky.",
     relatedLessonIds: ["cept-02"],
     tags: ["erc-report-32", "sylabus", "recall"],
   },
@@ -289,15 +289,15 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Ktere tri hlavni oblasti pokryva zkouska HAREC podle ERC Report 32?",
+      "Ktere tři hlavní oblasti pokryva zkouška HAREC podle ERC Report 32?",
     choices: [
       {
         id: "a",
-        text: "Technika, provozni postupy a predpisy, predpisy",
+        text: "Technika, provozní postupy a předpisy, předpisy",
       },
       {
         id: "b",
-        text: "Morseovka, anteny a sifrovani",
+        text: "Morseovka, antény a šifrování",
       },
       {
         id: "c",
@@ -310,7 +310,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "HAREC zkouska zahrnuje tri hlavni casti: technickou teorii (elektrotechnika, soucástky, obvody, anteny...), provozni postupy a predpisy, a predpisy (narodni i mezinarodni). Morseovka jiz neni povinnou soucasti zkousky HAREC.",
+      "HAREC zkouška zahrnuje tři hlavní části: technickou teorii (elektrotechnika, součástky, obvody, antény...), provozní postupy a předpisy, a předpisy (narodni i mezinárodní). Morseovka již není povinnou součástí zkoušky HAREC.",
     relatedLessonIds: ["cept-02"],
     tags: ["harec", "sylabus", "recall"],
   },
@@ -319,28 +319,28 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Radioamater ze zeme CEPT cestuje do jine zeme CEPT. Musi skladat novou zkousku?",
+      "Radioamater ze země CEPT cestuje do jine země CEPT. Musi skládat novou zkoušku?",
     choices: [
       {
         id: "a",
-        text: "Ne, pokud ma platny HAREC certifikat - staci CEPT licence podle T/R 61-01",
+        text: "Ne, pokud ma platný HAREC certifikát - stačí CEPT licence podle T/R 61-01",
       },
       {
         id: "b",
-        text: "Ano, vzdy musi slozit mistni zkousku",
+        text: "Ano, vždy musí složit místní zkoušku",
       },
       {
         id: "c",
-        text: "Ne, ale musi zaplatit rocni poplatek v navstivene zemi",
+        text: "Ne, ale musí zaplatit roční poplatek v navštívené zemí",
       },
       {
         id: "d",
-        text: "Ano, ale jen zkousku z predpisu navstivene zeme",
+        text: "Ano, ale jen zkoušku z předpisu navštívené země",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "Diky CEPT licenci (T/R 61-01) muze drzitel HAREC provozovat amaterskou stanici v jine zemi CEPT bez dalsi zkousky. Musi ale dodrzovat mistni predpisy navstivene zeme.",
+      "Diky CEPT licenci (T/R 61-01) může držitel HAREC provozovat amatérskou stanici v jine zemí CEPT bez další zkoušky. Musi ale dodržovat místní předpisy navštívené země.",
     relatedLessonIds: ["cept-02", "cept-01"],
     tags: ["cept-licence", "vzajemne-uznavani", "application"],
   },
@@ -349,15 +349,15 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Jak se lisi CEPT licence (T/R 61-01) od docasneho povoleni (T/R 61-02)?",
+      "Jak se liší CEPT licence (T/R 61-01) od dočasného povolení (T/R 61-02)?",
     choices: [
       {
         id: "a",
-        text: "T/R 61-01 je pro radioamatery ze zemi CEPT, T/R 61-02 pro navstevniky z ne-CEPT zemi",
+        text: "T/R 61-01 je pro radioamatéry ze zemí CEPT, T/R 61-02 pro návštěvníky z ne-CEPT zemí",
       },
       {
         id: "b",
-        text: "T/R 61-01 je pro KV pasma, T/R 61-02 pro VKV pasma",
+        text: "T/R 61-01 je pro KV pásma, T/R 61-02 pro VKV pásma",
       },
       {
         id: "c",
@@ -365,12 +365,12 @@ export const regulationsCeptQuestions: Question[] = [
       },
       {
         id: "d",
-        text: "T/R 61-01 plati jen 30 dni, T/R 61-02 plati trvale",
+        text: "T/R 61-01 platí jen 30 dni, T/R 61-02 platí trvale",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "T/R 61-01 umoznuje radioamaterum ze zemi CEPT provozovat v jinych zemich CEPT. T/R 61-02 poskytuje docasne povoleni pro navstevniky ze zemi mimo CEPT, ktere toto doporuceni prijaly.",
+      "T/R 61-01 umožňuje radioamatérům ze zemí CEPT provozovat v jinych zemích CEPT. T/R 61-02 poskytuje dočasné povolení pro návštěvníky ze zemí mimo CEPT, které toto doporučení přijaly.",
     relatedLessonIds: ["cept-02", "cept-01"],
     tags: ["tr-61-01", "tr-61-02", "porovnani", "application"],
   },
@@ -379,28 +379,28 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Co musi radioamater dodrzovat pri provozu v zahranici na zaklade CEPT licence?",
+      "Co musí radioamater dodržovat pri provozu v zahraničí na základě CEPT licence?",
     choices: [
       {
         id: "a",
-        text: "Predpisy navstivene zeme (kmitocty, vykony, provozni podminky)",
+        text: "Predpisy navštívené země (kmitočty, výkony, provozní podmínky)",
       },
       {
         id: "b",
-        text: "Pouze predpisy sve domovske zeme",
+        text: "Pouze předpisy sve domovské země",
       },
       {
         id: "c",
-        text: "Pouze mezinarodni predpisy ITU",
+        text: "Pouze mezinárodní předpisy ITU",
       },
       {
         id: "d",
-        text: "Zadne - CEPT licence osloboduje od mistnich predpisu",
+        text: "Zadne - CEPT licence osvobozuje od místních předpisu",
       },
     ],
     correctChoiceId: "a",
     explanation:
-      "Pri provozu v zahranici na zaklade CEPT licence musi radioamater vzdy dodrzovat predpisy navstivene zeme - povolena pasma, maximalni vykony a provozni podminky se mohou lisit od domovske zeme.",
+      "Pri provozu v zahraničí na základě CEPT licence musí radioamater vždy dodržovat předpisy navštívené země - povolena pásma, maximální výkony a provozní podmínky se mohou lišit od domovské země.",
     relatedLessonIds: ["cept-02"],
     tags: ["cept-licence", "predpisy", "application"],
   },
@@ -409,7 +409,7 @@ export const regulationsCeptQuestions: Question[] = [
     examPartId: "regulations",
     sectionId: "cept",
     wording:
-      "Ktera organizace zastupuje zajmy radioamateru na mezinarodnim poli a spolupracuje s CEPT?",
+      "Ktera organizace zastupuje zájmy radioamatérů na mezinárodním poli a spolupracuje s CEPT?",
     choices: [
       { id: "a", text: "IARU (International Amateur Radio Union)" },
       { id: "b", text: "ETSI (European Telecommunications Standards Institute)" },
@@ -418,7 +418,7 @@ export const regulationsCeptQuestions: Question[] = [
     ],
     correctChoiceId: "a",
     explanation:
-      "IARU je mezinarodni svaz radioamateru, ktery zastupuje zajmy radioamateru na mezinarodnim poli a spolupracuje s organizacemi jako CEPT a ITU. ARRL je pouze americka organizace, ETSI se zabyva normami a IEEE je profesni spolek.",
+      "IARU je mezinárodní svaz radioamatérů, který zastupuje zájmy radioamatérů na mezinárodním poli a spolupracuje s organizacemi jako CEPT a ITU. ARRL je pouze americká organizace, ETSI se zabývá normami a IEEE je profesní spolek.",
     relatedLessonIds: ["cept-02"],
     tags: ["iaru", "organizace", "recall"],
   },

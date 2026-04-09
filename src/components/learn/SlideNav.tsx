@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { cs } from "@/../content/i18n/cs";
 
 interface SlideNavProps {
   current: number;
@@ -21,7 +22,7 @@ export function SlideNav({
   isLast,
 }: SlideNavProps) {
   return (
-    <div className="fixed bottom-16 left-0 right-0 z-10 border-t border-border bg-background/90 backdrop-blur px-4 py-3">
+    <div className="fixed bottom-16 left-0 right-0 z-10 border-t border-border bg-background/90 backdrop-blur px-4 py-3 lg:bottom-0">
       {/* Progress bar */}
       <div className="mb-3 h-1 w-full overflow-hidden rounded-full bg-muted">
         <div
@@ -47,7 +48,7 @@ export function SlideNav({
 
         {isLast ? (
           <Button onClick={onComplete} disabled={!canNext} size="sm">
-            Complete
+            {cs.common.finish}
           </Button>
         ) : (
           <Button

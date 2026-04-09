@@ -7,6 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { PageContainer } from "@/components/layout/PageContainer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
+import { cs } from "@/../content/i18n/cs";
 
 export function DrillResults() {
   const navigate = useNavigate();
@@ -23,28 +24,28 @@ export function DrillResults() {
   const wrongAnswers = answers.filter((a) => !a.correct);
 
   if (total === 0) {
-    // No session — redirect
+    // No session - redirect
     navigate("/drill");
     return null;
   }
 
   return (
     <>
-      <Header title="Výsledky" />
+      <Header title={cs.drill.results} />
       <PageContainer>
         <div className="space-y-6 pb-24">
           {/* Score summary */}
           <div className="rounded-xl border border-border bg-card p-6 text-center shadow-sm">
             <p className="text-6xl font-bold">{score}%</p>
             <p className="mt-2 text-muted-foreground">
-              {correct} / {total} correct
+              {cs.drill.correctCount(correct, total)}
             </p>
           </div>
 
           {/* Part breakdown */}
           {partScores.length > 0 && (
             <div>
-              <h2 className="mb-3 font-semibold">By Part</h2>
+              <h2 className="mb-3 font-semibold">{cs.drill.byPart}</h2>
               <div className="space-y-3">
                 {partScores.map((ps) => (
                   <div
@@ -75,7 +76,7 @@ export function DrillResults() {
           {wrongAnswers.length > 0 && (
             <div>
               <h2 className="mb-3 font-semibold">
-                Mistakes ({wrongAnswers.length})
+                {cs.drill.mistakes(wrongAnswers.length)}
               </h2>
               <div className="space-y-3">
                 {wrongAnswers.map((answer) => {
@@ -96,11 +97,11 @@ export function DrillResults() {
                       <div className="mt-2 space-y-1 text-xs">
                         <div className="flex items-center gap-1 text-red-600 dark:text-red-400">
                           <XCircle className="h-3 w-3 shrink-0" />
-                          <span>You: {selectedChoice?.text ?? "No answer"}</span>
+                          <span>{cs.drill.yourAnswer}: {selectedChoice?.text ?? cs.common.noAnswer}</span>
                         </div>
                         <div className="flex items-center gap-1 text-green-600 dark:text-green-400">
                           <CheckCircle2 className="h-3 w-3 shrink-0" />
-                          <span>Correct: {correctChoice?.text}</span>
+                          <span>{cs.drill.correctAnswer}: {correctChoice?.text}</span>
                         </div>
                       </div>
                     </div>
@@ -113,17 +114,17 @@ export function DrillResults() {
       </PageContainer>
 
       {/* Bottom CTAs */}
-      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur">
-        <div className="flex gap-3">
+      <div className="fixed bottom-16 left-0 right-0 border-t border-border bg-background/90 px-4 py-3 backdrop-blur lg:bottom-0">
+        <div className="flex gap-3 max-w-md mx-auto lg:max-w-5xl">
           <Button
             variant="outline"
             className="flex-1"
             onClick={() => navigate("/drill")}
           >
-            New Drill
+            {cs.drill.newDrill}
           </Button>
           <Button className="flex-1" onClick={() => navigate("/")}>
-            Dashboard
+            {cs.nav.dashboard}
           </Button>
         </div>
       </div>

@@ -9,76 +9,76 @@ export const operatingSkillsLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "skills",
     order: 1,
-    title: "Navazovani spojeni - CQ a odpoved",
+    title: "Navazování spojení - CQ a odpověď",
     objective:
-      "Spravne vyvolat obecnou vyzvu CQ a odpovedet na volani jine stanice.",
+      "Správně vyvolat obecnou výzvu CQ a odpovědět na volání jiné stanice.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "CQ je obecna vyzva vsem stanicim. Radioamater nejprve posloucha, zda je frekvence volna, a pak vysila: 'CQ CQ CQ, tady OK1ABC OK1ABC OK1ABC, prjem.' Znacka se opakuje 1-3x. Po vyslani CQ stanice ceka na odpoved.",
-        note: "CQ pochazi z anglickeho 'seek you' - hledam vas.",
+          "CQ je obecná výzva všem stanicím. Radioamatér nejprve poslouchá, zda je frekvence volná, a pak vysílá: 'CQ CQ CQ, tady OK1ABC OK1ABC OK1ABC, příjem.' Značka se opakuje 1-3x. Po vyslání CQ stanice čeká na odpověď.",
+        note: "CQ pochází z anglického 'seek you' - hledám vás.",
       },
       {
         type: "order",
-        instruction: "Seradte kroky spravneho postupu volani CQ:",
+        instruction: "Seřaďte kroky správného postupu volání CQ:",
         items: [
-          "Poslechnout, zda je frekvence volna",
-          "Zeptat se 'Je frekvence volna?' (QRL?)",
+          "Poslechnout, zda je frekvence volná",
+          "Zeptat se 'Je frekvence volná?' (QRL?)",
           "Vyslat CQ 3x",
-          "Vyslat DE a vlastni znacku foneticky",
-          "Rici 'prijem' nebo 'standing by'",
+          "Vyslat DE a vlastní značku foneticky",
+          "Říci 'příjem' nebo 'standing by'",
         ],
         explanation:
-          "Pred volanim CQ je nutne overit, ze frekvenci nikdo nepouziva. Teprve pak je mozne volat. Znacka se vysila fonetickou abecedou.",
+          "Před voláním CQ je nutné ověřit, že frekvenci nikdo nepoužívá. Teprve pak je možné volat. Značka se vysílá fonetickou abecedou.",
       },
       {
         type: "fill-blank",
-        textBefore: "Pri volani CQ se vlastni znacka opakuje",
+        textBefore: "Při volání CQ se vlastní značka opakuje",
         blank: "1-3x",
-        distractors: ["5-10x", "jen 1x", "neustale dokola"],
+        distractors: ["5-10x", "jen 1x", "neustále dokola"],
         textAfter: ".",
         explanation:
-          "Znacka se opakuje 1 az 3 krat. Prilis dlouhe CQ je nezdvorile a snizuje sanci na odpoved - ostatni stanice nebudou cekat.",
+          "Značka se opakuje 1 až 3 krát. Příliš dlouhé CQ je nezdvořilé a snižuje šanci na odpověď - ostatní stanice nebudou čekat.",
       },
       {
         type: "explain",
         content:
-          "Odpoved na CQ: 'OK2DEF OK2DEF, tady OK1ABC OK1ABC, prijem.' Nejprve znacka volane stanice (1-2x), pak DE a vlastni znacka (1-2x). Na KV se pouziva foneticky hlaskovani znacky.",
+          "Odpověď na CQ: 'OK2DEF OK2DEF, tady OK1ABC OK1ABC, příjem.' Nejprve značka volané stanice (1-2x), pak DE a vlastní značka (1-2x). Na KV se používá fonetické hláskování značky.",
       },
       {
         type: "select-answer",
-        question: "Jak spravne odpovite na CQ stanice OK2DEF?",
+        question: "Jak správně odpovíte na CQ stanice OK2DEF?",
         choices: [
-          { id: "a", text: "OK2DEF, tady OK1ABC, prijem" },
+          { id: "a", text: "OK2DEF, tady OK1ABC, příjem" },
           { id: "b", text: "CQ CQ CQ, tady OK1ABC" },
-          { id: "c", text: "OK1ABC vola OK2DEF, konec" },
+          { id: "c", text: "OK1ABC volá OK2DEF, konec" },
           { id: "d", text: "Ahoj OK2DEF, tady OK1ABC" },
         ],
         correctId: "a",
         explanation:
-          "Spravny format: znacka volane stanice, 'tady/DE', vlastni znacka, 'prijem/K'. Nevysilate CQ - to je pouze pro obecnou vyzvu. Nepouzivate 'konec' na zacatku.",
+          "Správný formát: značka volané stanice, 'tady/DE', vlastní značka, 'příjem/K'. Nevysíláte CQ - to je pouze pro obecnou výzvu. Nepoužíváte 'konec' na začátku.",
       },
       {
         type: "reveal",
-        prompt: "Jaky je rozdil mezi 'prijem' (over) a 'konec' (out)?",
+        prompt: "Jaký je rozdíl mezi 'příjem' (over) a 'konec' (out)?",
         answer:
-          "'Prijem' (over/K) znamena, ze predavate slovo a ocekavate odpoved. 'Konec' (out/SK) znamena ukonceni spojeni - nepredpoklada se dalsi odpoved.",
+          "'Příjem' (over/K) znamená, že předáváte slovo a očekáváte odpověď. 'Konec' (out/SK) znamená ukončení spojení - nepředpokládá se další odpověď.",
         explanation:
-          "Nikdy se nepouziva 'prijem a konec' (over and out) zaroven - je to protimluv.",
+          "Nikdy se nepoužívá 'příjem a konec' (over and out) zároveň - je to protimluv.",
       },
       {
         type: "match",
-        instruction: "Priradte zkratky k jejich vyznamu:",
+        instruction: "Přiřaďte zkratky k jejich významu:",
         pairs: [
-          { left: "CQ", right: "Obecna vyzva vsem stanicim" },
-          { left: "DE", right: "Od / tady (identifikace odesilajici stanice)" },
-          { left: "K", right: "Prijem - predavam slovo" },
-          { left: "SK", right: "Konec spojeni" },
+          { left: "CQ", right: "Obecná výzva všem stanicím" },
+          { left: "DE", right: "Od / tady (identifikace odesílající stanice)" },
+          { left: "K", right: "Příjem - předávám slovo" },
+          { left: "SK", right: "Konec spojení" },
         ],
         explanation:
-          "Tyto zkratky pochazeji z telegrafniho provozu (CW) a pouzivaji se i ve fonickem provozu.",
+          "Tyto zkratky pocházejí z telegrafního provozu (CW) a používají se i ve fonickém provozu.",
       },
       {
         type: "exam-question",
@@ -86,31 +86,31 @@ export const operatingSkillsLessons: Lesson[] = [
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte vsechna spravna pravidla pro postup QSO:",
+        instruction: "Vyberte všechna správná pravidla pro postup QSO:",
         pool: [
           {
-            text: "Pred volanim CQ je nutne poslouchat, zda je frekvence volna",
+            text: "Před voláním CQ je nutné poslouchat, zda je frekvence volná",
             correct: true,
           },
           {
-            text: "CQ se vysila na jakemkoli kmitoctu bez ohledu na bandplan",
+            text: "CQ se vysílá na jakémkoli kmitočtu bez ohledu na bandplán",
             correct: false,
           },
           {
-            text: "Znacka se hlaskuje fonetickou abecedou ICAO/NATO",
+            text: "Značka se hláskuje fonetickou abecedou ICAO/NATO",
             correct: true,
           },
           {
-            text: "Odpoved na CQ zacina znackou volane stanice",
+            text: "Odpověď na CQ začíná značkou volané stanice",
             correct: true,
           },
           {
-            text: "Pri CQ se znacka opakuje minimalne 10x",
+            text: "Při CQ se značka opakuje minimálně 10x",
             correct: false,
           },
         ],
         explanation:
-          "CQ se vysila jen na kmitoctech prislusnych druhu provozu podle bandplanu. Znacka se opakuje 1-3x, ne 10x.",
+          "CQ se vysílá jen na kmitočtech příslušných druhů provozu podle bandplánu. Značka se opakuje 1-3x, ne 10x.",
       },
     ],
     relatedQuestionIds: [
@@ -136,34 +136,34 @@ export const operatingSkillsLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "skills",
     order: 2,
-    title: "RST report a vymena informaci",
+    title: "RST report a výměna informací",
     objective:
-      "Sestavit spravny RST report a vyjmenovat informace vymenujovane behem standardniho spojeni.",
+      "Sestavit správný RST report a vyjmenovat informace vyměňované během standardního spojení.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "RST system hodnotri kvalitu signalu tremi cisly: R (Readability, citelnost 1-5), S (Strength, sila 1-9) a T (Tone, ton 1-9, pouze pro CW). Ve fonickem provozu se udava pouze RS (napr. '59' znamena perfektne citelny, velmi silny signal).",
-        note: "R5 S9 je nejlepsi mozne hodnoceni ve fonickem provozu.",
+          "RST systém hodnotí kvalitu signálu třemi čísly: R (Readability, čitelnost 1-5), S (Strength, síla 1-9) a T (Tone, tón 1-9, pouze pro CW). Ve fonickém provozu se udává pouze RS (např. '59' znamená perfektně čitelný, velmi silný signál).",
+        note: "R5 S9 je nejlepší možné hodnocení ve fonickém provozu.",
       },
       {
         type: "match",
-        instruction: "Priradte hodnotu R (citelnost) k jejimu vyznamu:",
+        instruction: "Přiřaďte hodnotu R (čitelnost) k jejímu významu:",
         pairs: [
-          { left: "R1", right: "Necitelny" },
-          { left: "R2", right: "Sotva citelny" },
-          { left: "R3", right: "Citelny s obtizemi" },
-          { left: "R4", right: "Citelny s malymi obtizemi" },
-          { left: "R5", right: "Perfektne citelny" },
+          { left: "R1", right: "Nečitelný" },
+          { left: "R2", right: "Sotva čitelný" },
+          { left: "R3", right: "Čitelný s obtížemi" },
+          { left: "R4", right: "Čitelný s malými obtížemi" },
+          { left: "R5", right: "Perfektně čitelný" },
         ],
         explanation:
-          "Stupnice R 1-5 hodnoti, jak dobre rozumite obsahu zpravy. R3 znamena, ze rozumite, ale musi te se soustredit.",
+          "Stupnice R 1-5 hodnotí, jak dobře rozumíte obsahu zprávy. R3 znamená, že rozumíte, ale musíte se soustředit.",
       },
       {
         type: "slider",
         question:
-          "Jaky RS report date stanici, ktera je citelna s obtizemi a ma prumerne silny signal?",
+          "Jaký RS report dáte stanici, která je čitelná s obtížemi a má průměrně silný signál?",
         min: 11,
         max: 59,
         step: 1,
@@ -171,47 +171,47 @@ export const operatingSkillsLessons: Lesson[] = [
         correctValue: 35,
         tolerance: 2,
         explanation:
-          "R3 = citelny s obtizemi, S5 = prumerny signal. Report je tedy 35. S stupnice jde od 1 (sotva znatelny) do 9 (extremne silny).",
+          "R3 = čitelný s obtížemi, S5 = průměrný signál. Report je tedy 35. S stupnice jde od 1 (sotva znatelný) do 9 (extrémně silný).",
       },
       {
         type: "fill-blank",
         textBefore: "V RST reportu 579 hodnota S =",
         blank: "7",
         distractors: ["5", "9", "57"],
-        textAfter: " (sila signalu).",
+        textAfter: " (síla signálu).",
         explanation:
-          "V RST 579: R=5 (citelnost), S=7 (sila signalu), T=9 (ton, jen CW). S je druha cifra.",
+          "V RST 579: R=5 (čitelnost), S=7 (síla signálu), T=9 (tón, jen CW). S je druhá cifra.",
       },
       {
         type: "explain",
         content:
-          "Behem standardniho spojeni (QSO) si stanice vymenuji: volaci znacky, RS(T) report, jmena operatoru, QTH (polohu/mesto), popis zarizeni a anteny. Na konci se vymeni podekavani 73 (pozdrav) a spojeni se ukonci.",
+          "Během standardního spojení (QSO) si stanice vymění: volací značky, RS(T) report, jména operátorů, QTH (polohu/město), popis zařízení a antény. Na konci se vymění poděkování 73 (pozdrav) a spojení se ukončí.",
       },
       {
         type: "order",
-        instruction: "Seradte typicky prubeh standardniho QSO:",
+        instruction: "Seřaďte typický průběh standardního QSO:",
         items: [
-          "Vymena volacich znacek",
-          "Predani RST reportu",
-          "Jmena operatoru a QTH",
-          "Popis zarizeni a anteny",
-          "Podekavani 73 a ukonceni",
+          "Výměna volacích značek",
+          "Předání RST reportu",
+          "Jména operátorů a QTH",
+          "Popis zařízení a antény",
+          "Poděkování 73 a ukončení",
         ],
         explanation:
-          "Standardni QSO ma zavedeny poradek. Nejprve se stanice identifikuji, pak si vymeni report o kvalite signalu a nasledne osobni a technicke udaje.",
+          "Standardní QSO má zavedený pořádek. Nejprve se stanice identifikují, pak si vymění report o kvalitě signálu a následně osobní a technické údaje.",
       },
       {
         type: "select-answer",
-        question: "Co znamena RST report '339'?",
+        question: "Co znamená RST report '339'?",
         choices: [
-          { id: "a", text: "Citelny s obtizemi, slaby signal, perfektni ton" },
-          { id: "b", text: "Sotva citelny, silny signal, spatny ton" },
-          { id: "c", text: "Perfektne citelny, prumerny signal, dobry ton" },
-          { id: "d", text: "Necitelny, velmi slaby, cistryy ton" },
+          { id: "a", text: "Čitelný s obtížemi, slabý signál, perfektní tón" },
+          { id: "b", text: "Sotva čitelný, silný signál, špatný tón" },
+          { id: "c", text: "Perfektně čitelný, průměrný signál, dobrý tón" },
+          { id: "d", text: "Nečitelný, velmi slabý, čistý tón" },
         ],
         correctId: "a",
         explanation:
-          "R3 = citelny s obtizemi, S3 = slaby signal, T9 = perfektni ton. T se udava pouze u CW provozu.",
+          "R3 = čitelný s obtížemi, S3 = slabý signál, T9 = perfektní tón. T se udává pouze u CW provozu.",
       },
       {
         type: "exam-question",
@@ -219,16 +219,16 @@ export const operatingSkillsLessons: Lesson[] = [
       },
       {
         type: "highlight",
-        instruction: "Oznacte informace, ktere se bezne vymenujou behem standardniho QSO:",
+        instruction: "Označte informace, které se běžně vyměňují během standardního QSO:",
         terms: [
-          { text: "Jmeno operatora", correct: true },
-          { text: "Cislo bankovniho uctu", correct: false },
-          { text: "QTH (poloha/mesto)", correct: true },
+          { text: "Jméno operátora", correct: true },
+          { text: "Číslo bankovního účtu", correct: false },
+          { text: "QTH (poloha/město)", correct: true },
           { text: "RST report", correct: true },
           { text: "Heslo k e-mailu", correct: false },
         ],
         explanation:
-          "Behem QSO se nikdy nesdili osobni ci financni udaje. Vymenujou se technicky relevantni informace: znacka, report, jmeno, poloha, zarizeni.",
+          "Během QSO se nikdy nesdílí osobní či finanční údaje. Vyměňují se technicky relevantní informace: značka, report, jméno, poloha, zařízení.",
       },
     ],
     relatedQuestionIds: [
@@ -254,63 +254,63 @@ export const operatingSkillsLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "skills",
     order: 3,
-    title: "Nouzovy provoz a zvlastni situace",
+    title: "Nouzový provoz a zvláštní situace",
     objective:
-      "Aplikovat spravny postup pri nouzovem volani a dodrzovat pravidla provozni kazne.",
+      "Aplikovat správný postup při nouzovém volání a dodržovat pravidla provozní kázně.",
     estimatedMinutes: 5,
     slides: [
       {
         type: "explain",
         content:
-          "Nouzovy provoz ma tri urovne: MAYDAY (tisen - primo ohrozeny zivot), PAN PAN (nalehavost - vazna situace) a SECURITE (bezpecnost - varovani). Kazdy radioamater musi umet tyto signaly rozpoznat a spravne na ne reagovat.",
-        note: "Nouzove signaly se vysiji 3x: 'MAYDAY MAYDAY MAYDAY'.",
+          "Nouzový provoz má tři úrovně: MAYDAY (tíseň - přímo ohrožený život), PAN PAN (naléhavost - vážná situace) a SECURITE (bezpečnost - varování). Každý radioamatér musí umět tyto signály rozpoznat a správně na ně reagovat.",
+        note: "Nouzové signály se vysílají 3x: 'MAYDAY MAYDAY MAYDAY'.",
       },
       {
         type: "order",
-        instruction: "Seradte nouzove signaly podle priority od nejvyssi:",
+        instruction: "Seřaďte nouzové signály podle priority od nejvyšší:",
         items: [
-          "MAYDAY (tisen)",
-          "PAN PAN (nalehavost)",
-          "SECURITE (bezpecnost)",
-          "Bezny provoz",
+          "MAYDAY (tíseň)",
+          "PAN PAN (naléhavost)",
+          "SECURITE (bezpečnost)",
+          "Běžný provoz",
         ],
         explanation:
-          "MAYDAY ma absolutni prednost. PAN PAN signalizuje vaznou situaci, SECURITE je informativni varovani. Bezny provoz musi ustoupit vsem nouzbvym signaium.",
+          "MAYDAY má absolutní přednost. PAN PAN signalizuje vážnou situaci, SECURITE je informativní varování. Běžný provoz musí ustoupit všem nouzovým signálům.",
       },
       {
         type: "fill-blank",
-        textBefore: "Pri zaslechuti tisnoveho volani musi radioamater okamzite",
-        blank: "prestat vysilat",
-        distractors: ["zvysit vykon", "prepnout na jiny kanal", "vypnout stanici"],
+        textBefore: "Při zaslechnutí tísňového volání musí radioamatér okamžitě",
+        blank: "přestat vysílat",
+        distractors: ["zvýšit výkon", "přepnout na jiný kanál", "vypnout stanici"],
         textAfter: " a naslouchat.",
         explanation:
-          "Povinnosti je okamzite uvolnit frekvenci a naslouchat. Prepinani na jiny kanal ci vypnuti stanice by znemoznilo poskytntui pomoci.",
+          "Povinností je okamžitě uvolnit frekvenci a naslouchat. Přepínání na jiný kanál či vypnutí stanice by znemožnilo poskytnutí pomoci.",
       },
       {
         type: "select-answer",
-        question: "Jaky je spravny format tisnoveho volani?",
+        question: "Jaký je správný formát tísňového volání?",
         choices: [
-          { id: "a", text: "MAYDAY MAYDAY MAYDAY, tady [znacka], [popis situace]" },
-          { id: "b", text: "SOS SOS SOS, tady [znacka], [popis situace]" },
-          { id: "c", text: "HELP HELP HELP, volam vsechny stanice" },
-          { id: "d", text: "Nouzove volani, prosim o pomoc [znacka]" },
+          { id: "a", text: "MAYDAY MAYDAY MAYDAY, tady [značka], [popis situace]" },
+          { id: "b", text: "SOS SOS SOS, tady [značka], [popis situace]" },
+          { id: "c", text: "HELP HELP HELP, volám všechny stanice" },
+          { id: "d", text: "Nouzové volání, prosím o pomoc [značka]" },
         ],
         correctId: "a",
         explanation:
-          "Spravny format je MAYDAY 3x, nasledovane identifikaci stanice a popisem situace (poloha, povaha nouze, pocet osob). SOS je telegrafni signal, ne fonicky.",
+          "Správný formát je MAYDAY 3x, následované identifikací stanice a popisem situace (poloha, povaha nouze, počet osob). SOS je telegrafní signál, ne fonický.",
       },
       {
         type: "explain",
         content:
-          "Provozni kazen zahrnuje: identifikaci stanice kazdych 10 minut behem spojeni a na zacatku a konci vysilani, dodrzovani bandplanu, pouzivani minimalniho vykonu a zdvorile chovani. Stanice se identifikuje svou pridelenou volaci znackou.",
+          "Provozní kázeň zahrnuje: identifikaci stanice každých 10 minut během spojení a na začátku a konci vysílání, dodržování bandplánu, používání minimálního výkonu a zdvořilé chování. Stanice se identifikuje svou přidělenou volací značkou.",
       },
       {
         type: "reveal",
-        prompt: "Jak casto se musi radioamater identifikovat behem probihajiciho spojeni?",
+        prompt: "Jak často se musí radioamatér identifikovat během probíhajícího spojení?",
         answer:
-          "Kazdych 10 minut. Identifikace se provadi vysilanim pridelene volaci znacky na zacatku a konci vysilani a kazdych 10 minut.",
+          "Každých 10 minut. Identifikace se provádí vysíláním přidělené volací značky na začátku a konci vysílání a každých 10 minut.",
         explanation:
-          "Tento interval vychazi z ceskeho provozniho radu. Cil je umoznit kontrolnim organem identifikovat stanici kdykoli.",
+          "Tento interval vychází z českého provozního řádu. Cíl je umožnit kontrolním orgánům identifikovat stanici kdykoli.",
       },
       {
         type: "exam-question",
@@ -318,31 +318,31 @@ export const operatingSkillsLessons: Lesson[] = [
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte vsechna spravna pravidla provozni kazne:",
+        instruction: "Vyberte všechna správná pravidla provozní kázně:",
         pool: [
           {
-            text: "Stanice se identifikuje kazdych 10 minut",
+            text: "Stanice se identifikuje každých 10 minut",
             correct: true,
           },
           {
-            text: "Radioamater pouziva minimalni potrebny vykon",
+            text: "Radioamatér používá minimální potřebný výkon",
             correct: true,
           },
           {
-            text: "Na nouzove volani se reaguje okamzitym prerusenim provozu",
+            text: "Na nouzové volání se reaguje okamžitým přerušením provozu",
             correct: true,
           },
           {
-            text: "Identifikace volaci znackou neni nutna pri kratkych spojenich",
+            text: "Identifikace volací značkou není nutná při krátkých spojeních",
             correct: false,
           },
           {
-            text: "Radioamater smi vysilat bez povoleni v nouzi kohokoliv",
+            text: "Radioamatér smí vysílat bez povolení v nouzi kohokoli",
             correct: false,
           },
         ],
         explanation:
-          "Identifikace je povinne vzdy, bez ohledu na delku spojeni. V nouzove situaci smi vysilat bez povoleni pouze osoba v tisni, ne tererti strana.",
+          "Identifikace je povinná vždy, bez ohledu na délku spojení. V nouzové situaci smí vysílat bez povolení pouze osoba v tísni, ne třetí strana.",
       },
     ],
     relatedQuestionIds: [

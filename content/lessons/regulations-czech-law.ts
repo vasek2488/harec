@@ -2,87 +2,87 @@ import type { Lesson } from "@/lib/types";
 
 export const regulationsCzechLawLessons: Lesson[] = [
   // -----------------------------------------------------------------------
-  // Lesson 1: Zakon o elektronickych komunikacich
+  // Lesson 1: Zákon o elektronických komunikacích
   // -----------------------------------------------------------------------
   {
     id: "czech-law-01",
     examPartId: "regulations",
     sectionId: "czech-law",
     order: 1,
-    title: "Zakon o elektronickych komunikacich",
+    title: "Zákon o elektronických komunikacích",
     objective:
-      "Porozumet zakladu zakona c. 127/2005 Sb., roli CTU a typum opravneni k provozu amaterske stanice.",
+      "Porozumět základu zákona č. 127/2005 Sb., roli ČTÚ a typům oprávnění k provozu amatérské stanice.",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "Amaterska radiokomunikacni sluzba v Cesku se ridi zakonem c. 127/2005 Sb. o elektronickych komunikacich. Tento zakon stanovuje pravidla pro vyuzivani radioveho spektra, urcuje pravomoci regulatora (CTU) a definuje typy opravneni k provozu. Kazdy radioamater musi znat zakladni ustanoveni tohoto zakona.",
-        note: "Zakon byl novelizovan vicekrat, ale zakladni struktura zustava stejna.",
+          "Amatérská radiokomunikační služba v Česku se řídí zákonem č. 127/2005 Sb. o elektronických komunikacích. Tento zákon stanovuje pravidla pro využívání rádiového spektra, určuje pravomoci regulátora (ČTÚ) a definuje typy oprávnění k provozu. Každý radioamatér musí znát základní ustanovení tohoto zákona.",
+        note: "Zákon byl novelizován vícekrát, ale základní struktura zůstává stejná.",
       },
       {
         type: "select-answer",
         question:
-          "Ktery zakon je hlavnim pravnim predpisem upravujicim elektronicke komunikace v CR?",
+          "Který zákon je hlavním právním předpisem upravujícím elektronické komunikace v ČR?",
         choices: [
-          { id: "a", text: "Zakon c. 127/2005 Sb." },
-          { id: "b", text: "Zakon c. 231/2001 Sb." },
-          { id: "c", text: "Zakon c. 40/1964 Sb." },
-          { id: "d", text: "Zakon c. 89/2012 Sb." },
+          { id: "a", text: "Zákon č. 127/2005 Sb." },
+          { id: "b", text: "Zákon č. 231/2001 Sb." },
+          { id: "c", text: "Zákon č. 40/1964 Sb." },
+          { id: "d", text: "Zákon č. 89/2012 Sb." },
         ],
         correctId: "a",
         explanation:
-          "Zakon c. 127/2005 Sb. o elektronickych komunikacich je hlavnim predpisem. Ostatni zakony se tykaji rozhlasoveho a televizniho vysilani, obcanskeho zakoniku apod.",
+          "Zákon č. 127/2005 Sb. o elektronických komunikacích je hlavním předpisem. Ostatní zákony se týkají rozhlasového a televizního vysílání, občanského zákoníku apod.",
       },
       {
         type: "explain",
         content:
-          "Cesky telekomunikacni urad (CTU) je nezavisly regulacni organ. Ma na starosti spravu radioveho spektra, pridelovani kmitoctu, vydavani opravneni a dohled nad dodrzovanim zakona. Pro radioamatery je CTU klicovm uradem - prideluje volaci znacky, stanovuje zkusebni podminky a muze ukladat sankce.",
+          "Český telekomunikační úřad (ČTÚ) je nezávislý regulační orgán. Má na starosti správu rádiového spektra, přidělování kmitočtů, vydávání oprávnění a dohled nad dodržováním zákona. Pro radioamatéry je ČTÚ klíčovým úřadem - přiděluje volací značky, stanovuje zkušební podmínky a může ukládat sankce.",
       },
       {
         type: "fill-blank",
-        textBefore: "Nezavisly regulacni organ pro elektronicke komunikace v CR se nazyva",
-        blank: "Cesky telekomunikacni urad",
+        textBefore: "Nezávislý regulační orgán pro elektronické komunikace v ČR se nazývá",
+        blank: "Český telekomunikační úřad",
         distractors: [
-          "Ministerstvo prumyslu a obchodu",
-          "Cesky normalizacni institut",
-          "Sprava radioovych kmitoctu",
+          "Ministerstvo průmyslu a obchodu",
+          "Český normalizační institut",
+          "Správa rádiových kmitočtů",
         ],
-        textAfter: "(CTU).",
+        textAfter: "(ČTÚ).",
         explanation:
-          "CTU je regulatorem dle zakona c. 127/2005 Sb. Ministerstvo prumyslu a obchodu je nadrizeny organ, ale primo nereguluje.",
+          "ČTÚ je regulátorem dle zákona č. 127/2005 Sb. Ministerstvo průmyslu a obchodu je nadřízený orgán, ale přímo nereguluje.",
       },
       {
         type: "match",
-        instruction: "Priradte pravomoci CTU ke spravnemu popisu:",
+        instruction: "Přiřaďte pravomoci ČTÚ ke správnému popisu:",
         pairs: [
-          { left: "Sprava spektra", right: "Pridelovani a koordinace kmitoctu" },
-          { left: "Opravneni", right: "Vydavani individualnich opravneni k provozu" },
-          { left: "Dohled", right: "Kontrola dodrzovani zakona a ukladani sankci" },
-          { left: "Zkousky", right: "Stanoveni obsahu a organizace zkousek operatoru" },
+          { left: "Správa spektra", right: "Přidělování a koordinace kmitočtů" },
+          { left: "Oprávnění", right: "Vydávání individuálních oprávnění k provozu" },
+          { left: "Dohled", right: "Kontrola dodržování zákona a ukládání sankcí" },
+          { left: "Zkoušky", right: "Stanovení obsahu a organizace zkoušek operátorů" },
         ],
         explanation:
-          "CTU ma siroke pravomoci - od technickych (kmitocty) pres administrativni (opravneni) az po represivni (sankce).",
+          "ČTÚ má široké pravomoci - od technických (kmitočty) přes administrativní (oprávnění) až po represivní (sankce).",
       },
       {
         type: "explain",
         content:
-          "Zakon rozlisuje dva typy opravneni: individualni opravneni a vseobecne opravneni. Amaterska radiokomunikacni sluzba vyzaduje individualni opravneni - to znamena, ze kazdy operator musi slozit zkousku a ziskat od CTU konkretni povoleni s pridelenou volaci znackou. Bez individuanlniho opravneni nelze legalne provozovat amaterskou stanici.",
+          "Zákon rozlišuje dva typy oprávnění: individuální oprávnění a všeobecné oprávnění. Amatérská radiokomunikační služba vyžaduje individuální oprávnění - to znamená, že každý operátor musí složit zkoušku a získat od ČTÚ konkrétní povolení s přidělenou volací značkou. Bez individuálního oprávnění nelze legálně provozovat amatérskou stanici.",
       },
       {
         type: "highlight",
         instruction:
-          "Oznacte, co je potreba k legalnimu provozu amaterske stanice v CR:",
+          "Označte, co je potřeba k legálnímu provozu amatérské stanice v ČR:",
         terms: [
-          { text: "Individualni opravneni od CTU", correct: true },
-          { text: "Slozena prukaz zpusobilosti (zkouska)", correct: true },
-          { text: "Pridelena volaci znacka", correct: true },
-          { text: "Vyssi odborne vzdelani v elektronice", correct: false },
-          { text: "Zivnostensky list", correct: false },
-          { text: "Souhlas sousedu", correct: false },
+          { text: "Individuální oprávnění od ČTÚ", correct: true },
+          { text: "Složený průkaz způsobilosti (zkouška)", correct: true },
+          { text: "Přidělená volací značka", correct: true },
+          { text: "Vyšší odborné vzdělání v elektronice", correct: false },
+          { text: "Živnostenský list", correct: false },
+          { text: "Souhlas sousedů", correct: false },
         ],
         explanation:
-          "K provozu staci zkouska, opravneni a volaci znacka. Vzdelani, zivnostensky list ani souhlas sousedu nejsou vyzadovany zakonem.",
+          "K provozu stačí zkouška, oprávnění a volací značka. Vzdělání, živnostenský list ani souhlas sousedů nejsou vyžadovány zákonem.",
       },
       {
         type: "exam-question",
@@ -90,11 +90,11 @@ export const regulationsCzechLawLessons: Lesson[] = [
       },
       {
         type: "reveal",
-        prompt: "Jake postihy hrozi za provoz amaterske stanice bez opravneni?",
+        prompt: "Jaké postihy hrozí za provoz amatérské stanice bez oprávnění?",
         answer:
-          "CTU muze ulozit pokutu az do vyse 1 000 000 Kc. Navic muze narizdit odstaveni zarizeni a zabavit techniku. Neopravneny provoz je spravni delikt.",
+          "ČTÚ může uložit pokutu až do výše 1 000 000 Kč. Navíc může nařídit odstavení zařízení a zabavit techniku. Neoprávněný provoz je správní delikt.",
         explanation:
-          "Pokuty jsou stanoveny zakonem o elektronickych komunikacich a mohou byt velmi vysoke, zvlaste pri opakovanem poruseni.",
+          "Pokuty jsou stanoveny zákonem o elektronických komunikacích a mohou být velmi vysoké, zvláště při opakovaném porušení.",
       },
       {
         type: "exam-question",
@@ -109,39 +109,39 @@ export const regulationsCzechLawLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 2: Vyhlaska o amaterske radiokomunikacni sluzbe
+  // Lesson 2: Vyhláška o amatérské radiokomunikační službě
   // -----------------------------------------------------------------------
   {
     id: "czech-law-02",
     examPartId: "regulations",
     sectionId: "czech-law",
     order: 2,
-    title: "Vyhlaska o amaterske radiokomunikacni sluzbe",
+    title: "Vyhláška o amatérské radiokomunikační službě",
     objective:
-      "Znat tridy operatoru, jejich privilegia, vykonove limity a podminky pro ziskani opravneni.",
+      "Znát třídy operátorů, jejich privilegia, výkonové limity a podmínky pro získání oprávnění.",
     estimatedMinutes: 9,
     slides: [
       {
         type: "explain",
         content:
-          "Vyhlaska CTU podrobne upravuje amaterskou radiokomunikacni sluzbu. Rozlisuje dve tridy operatoru: tridu A (HAREC uroven - plny pristup) a tridu N (novice - omezeny pristup). Trida urcuje, jake kmitocty a jaky vykon smi operator pouzivat.",
-        note: "HAREC = Harmonised Amateur Radio Examination Certificate - mezinarodne uznavany prukaz.",
+          "Vyhláška ČTÚ podrobně upravuje amatérskou radiokomunikační službu. Rozlišuje dvě třídy operátorů: třídu A (HAREC úroveň - plný přístup) a třídu N (novice - omezený přístup). Třída určuje, jaké kmitočty a jaký výkon smí operátor používat.",
+        note: "HAREC = Harmonised Amateur Radio Examination Certificate - mezinárodně uznávaný průkaz.",
       },
       {
         type: "match",
-        instruction: "Priradte vlastnosti ke spravne tride operatora:",
+        instruction: "Přiřaďte vlastnosti ke správné třídě operátora:",
         pairs: [
-          { left: "Trida A", right: "Pristup ke vsem amaterským pasmum" },
-          { left: "Trida N", right: "Pristup pouze k vybranym pasmum" },
-          { left: "Trida A", right: "Maximalni vykon 750 W PEP na KV" },
-          { left: "Trida N", right: "Maximalni vykon 100 W PEP" },
+          { left: "Třída A", right: "Přístup ke všem amatérským pásmům" },
+          { left: "Třída N", right: "Přístup pouze k vybraným pásmům" },
+          { left: "Třída A", right: "Maximální výkon 750 W PEP na KV" },
+          { left: "Třída N", right: "Maximální výkon 100 W PEP" },
         ],
         explanation:
-          "Trida A je plna licence (HAREC uroven), trida N je omezena licence pro zacatecniky.",
+          "Třída A je plná licence (HAREC úroveň), třída N je omezená licence pro začátečníky.",
       },
       {
         type: "select-answer",
-        question: "Jaky je maximalni povoleny vykon pro operatora tridy N?",
+        question: "Jaký je maximální povolený výkon pro operátora třídy N?",
         choices: [
           { id: "a", text: "100 W PEP" },
           { id: "b", text: "750 W PEP" },
@@ -150,39 +150,39 @@ export const regulationsCzechLawLessons: Lesson[] = [
         ],
         correctId: "a",
         explanation:
-          "Trida N ma maximalni vykon 100 W PEP. 750 W PEP je limit pro tridu A na KV pasmech.",
+          "Třída N má maximální výkon 100 W PEP. 750 W PEP je limit pro třídu A na KV pásmech.",
       },
       {
         type: "explain",
         content:
-          "Vekove podminky: Pro ziskani tridy N neni stanoven minimalni vek - zkousku muze slozit i dite (se zakonnym zastupcem). Pro tridu A se v praxi vyzaduje vek 15 let a vice, protoze zkouska je narocnejsi a vyzaduje hlubsi technicke znalosti. Zkouska pro tridu A zahrnuje techniku, predpisy a provozni postupy.",
+          "Věkové podmínky: Pro získání třídy N není stanoven minimální věk - zkoušku může složit i dítě (se zákonným zástupcem). Pro třídu A se v praxi vyžaduje věk 15 let a více, protože zkouška je náročnější a vyžaduje hlubší technické znalosti. Zkouška pro třídu A zahrnuje techniku, předpisy a provozní postupy.",
       },
       {
         type: "fill-blank",
-        textBefore: "Pro ziskani operatorskeho opravneni tridy N",
-        blank: "neni stanoven minimalni vek",
+        textBefore: "Pro získání operátorského oprávnění třídy N",
+        blank: "není stanoven minimální věk",
         distractors: [
-          "je nutny vek alespon 18 let",
-          "je nutny vek alespon 15 let",
-          "je nutny vek alespon 12 let",
+          "je nutný věk alespoň 18 let",
+          "je nutný věk alespoň 15 let",
+          "je nutný věk alespoň 12 let",
         ],
         textAfter: ".",
         explanation:
-          "Trida N nema vekove omezeni - i mladsi uchazec muze slozit zkousku (se zakonnym zastupcem).",
+          "Třída N nemá věkové omezení - i mladší uchazeč může složit zkoušku (se zákonným zástupcem).",
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte spravna tvrzeni o tride A:",
+        instruction: "Vyberte správná tvrzení o třídě A:",
         pool: [
-          { text: "Opravnuje k provozu na vsech amaterských pasmech", correct: true },
-          { text: "Odpovida mezinarodnimu HAREC prukazu", correct: true },
-          { text: "Zkouska zahrnuje techniku, predpisy i provoz", correct: true },
-          { text: "Maximalni vykon je 100 W PEP", correct: false },
-          { text: "Nevyzaduje zadnou zkousku", correct: false },
-          { text: "Je urcena pouze pro zacatecniky", correct: false },
+          { text: "Opravňuje k provozu na všech amatérských pásmech", correct: true },
+          { text: "Odpovídá mezinárodnímu HAREC průkazu", correct: true },
+          { text: "Zkouška zahrnuje techniku, předpisy i provoz", correct: true },
+          { text: "Maximální výkon je 100 W PEP", correct: false },
+          { text: "Nevyžaduje žádnou zkoušku", correct: false },
+          { text: "Je určena pouze pro začátečníky", correct: false },
         ],
         explanation:
-          "Trida A je plna licence s HAREC uznavanim. Maximalni vykon je 750 W PEP na KV, ne 100 W.",
+          "Třída A je plná licence s HAREC uznáváním. Maximální výkon je 750 W PEP na KV, ne 100 W.",
       },
       {
         type: "exam-question",
@@ -191,16 +191,16 @@ export const regulationsCzechLawLessons: Lesson[] = [
       {
         type: "order",
         instruction:
-          "Seradte kroky k ziskani operatorskeho opravneni tridy A ve spravnem poradi:",
+          "Seřaďte kroky k získání operátorského oprávnění třídy A ve správném pořadí:",
         items: [
-          "Priprava na zkousku (studium techniky, predpisu, provozu)",
-          "Podani prihlasky ke zkousce u CTU",
-          "Slozeni zkousky pred zkusebni komisi CTU",
-          "Vydani prukazu zpusobilosti operatora tridy A",
-          "Prideleni individualni volaci znacky",
+          "Příprava na zkoušku (studium techniky, předpisů, provozu)",
+          "Podání přihlášky ke zkoušce u ČTÚ",
+          "Složení zkoušky před zkušební komisí ČTÚ",
+          "Vydání průkazu způsobilosti operátora třídy A",
+          "Přidělení individuální volací značky",
         ],
         explanation:
-          "Proces je postupny - od studia pres prihlasku a zkousku az k ziskani prukazu a volaci znacky.",
+          "Proces je postupný - od studia přes přihlášku a zkoušku až k získání průkazu a volací značky.",
       },
       {
         type: "exam-question",
@@ -215,66 +215,66 @@ export const regulationsCzechLawLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 3: Kmitoctove prideleni CR
+  // Lesson 3: Kmitočtové přidělení ČR
   // -----------------------------------------------------------------------
   {
     id: "czech-law-03",
     examPartId: "regulations",
     sectionId: "czech-law",
     order: 3,
-    title: "Kmitoctove prideleni CR",
+    title: "Kmitočtové přidělení ČR",
     objective:
-      "Orientovat se v ceskem kmitoctovem planu, znat vykonove limity a rozlisovat primarni a sekundarni prideleni.",
+      "Orientovat se v českém kmitočtovém plánu, znát výkonové limity a rozlišovat primární a sekundární přidělení.",
     estimatedMinutes: 9,
     slides: [
       {
         type: "explain",
         content:
-          "Cesky kmitoctovy plan vychazi z mezinarodniho radioveho radu ITU a evropskych harmonizaci CEPT. Amaterska sluzba ma v CR pridelena pasma od kratkych vln (KV) az po mikrovlny. Nektere kmitocty jsou prideleny na primarnim zaklade (amater ma prednost), jine na sekundarnim (amater nesmi rusit primarni uzivatele).",
+          "Český kmitočtový plán vychází z mezinárodního rádiového řádu ITU a evropských harmonizací CEPT. Amatérská služba má v ČR přidělena pásma od krátkých vln (KV) až po mikrovlny. Některé kmitočty jsou přiděleny na primárním základě (amatér má přednost), jiné na sekundárním (amatér nesmí rušit primární uživatele).",
       },
       {
         type: "select-answer",
         question:
-          "Co znamena sekundarni prideleni kmitoctoveho pasma pro amaterskou sluzbu?",
+          "Co znamená sekundární přidělení kmitočtového pásma pro amatérskou službu?",
         choices: [
-          { id: "a", text: "Amater nesmi zpusobit ruseni primarnimu uzivateli a musi strpet ruseni od nej" },
-          { id: "b", text: "Amater ma prednost pred vsemi ostatnimi sluzbami" },
-          { id: "c", text: "Pasmo je vyhrazeno pouze pro amatery" },
-          { id: "d", text: "Amater smi vysilat pouze v noci" },
+          { id: "a", text: "Amatér nesmí způsobit rušení primárnímu uživateli a musí strpět rušení od něj" },
+          { id: "b", text: "Amatér má přednost před všemi ostatními službami" },
+          { id: "c", text: "Pásmo je vyhrazeno pouze pro amatéry" },
+          { id: "d", text: "Amatér smí vysílat pouze v noci" },
         ],
         correctId: "a",
         explanation:
-          "Sekundarni prideleni znamena, ze amater nesmi rusit primarni sluzbu a musi akceptovat jeji ruseni. Na primarnim prideleni ma amater rovnocenna prava.",
+          "Sekundární přidělení znamená, že amatér nesmí rušit primární službu a musí akceptovat její rušení. Na primárním přidělení má amatér rovnocenná práva.",
       },
       {
         type: "match",
-        instruction: "Priradte vykonove limity ke spravne kombinaci tridy a pasma:",
+        instruction: "Přiřaďte výkonové limity ke správné kombinaci třídy a pásma:",
         pairs: [
-          { left: "Trida A, KV pasma", right: "750 W PEP" },
-          { left: "Trida A, VKV/UKV", right: "200 W PEP" },
-          { left: "Trida N, povolena pasma", right: "100 W PEP" },
+          { left: "Třída A, KV pásma", right: "750 W PEP" },
+          { left: "Třída A, VKV/UKV", right: "200 W PEP" },
+          { left: "Třída N, povolená pásma", right: "100 W PEP" },
         ],
         explanation:
-          "Trida A: az 750 W PEP na KV, 200 W PEP na VKV/UKV. Trida N: max 100 W PEP na povolenych pasmech.",
+          "Třída A: až 750 W PEP na KV, 200 W PEP na VKV/UKV. Třída N: max 100 W PEP na povolených pásmech.",
       },
       {
         type: "explain",
         content:
-          "Hlavni KV pasma pro amaterskou sluzbu v CR: 160 m (1,8 MHz), 80 m (3,5 MHz), 40 m (7 MHz), 20 m (14 MHz), 15 m (21 MHz), 10 m (28 MHz). Na VKV: 2 m (144 MHz), 70 cm (432 MHz). Nektora pasma maji specificke podminky - napriklad pasmo 60 m (5 MHz) je omezeno nizky vykonem a poctem kanalu.",
-        note: "Na pasmech pro EME (Earth-Moon-Earth) a satelitni provoz mohou platit vyjimky z vykonovych limitu.",
+          "Hlavní KV pásma pro amatérskou službu v ČR: 160 m (1,8 MHz), 80 m (3,5 MHz), 40 m (7 MHz), 20 m (14 MHz), 15 m (21 MHz), 10 m (28 MHz). Na VKV: 2 m (144 MHz), 70 cm (432 MHz). Některá pásma mají specifické podmínky - například pásmo 60 m (5 MHz) je omezeno nízkým výkonem a počtem kanálů.",
+        note: "Na pásmech pro EME (Earth-Moon-Earth) a satelitní provoz mohou platit výjimky z výkonových limitů.",
       },
       {
         type: "fill-blank",
-        textBefore: "Maximalni povoleny vykon pro operatora tridy A na KV pasmech je",
+        textBefore: "Maximální povolený výkon pro operátora třídy A na KV pásmech je",
         blank: "750 W PEP",
         distractors: ["1000 W PEP", "200 W PEP", "500 W PEP"],
         textAfter: ".",
         explanation:
-          "750 W PEP je maximalni vykon pro tridu A na kratkych vlnach. Na VKV/UKV je limit 200 W PEP.",
+          "750 W PEP je maximální výkon pro třídu A na krátkých vlnách. Na VKV/UKV je limit 200 W PEP.",
       },
       {
         type: "highlight",
-        instruction: "Oznacte pasma, ktera jsou v CR pridelena amaterske sluzbe:",
+        instruction: "Označte pásma, která jsou v ČR přidělena amatérské službě:",
         terms: [
           { text: "144-146 MHz (2 m)", correct: true },
           { text: "430-440 MHz (70 cm)", correct: true },
@@ -284,7 +284,7 @@ export const regulationsCzechLawLessons: Lesson[] = [
           { text: "900 MHz (GSM)", correct: false },
         ],
         explanation:
-          "144 MHz, 430 MHz a 14 MHz jsou amaterska pasma. FM rozhlas, TETRA a GSM jsou komercni sluzby.",
+          "144 MHz, 430 MHz a 14 MHz jsou amatérská pásma. FM rozhlas, TETRA a GSM jsou komerční služby.",
       },
       {
         type: "exam-question",
@@ -292,11 +292,11 @@ export const regulationsCzechLawLessons: Lesson[] = [
       },
       {
         type: "reveal",
-        prompt: "Jake vyjimky z vykonovych limitu existuji pro EME a satelitni provoz?",
+        prompt: "Jaké výjimky z výkonových limitů existují pro EME a satelitní provoz?",
         answer:
-          "Pro EME (odraz od Mesice) a satelitni provoz mohou byt povoleny vyssi vykony nez standardni limity, ale pouze na zaklade specifickeho povoleni CTU nebo v souladu s vyhlaskovou upravou pro dane pasmo.",
+          "Pro EME (odraz od Měsíce) a satelitní provoz mohou být povoleny vyšší výkony než standardní limity, ale pouze na základě specifického povolení ČTÚ nebo v souladu s vyhláškou pro dané pásmo.",
         explanation:
-          "EME vyzaduje vyssi vykon kvuli obrovskym ztratam na trase Zeme-Mesic-Zeme. Satelitni provoz ma take specificka pravidla.",
+          "EME vyžaduje vyšší výkon kvůli obrovským ztrátám na trase Země-Měsíc-Země. Satelitní provoz má také specifická pravidla.",
       },
       {
         type: "exam-question",
@@ -311,82 +311,82 @@ export const regulationsCzechLawLessons: Lesson[] = [
   },
 
   // -----------------------------------------------------------------------
-  // Lesson 4: Volaci znacky a provozni povinnosti
+  // Lesson 4: Volací značky a provozní povinnosti
   // -----------------------------------------------------------------------
   {
     id: "czech-law-04",
     examPartId: "regulations",
     sectionId: "czech-law",
     order: 4,
-    title: "Volaci znacky a provozni povinnosti",
+    title: "Volací značky a provozní povinnosti",
     objective:
-      "Rozumet strukture ceskych volacich znacek, pravidlum identifikace a povinnostem pri provozu.",
+      "Rozumět struktuře českých volacích značek, pravidlům identifikace a povinnostem při provozu.",
     estimatedMinutes: 9,
     slides: [
       {
         type: "explain",
         content:
-          "Ceske amaterske volaci znacky maji strukturu dle mezinarodnich pravidel. Prefix OK1 az OK0 je pridelen operatorum tridy A, OK2 operatorum tridy N. Prefix OL se pouziva pro specialni a klubove stanice. Za prefixem nasleduje jedno az tri pismena jako sufix identifikujici konkretniho operatora.",
+          "České amatérské volací značky mají strukturu dle mezinárodních pravidel. Prefix OK1 až OK0 je přidělen operátorům třídy A, OK2 operátorům třídy N. Prefix OL se používá pro speciální a klubové stanice. Za prefixem následuje jedno až tři písmena jako sufix identifikující konkrétního operátora.",
       },
       {
         type: "match",
-        instruction: "Priradte prefix k typu operatora nebo stanice:",
+        instruction: "Přiřaďte prefix k typu operátora nebo stanice:",
         pairs: [
-          { left: "OK1 az OK0", right: "Operator tridy A (individualni)" },
-          { left: "OK2", right: "Operator tridy N (novice)" },
-          { left: "OL", right: "Specialni a klubove stanice" },
+          { left: "OK1 až OK0", right: "Operátor třídy A (individuální)" },
+          { left: "OK2", right: "Operátor třídy N (novice)" },
+          { left: "OL", right: "Speciální a klubové stanice" },
         ],
         explanation:
-          "Cislo za OK urcuje kategorii. OK1-OK0 = trida A, OK2 = trida N, OL = specialni/klubove.",
+          "Číslo za OK určuje kategorii. OK1-OK0 = třída A, OK2 = třída N, OL = speciální/klubové.",
       },
       {
         type: "select-answer",
-        question: "Jak casto se musi radioamater identifikovat volaci znackou behem provozu?",
+        question: "Jak často se musí radioamatér identifikovat volací značkou během provozu?",
         choices: [
-          { id: "a", text: "Kazdych 10 minut a na zacatku a konci provozu" },
+          { id: "a", text: "Každých 10 minut a na začátku a konci provozu" },
           { id: "b", text: "Jednou za hodinu" },
-          { id: "c", text: "Pouze na zacatku provozu" },
-          { id: "d", text: "Kazdych 30 minut" },
+          { id: "c", text: "Pouze na začátku provozu" },
+          { id: "d", text: "Každých 30 minut" },
         ],
         correctId: "a",
         explanation:
-          "Predpisy vyzaduji identifikaci volaci znackou kazdych 10 minut a vzdy na zacatku a konci vysilani.",
+          "Předpisy vyžadují identifikaci volací značkou každých 10 minut a vždy na začátku a konci vysílání.",
       },
       {
         type: "explain",
         content:
-          "Pri provozu mimo trvale stanoviste se pouzivaji sufixy: /P (portable - prenosny provoz), /M (mobile - mobilni provoz), /MM (maritime mobile), /AM (aeronautical mobile). Napriklad OK1ABC/P znamena, ze operator OK1ABC pracuje prenosne. Pri provozu ze zahranici se uvadi prefix zeme - napriklad DL/OK1ABC pro provoz z Nemecka.",
+          "Při provozu mimo trvalé stanoviště se používají sufixy: /P (portable - přenosný provoz), /M (mobile - mobilní provoz), /MM (maritime mobile), /AM (aeronautical mobile). Například OK1ABC/P znamená, že operátor OK1ABC pracuje přenosně. Při provozu ze zahraničí se uvádí prefix země - například DL/OK1ABC pro provoz z Německa.",
       },
       {
         type: "fill-blank",
-        textBefore: "Operator provozujici stanici prenosne prida ke sve volaci znacce sufix",
+        textBefore: "Operátor provozující stanici přenosně přidá ke své volací značce sufix",
         blank: "/P",
         distractors: ["/M", "/MM", "/QRP"],
         textAfter: ".",
         explanation:
-          "/P = portable (prenosny), /M = mobile (mobilni), /MM = maritime mobile, /QRP neni oficalni sufix.",
+          "/P = portable (přenosný), /M = mobile (mobilní), /MM = maritime mobile, /QRP není oficiální sufix.",
       },
       {
         type: "pool-pick",
-        instruction: "Vyberte povinnosti radioamatera pri provozu stanice:",
+        instruction: "Vyberte povinnosti radioamatéra při provozu stanice:",
         pool: [
-          { text: "Vest stanicni denik (log)", correct: true },
-          { text: "Identifikovat se kazdych 10 minut", correct: true },
-          { text: "Identifikovat se na zacatku a konci provozu", correct: true },
-          { text: "Pouzivat pouze schvalena zarizeni", correct: false },
-          { text: "Platit mesicni poplatek za kazdou QSO", correct: false },
-          { text: "Hlasit kazde spojeni CTU do 24 hodin", correct: false },
+          { text: "Vést staniční deník (log)", correct: true },
+          { text: "Identifikovat se každých 10 minut", correct: true },
+          { text: "Identifikovat se na začátku a konci provozu", correct: true },
+          { text: "Používat pouze schválená zařízení", correct: false },
+          { text: "Platit měsíční poplatek za každou QSO", correct: false },
+          { text: "Hlásit každé spojení ČTÚ do 24 hodin", correct: false },
         ],
         explanation:
-          "Hlavni povinnosti jsou vedeni deniku a pravidelna identifikace. Radioamater si smi stavet vlastni zarizeni a nehlasi jednotliva spojeni.",
+          "Hlavní povinnosti jsou vedení deníku a pravidelná identifikace. Radioamatér si smí stavět vlastní zařízení a nehlásí jednotlivá spojení.",
       },
       {
         type: "reveal",
-        prompt: "Co musi obsahovat stanicni denik (log)?",
+        prompt: "Co musí obsahovat staniční deník (log)?",
         answer:
-          "Stanicni denik musi obsahovat: datum a cas spojeni (UTC), volaci znacku protejsi stanice, pouzity kmitocet nebo pasmo, druh provozu (mod) a pripadne dalsi udaje jako RST report. Denik musi byt dostupny pro kontrolu CTU.",
+          "Staniční deník musí obsahovat: datum a čas spojení (UTC), volací značku protější stanice, použitý kmitočet nebo pásmo, druh provozu (mód) a případně další údaje jako RST report. Deník musí být dostupný pro kontrolu ČTÚ.",
         explanation:
-          "Denik je dulezity doklad o provozu. CTU ho muze vyzadat pri kontrole nebo pri setreni ruseni.",
+          "Deník je důležitý doklad o provozu. ČTÚ ho může vyžádat při kontrole nebo při šetření rušení.",
       },
       {
         type: "exam-question",
@@ -414,83 +414,83 @@ export const regulationsCzechLawLessons: Lesson[] = [
     order: 5,
     title: "Kontrola a sankce",
     objective:
-      "Znat pravomoci CTU pri kontrolach, sankce za poruseni predpisu, postup pri hlaseni ruseni a zasady reciprocniho licencovani.",
+      "Znát pravomoci ČTÚ při kontrolách, sankce za porušení předpisů, postup při hlášení rušení a zásady recipročního licencování.",
     estimatedMinutes: 8,
     slides: [
       {
         type: "explain",
         content:
-          "CTU provadi kontroly amaterských stanic - jak planovane, tak na zaklade stiznosti na ruseni. Inspektori CTU maji pravo vstupovat do prostor, kde je stanice provozovana, kontrolovat technicke parametry vysilani, overovat platnost opravneni a nahlizt do stanicniho deniku. Operator je povinen poskytnout soucinnost.",
+          "ČTÚ provádí kontroly amatérských stanic - jak plánované, tak na základě stížností na rušení. Inspektoři ČTÚ mají právo vstupovat do prostor, kde je stanice provozována, kontrolovat technické parametry vysílání, ověřovat platnost oprávnění a nahlížet do staničního deníku. Operátor je povinen poskytnout součinnost.",
       },
       {
         type: "select-answer",
-        question: "Co je operator povinen pri kontrole CTU?",
+        question: "Co je operátor povinen při kontrole ČTÚ?",
         choices: [
-          { id: "a", text: "Poskytnout soucinnost, predlozit opravneni a umoznit kontrolu stanice" },
-          { id: "b", text: "Ihned ukoncit provoz a odmontovat antenu" },
+          { id: "a", text: "Poskytnout součinnost, předložit oprávnění a umožnit kontrolu stanice" },
+          { id: "b", text: "Ihned ukončit provoz a odmontovat anténu" },
           { id: "c", text: "Zaplatit poplatek za kontrolu" },
-          { id: "d", text: "Informovat sve sousedy o kontrole" },
+          { id: "d", text: "Informovat své sousedy o kontrole" },
         ],
         correctId: "a",
         explanation:
-          "Operator musi poskytnout soucinnost - predlozit opravneni, stanicni denik a umoznit kontrolu zarizeni. Neni nutne odmontovat antenu ani platit.",
+          "Operátor musí poskytnout součinnost - předložit oprávnění, staniční deník a umožnit kontrolu zařízení. Není nutné odmontovat anténu ani platit.",
       },
       {
         type: "explain",
         content:
-          "Sankce za poruseni: Za provoz bez opravneni hrozi pokuta az 1 000 000 Kc. Za poruseni podminek opravneni (napr. prekroceni vykonu, provoz mimo pridelena pasma) muze CTU ulozit pokutu nebo odebrat opravneni. Ruseni jinych sluzeb je spravni delikt s moznosti vysoke pokuty.",
+          "Sankce za porušení: Za provoz bez oprávnění hrozí pokuta až 1 000 000 Kč. Za porušení podmínek oprávnění (např. překročení výkonu, provoz mimo přidělená pásma) může ČTÚ uložit pokutu nebo odebrat oprávnění. Rušení jiných služeb je správní delikt s možností vysoké pokuty.",
       },
       {
         type: "fill-blank",
-        textBefore: "Maximalni pokuta za provoz amaterske stanice bez opravneni je",
-        blank: "1 000 000 Kc",
-        distractors: ["100 000 Kc", "500 000 Kc", "10 000 Kc"],
+        textBefore: "Maximální pokuta za provoz amatérské stanice bez oprávnění je",
+        blank: "1 000 000 Kč",
+        distractors: ["100 000 Kč", "500 000 Kč", "10 000 Kč"],
         textAfter: ".",
         explanation:
-          "Zakon c. 127/2005 Sb. stanovi maximalni pokutu 1 000 000 Kc za neopravneny provoz radiove stanice.",
+          "Zákon č. 127/2005 Sb. stanoví maximální pokutu 1 000 000 Kč za neoprávněný provoz rádiové stanice.",
       },
       {
         type: "order",
-        instruction: "Seradte kroky pri hlaseni ruseni ve spravnem poradi:",
+        instruction: "Seřaďte kroky při hlášení rušení ve správném pořadí:",
         items: [
-          "Zaznamenat cas, kmitocet a charakter ruseni",
-          "Pokusit se identifikovat zdroj ruseni (pokud je to mozne)",
-          "Podat hlaseni na CTU s popisem ruseni",
-          "CTU provede setreni a mereni",
-          "CTU rozhodne o opatrenich k odstraneni ruseni",
+          "Zaznamenat čas, kmitočet a charakter rušení",
+          "Pokusit se identifikovat zdroj rušení (pokud je to možné)",
+          "Podat hlášení na ČTÚ s popisem rušení",
+          "ČTÚ provede šetření a měření",
+          "ČTÚ rozhodne o opatřeních k odstranění rušení",
         ],
         explanation:
-          "Postup je od zaznamu pres identifikaci a hlaseni az k setreni CTU. Operator nesmi zasahovat do ciziho zarizeni.",
+          "Postup je od záznamu přes identifikaci a hlášení až k šetření ČTÚ. Operátor nesmí zasahovat do cizího zařízení.",
       },
       {
         type: "match",
-        instruction: "Priradte sankce ke spravnemu typu poruseni:",
+        instruction: "Přiřaďte sankce ke správnému typu porušení:",
         pairs: [
-          { left: "Provoz bez opravneni", right: "Pokuta az 1 000 000 Kc" },
-          { left: "Prekroceni vykonoveho limitu", right: "Pokuta nebo odebrani opravneni" },
-          { left: "Ruseni jinych sluzeb", right: "Spravni delikt s moznosti pokuty" },
-          { left: "Nevedeni stanicniho deniku", right: "Poruseni podminek opravneni" },
+          { left: "Provoz bez oprávnění", right: "Pokuta až 1 000 000 Kč" },
+          { left: "Překročení výkonového limitu", right: "Pokuta nebo odebrání oprávnění" },
+          { left: "Rušení jiných služeb", right: "Správní delikt s možností pokuty" },
+          { left: "Nevedení staničního deníku", right: "Porušení podmínek oprávnění" },
         ],
         explanation:
-          "Kazdy typ poruseni ma odpovidajici sankci. Nejprisnejsi postihy jsou za neopravneny provoz.",
+          "Každý typ porušení má odpovídající sankci. Nejpřísnější postihy jsou za neoprávněný provoz.",
       },
       {
         type: "explain",
         content:
-          "Reciprocni licencovani: Drzitele CEPT licence (T/R 61-01) mohou provozovat stanici v CR bez dalsich formalit - staci platna licence a pouziti spravneho prefixu (OK/domaci znacka). Pro operatory ze zemi mimo CEPT se uzavira dvoustranna dohoda nebo se vyzaduje specialni povoleni od CTU. Kazdy radioamater ma take povinnosti v oblasti elektromagneticke kompatibility (EMC).",
+          "Reciproční licencování: Držitelé CEPT licence (T/R 61-01) mohou provozovat stanici v ČR bez dalších formalit - stačí platná licence a použití správného prefixu (OK/domácí značka). Pro operátory ze zemí mimo CEPT se uzavírá dvoustranná dohoda nebo se vyžaduje speciální povolení od ČTÚ. Každý radioamatér má také povinnosti v oblasti elektromagnetické kompatibility (EMC).",
       },
       {
         type: "highlight",
-        instruction: "Oznacte spravna tvrzeni o reciprocnim licencovani v CR:",
+        instruction: "Označte správná tvrzení o recipročním licencování v ČR:",
         terms: [
-          { text: "CEPT licence opravnuje k provozu v CR", correct: true },
-          { text: "Zahranicni operator pouziva prefix OK/", correct: true },
-          { text: "EMC povinnosti plati i pro amatery", correct: true },
-          { text: "Zahranicni operator nepotrebuje zadne opravneni", correct: false },
-          { text: "CEPT licence plati pouze v zemi vydani", correct: false },
+          { text: "CEPT licence opravňuje k provozu v ČR", correct: true },
+          { text: "Zahraniční operátor používá prefix OK/", correct: true },
+          { text: "EMC povinnosti platí i pro amatéry", correct: true },
+          { text: "Zahraniční operátor nepotřebuje žádné oprávnění", correct: false },
+          { text: "CEPT licence platí pouze v zemi vydání", correct: false },
         ],
         explanation:
-          "CEPT licence umoznuje provoz v clenskych zemich vcetne CR. Zahranicni operator vzdy potrebuje platnou licenci sve zeme.",
+          "CEPT licence umožňuje provoz v členských zemích včetně ČR. Zahraniční operátor vždy potřebuje platnou licenci své země.",
       },
       {
         type: "exam-question",

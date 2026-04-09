@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import type { Lesson, LessonProgress } from "@/lib/types";
 import { CheckCircle2, Clock, ChevronRight } from "lucide-react";
+import { cs } from "@/../content/i18n/cs";
 
 interface TopicCardProps {
   lesson: Lesson;
@@ -44,7 +45,7 @@ export function TopicCard({ lesson, progress }: TopicCardProps) {
           </p>
           <div className="mt-2 flex items-center gap-1 text-xs text-muted-foreground">
             <Clock className="h-3 w-3" />
-            <span>{lesson.estimatedMinutes} min</span>
+            <span>{lesson.estimatedMinutes} {cs.common.min}</span>
           </div>
         </div>
 

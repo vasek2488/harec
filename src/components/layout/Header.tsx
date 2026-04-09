@@ -36,7 +36,7 @@ export function Header({ title, subtitle, className }: HeaderProps) {
       )}
       data-testid="header"
     >
-      <div className="max-w-md mx-auto md:max-w-2xl lg:max-w-4xl px-4 py-3 flex items-center justify-between gap-2">
+      <div className="max-w-md mx-auto md:max-w-2xl lg:max-w-5xl xl:max-w-6xl px-4 py-3 flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 flex-1 min-w-0">
           {title && (
             <button

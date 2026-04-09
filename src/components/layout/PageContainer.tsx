@@ -10,7 +10,7 @@ export function PageContainer({ children, className }: PageContainerProps) {
   return (
     <div
       className={cn(
-        'w-full max-w-md mx-auto md:max-w-2xl lg:max-w-4xl px-4 py-6',
+        'w-full max-w-md mx-auto md:max-w-2xl lg:max-w-5xl xl:max-w-6xl px-4 py-6',
         className
       )}
       data-testid="page-container"

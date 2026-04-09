@@ -9,105 +9,105 @@ export const operatingQCodesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "q-codes",
     order: 1,
-    title: "Zakladni Q kody pro kazdodenni provoz",
+    title: "Základní Q kódy pro každodenní provoz",
     objective:
-      "Vysvetlit vyznam nejbeznejsich Q kodu a spravne je pouzit pri radiovem provozu.",
+      "Vysvětlit význam nejběžnějších Q kódů a správně je použít při rádiovém provozu.",
     estimatedMinutes: 6,
     slides: [
       {
         type: "explain",
         content:
-          "Q kody vznikly na pocatku 20. stoleti pro namorni telegrafii. Kazdy Q kod zacina pismenem Q a nasleduji dve pismena. S otaznikem je to otazka (QTH? = Jaka je vase poloha?), bez otazniku tvrzeni (QTH Praha = Moje poloha je Praha). Radioamateri pouzivaji Q kody i v hovorove reci.",
-        note: "Q kody jsou univerzalni - fungují bez ohledu na jazyk operatoru.",
+          "Q kódy vznikly na počátku 20. století pro námořní telegrafii. Každý Q kód začíná písmenem Q a následují dvě písmena. S otazníkem je to otázka (QTH? = Jaká je vaše poloha?), bez otazníku tvrzení (QTH Praha = Moje poloha je Praha). Radioamatéři používají Q kódy i v hovorové řeči.",
+        note: "Q kódy jsou univerzální - fungují bez ohledu na jazyk operátorů.",
       },
       {
         type: "match",
         instruction:
-          "Priradte Q kod k jeho vyznamu:",
+          "Přiřaďte Q kód k jeho významu:",
         pairs: [
           { left: "QTH", right: "Poloha stanice" },
-          { left: "QRG", right: "Presna frekvence" },
-          { left: "QSL", right: "Potvrzeni prijmu" },
-          { left: "QSO", right: "Navazani spojeni" },
+          { left: "QRG", right: "Přesná frekvence" },
+          { left: "QSL", right: "Potvrzení příjmu" },
+          { left: "QSO", right: "Navázání spojení" },
         ],
         explanation:
-          "QTH = kde jsem, QRG = na jake frekvenci, QSL = potvrzuji prijem, QSO = spojeni mezi stanicemi.",
+          "QTH = kde jsem, QRG = na jaké frekvenci, QSL = potvrzuji příjem, QSO = spojení mezi stanicemi.",
       },
       {
         type: "fill-blank",
-        textBefore: "Q kod pro ruseni zpusobene jinymi stanicemi (umelymi zdroji) je",
+        textBefore: "Q kód pro rušení způsobené jinými stanicemi (umělými zdroji) je",
         blank: "QRM",
         distractors: ["QRN", "QSB", "QRT"],
         textAfter: ".",
         explanation:
-          "QRM = umele ruseni (Man-made). QRN = prirodni ruseni (Natural). Mnemotechnicka pomucka: M = Man-made, N = Natural.",
+          "QRM = umělé rušení (Man-made). QRN = přírodní rušení (Natural). Mnemotechnická pomůcka: M = Man-made, N = Natural.",
       },
       {
         type: "reveal",
         prompt:
-          "Jak si zapamatovat rozdil mezi QRM a QRN?",
+          "Jak si zapamatovat rozdíl mezi QRM a QRN?",
         answer:
-          "QRM - M jako Man-made (umele ruseni od stanic a zarizeni). QRN - N jako Natural (atmosfericke ruseni, bourky, statika).",
+          "QRM - M jako Man-made (umělé rušení od stanic a zařízení). QRN - N jako Natural (atmosférické rušení, bouřky, statika).",
         explanation:
-          "Tato mnemotechnicka pomucka je sirce pouzivana v radioamaterske komunite.",
+          "Tato mnemotechnická pomůcka je šířeji používána v radioamatérské komunitě.",
       },
       {
         type: "select-answer",
-        question: "Co znamena QRZ?",
+        question: "Co znamená QRZ?",
         choices: [
-          { id: "a", text: "Kdo me vola?" },
-          { id: "b", text: "Jaka je vase poloha?" },
-          { id: "c", text: "Ukoncete vysilani" },
-          { id: "d", text: "Mate ruseni?" },
+          { id: "a", text: "Kdo mě volá?" },
+          { id: "b", text: "Jaká je vaše poloha?" },
+          { id: "c", text: "Ukončete vysílání" },
+          { id: "d", text: "Máte rušení?" },
         ],
         correctId: "a",
         explanation:
-          "QRZ? = Kdo me vola? Pouziva se, kdyz operator slysí volani, ale nerozumi volaci znacce. QTH = poloha, QRT = ukoncit vysilani.",
+          "QRZ? = Kdo mě volá? Používá se, když operátor slyší volání, ale nerozumí volací značce. QTH = poloha, QRT = ukončit vysílání.",
       },
       {
         type: "match",
         instruction:
-          "Priradte provozni Q kody k jejich vyznamu:",
+          "Přiřaďte provozní Q kódy k jejich významu:",
         pairs: [
-          { left: "QRZ", right: "Kdo me vola?" },
-          { left: "QRS", right: "Vysilejte pomaleji" },
-          { left: "QRT", right: "Ukoncete vysilani" },
-          { left: "QRV", right: "Jsem pripraven" },
+          { left: "QRZ", right: "Kdo mě volá?" },
+          { left: "QRS", right: "Vysílejte pomaleji" },
+          { left: "QRT", right: "Ukončete vysílání" },
+          { left: "QRV", right: "Jsem připraven" },
         ],
         explanation:
-          "QRS = pomaleji (pouziva se hlavne pri CW provozu). QRT = konec provozu. QRV = jsem pripraven k prijmu.",
+          "QRS = pomaleji (používá se hlavně při CW provozu). QRT = konec provozu. QRV = jsem připraven k příjmu.",
       },
       {
         type: "explain",
         content:
-          "QSL karta je pohlednice potvrzujici uskutecnene spojeni. Radioamateri si je posilaji postou nebo pres QSL byro. Na karte je volaci znacka, datum, cas, frekvence, mod a report. Sbirani QSL karet je tradicni soucast radioamaterskeho hobby.",
+          "QSL karta je pohlednice potvrzující uskutečněné spojení. Radioamatéři si je posílají poštou nebo přes QSL byro. Na kartě je volací značka, datum, čas, frekvence, mód a report. Sbírání QSL karet je tradiční součást radioamatérského hobby.",
       },
       {
         type: "pool-pick",
         instruction:
-          "Vyberte Q kody souvisejici s kvalitou signalu a rusenim:",
+          "Vyberte Q kódy související s kvalitou signálu a rušením:",
         pool: [
-          { text: "QRM (umele ruseni)", correct: true },
-          { text: "QRN (prirodni ruseni)", correct: true },
-          { text: "QSB (kolisani signalu)", correct: true },
+          { text: "QRM (umělé rušení)", correct: true },
+          { text: "QRN (přírodní rušení)", correct: true },
+          { text: "QSB (kolísání signálu)", correct: true },
           { text: "QTH (poloha)", correct: false },
-          { text: "QSL (potvrzeni)", correct: false },
+          { text: "QSL (potvrzení)", correct: false },
         ],
         explanation:
-          "QRM, QRN a QSB popisuji podminky prijmu. QTH a QSL s kvalitou signalu nesouvisejí.",
+          "QRM, QRN a QSB popisují podmínky příjmu. QTH a QSL s kvalitou signálu nesouvisejí.",
       },
       {
         type: "fill-blank",
-        textBefore: "Q kod QSB oznacuje",
-        blank: "kolisani sily signalu (fading)",
+        textBefore: "Q kód QSB označuje",
+        blank: "kolísání síly signálu (fading)",
         distractors: [
-          "umele ruseni",
+          "umělé rušení",
           "polohu stanice",
-          "zmenu frekvence",
+          "změnu frekvence",
         ],
         textAfter: ".",
         explanation:
-          "QSB = fading, kolisani signalu. Na KV se fading objevuje bezne vlivem zmen v ionosfere.",
+          "QSB = fading, kolísání signálu. Na KV se fading objevuje běžně vlivem změn v ionosféře.",
       },
       {
         type: "exam-question",
@@ -138,43 +138,43 @@ export const operatingQCodesLessons: Lesson[] = [
     examPartId: "operating",
     sectionId: "q-codes",
     order: 2,
-    title: "Rozsirene Q kody a provozni kontext",
+    title: "Rozšířené Q kódy a provozní kontext",
     objective:
-      "Pouzit rozsirene Q kody (QRP, QRO, QSY, QRX, QTR) ve spravnem provoznim kontextu.",
+      "Použít rozšířené Q kódy (QRP, QRO, QSY, QRX, QTR) ve správném provozním kontextu.",
     estimatedMinutes: 5,
     slides: [
       {
         type: "explain",
         content:
-          "Krome zakladnich Q kodu existuji dalsi, ktere se tykaji vykonu, zmeny frekvence a casoveho prubehu spojeni. Tyto kody jsou beznou soucasti radioamaterskeho zargonu a casto se pouzivaji i v bezne hovore mimo radio.",
+          "Kromě základních Q kódů existují další, které se týkají výkonu, změny frekvence a časového průběhu spojení. Tyto kódy jsou běžnou součástí radioamatérského žargonu a často se používají i v běžné hovoru mimo rádio.",
       },
       {
         type: "match",
         instruction:
-          "Priradte rozsirene Q kody k jejich vyznamu:",
+          "Přiřaďte rozšířené Q kódy k jejich významu:",
         pairs: [
-          { left: "QRP", right: "Nizky vykon (do 5 W)" },
-          { left: "QRO", right: "Vysoky vykon" },
-          { left: "QSY", right: "Zmente frekvenci" },
-          { left: "QRX", right: "Pockejte, ozveme se" },
-          { left: "QTR", right: "Presny cas" },
+          { left: "QRP", right: "Nízký výkon (do 5 W)" },
+          { left: "QRO", right: "Vysoký výkon" },
+          { left: "QSY", right: "Změňte frekvenci" },
+          { left: "QRX", right: "Počkejte, ozveme se" },
+          { left: "QTR", right: "Přesný čas" },
         ],
         explanation:
-          "QRP a QRO jsou opaky - nizky vs. vysoky vykon. QSY = prejdete na jinou frekvenci. QRX = cekejte.",
+          "QRP a QRO jsou opaky - nízký vs. vysoký výkon. QSY = přejděte na jinou frekvenci. QRX = čekejte.",
       },
       {
         type: "fill-blank",
-        textBefore: "Provoz QRP obvykle znamena vysilani s vykonem do",
+        textBefore: "Provoz QRP obvykle znamená vysílání s výkonem do",
         blank: "5 W",
         distractors: ["1 W", "10 W", "100 W"],
         textAfter: ".",
         explanation:
-          "QRP je konvencne definovan jako vykon do 5 W na CW nebo do 10 W PEP na SSB. Nejcasteji se uvadi hranice 5 W.",
+          "QRP je konvenčně definován jako výkon do 5 W na CW nebo do 10 W PEP na SSB. Nejčastěji se uvádí hranice 5 W.",
       },
       {
         type: "select-answer",
         question:
-          "Mate silne ruseni na aktualni frekvenci. Ktery Q kod pouzijete pro navrh presunu na jinou frekvenci?",
+          "Máte silné rušení na aktuální frekvenci. Který Q kód použijete pro návrh přesunu na jinou frekvenci?",
         choices: [
           { id: "a", text: "QSY" },
           { id: "b", text: "QRM" },
@@ -183,20 +183,20 @@ export const operatingQCodesLessons: Lesson[] = [
         ],
         correctId: "a",
         explanation:
-          "QSY = zmente frekvenci. QRM popisuje ruseni, ale nenavrhuje reseni. QRT = ukoncete vysilani. QRX = pockejte.",
+          "QSY = změňte frekvenci. QRM popisuje rušení, ale nenavrhuje řešení. QRT = ukončete vysílání. QRX = počkejte.",
       },
       {
         type: "reveal",
-        prompt: "Co znamena 'QRX 5'?",
+        prompt: "Co znamená 'QRX 5'?",
         answer:
-          "Pockejte 5 minut, pak se ozvu. Cislo za QRX udava pocet minut cekani.",
+          "Počkejte 5 minut, pak se ozvu. Číslo za QRX udává počet minut čekání.",
         explanation:
-          "QRX se pouziva, kdyz operator potrebuje prerusit spojeni, ale chce v nem pokracovat.",
+          "QRX se používá, když operátor potřebuje přerušit spojení, ale chce v něm pokračovat.",
       },
       {
         type: "explain",
         content:
-          "Q kody se v praxi pouzivaji nejen v CW (telegrafii), ale i v hlasovem provozu. Mnozi radioamateri rikaji 'Jsem QRV' (pripraven), 'Pojedeme QSY na 145.500' (zmenme frekvenci) nebo 'Dnes jedu QRP' (s malym vykonem). Q kody se staly soucastí radioamaterskeho slangu.",
+          "Q kódy se v praxi používají nejen v CW (telegrafii), ale i v hlasovém provozu. Mnozí radioamatéři říkají 'Jsem QRV' (připraven), 'Pojedeme QSY na 145.500' (změňme frekvenci) nebo 'Dnes jedu QRP' (s malým výkonem). Q kódy se staly součástí radioamatérského slangu.",
       },
       {
         type: "exam-question",
@@ -205,31 +205,31 @@ export const operatingQCodesLessons: Lesson[] = [
       {
         type: "pool-pick",
         instruction:
-          "Vyberte spravna pouziti Q kodu:",
+          "Vyberte správná použití Q kódů:",
         pool: [
           {
-            text: "QRP 5 W = vysilam s vykonem 5 W",
+            text: "QRP 5 W = vysílám s výkonem 5 W",
             correct: true,
           },
           {
-            text: "QSY 145.500 = prejdete na 145.500 MHz",
+            text: "QSY 145.500 = přejděte na 145.500 MHz",
             correct: true,
           },
           {
-            text: "QTR 14:30 = presny cas je 14:30",
+            text: "QTR 14:30 = přesný čas je 14:30",
             correct: true,
           },
           {
-            text: "QRO = vysilejte pomaleji",
+            text: "QRO = vysílejte pomaleji",
             correct: false,
           },
           {
-            text: "QRX = ukoncete vysilani",
+            text: "QRX = ukončete vysílání",
             correct: false,
           },
         ],
         explanation:
-          "QRO = vysoky vykon (ne pomaleji, to je QRS). QRX = pockejte (ne ukoncete, to je QRT).",
+          "QRO = vysoký výkon (ne pomaleji, to je QRS). QRX = počkejte (ne ukončete, to je QRT).",
       },
     ],
     relatedQuestionIds: [

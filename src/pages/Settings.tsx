@@ -6,6 +6,7 @@ import { FontSizeToggle } from "@/components/settings/FontSizeToggle";
 import { ResetProgress } from "@/components/settings/ResetProgress";
 import { Button } from "@/components/ui/button";
 import { HardDrive, Download } from "lucide-react";
+import { cs } from "@/../content/i18n/cs";
 
 export function buildExportData(progressState: {
   lessonProgress: unknown[];
@@ -118,8 +119,8 @@ export function Settings() {
 
           {/* App info */}
           <section className="space-y-1 text-xs text-muted-foreground">
-            <p className="font-medium text-foreground">HAREC Exam Prep</p>
-            <p>Offline PWA · Cloudflare Pages</p>
+            <p className="font-medium text-foreground">{cs.settings.appName}</p>
+            <p>{cs.settings.appDescription}</p>
           </section>
         </div>
       </PageContainer>
